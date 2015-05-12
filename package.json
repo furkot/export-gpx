@@ -1,0 +1,30 @@
+{
+  "name": "furkot-gpx",
+  "version": "0.0.0",
+  "description": "Generate GPX files from Furkot trip data.",
+  "homepage": "https://trips.furkot.com",
+  "author": {
+    "name": "Damian Krzeminski",
+    "email": "pirxpilot@code42day.com",
+    "url": "https://code42day.com"
+  },
+  "repository": "furkot/furkot-gpx",
+  "license": "MIT",
+  "keywords": [
+    "furkot-gpx",
+    "furkot",
+    "roadtrip",
+    "planner",
+    "GPX",
+    "export"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "^2.7.0",
+    "mocha": "^2.2.4",
+    "should": "^6.0.1"
+  },
+  "scripts": {
+    "test": "make check"
+  }
+}
