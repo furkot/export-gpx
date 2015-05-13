@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://furkot.com/" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:frkt="http://www.furkot.com/2014/gpx" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.furkot.com/2014/gpx http://cdn.furkot.com/schema/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd">
+  <metadata>
+    <author>
+      <name>Furkot - road trip planner</name>
+      <email id="trips" domain="furkot.com"></email>
+      <link href="https://trips.furkot.com">
+        <text>Furkot</text>
+      </link>
+    </author>
+  </metadata>
+  <rte>
+    <rtept lat="37.7749295" lon="-122.41941550000001">
+      <time>2013-07-08T13:00:00.000Z</time>
+      <name>San Francisco</name>
+      <cmt>San Francisco, CA</cmt>
+      <desc>San Francisco, CA</desc>
+      <extensions>
+        <frkt:duration>0</frkt:duration>
+        <frkt:address>San Francisco, CA</frkt:address>
+      </extensions>
+    </rtept>
+    <rtept lat="40.54720023441049" lon="-122.34375">
+      <time>2013-07-08T16:13:00.000Z</time>
+      <name>Redding</name>
+      <cmt>1510 Gordon Lane, Redding, CA 96002, USA</cmt>
+      <desc>1510 Gordon Lane, Redding, CA 96002, USA</desc>
+      <extensions>
+        <frkt:duration>900000</frkt:duration>
+        <frkt:address>1510 Gordon Lane, Redding, CA 96002, USA</frkt:address>
+      </extensions>
+    </rtept>
+    <rtept lat="44.04811573082351" lon="-123.046875">
+      <time>2013-07-08T21:31:00.000Z</time>
+      <name>Lane</name>
+      <cmt>51-559 Walnut Place, Springfield, OR 97477, USA</cmt>
+      <desc>51-559 Walnut Place, Springfield, OR 97477, USA</desc>
+      <sym>Gas Station</sym>
+      <extensions>
+        <frkt:duration>900000</frkt:duration>
+        <frkt:address>51-559 Walnut Place, Springfield, OR 97477, USA</frkt:address>
+        <frkt:pin>25</frkt:pin>
+      </extensions>
+    </rtept>
+    <rtept lat="45.5234515" lon="-122.6762071">
+      <time>2013-07-08T23:35:55.000Z</time>
+      <name>Portland</name>
+      <cmt>Portland, OR</cmt>
+      <desc>Trip notes for first stop</desc>
+      <extensions>
+        <frkt:duration>0</frkt:duration>
+        <frkt:address>Portland, OR</frkt:address>
+      </extensions>
+    </rtept>
+  </rte>
+</gpx>

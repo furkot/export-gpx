@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://furkot.com/" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:frkt="http://www.furkot.com/2014/gpx" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.furkot.com/2014/gpx http://cdn.furkot.com/schema/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd">
+  <metadata>
+    <name>sample</name>
+    <author>
+      <name>Furkot - road trip planner</name>
+      <email id="trips" domain="furkot.com"></email>
+      <link href="https://trips.furkot.com">
+        <text>Furkot</text>
+      </link>
+    </author>
+  </metadata>
+  <wpt lat="40.38901792992331" lon="-105.56204795837402">
+    <time>2014-11-04T14:00:00.000Z</time>
+    <name>begin</name>
+    <cmt>1050 Fall River Court, Estes Park, CO 80517, USA</cmt>
+    <desc>1050 Fall River Court, Estes Park, CO 80517, USA</desc>
+    <extensions>
+      <frkt:duration>3600000</frkt:duration>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:StreetAddress>1050 Fall River Court</gpxx:StreetAddress>
+          <gpxx:City>Estes Park</gpxx:City>
+          <gpxx:State>CO</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <wpt lat="40.39450095251464" lon="-105.56532025337219">
+    <time>2014-11-04T15:01:20.000Z</time>
+    <name>nocleg</name>
+    <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
+    <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
+    <sym>Lodging</sym>
+    <extensions>
+      <frkt:duration>86400000</frkt:duration>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:StreetAddress>1354-1400 David Drive</gpxx:StreetAddress>
+          <gpxx:City>Estes Park</gpxx:City>
+          <gpxx:State>CO</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <wpt lat="40.39443354101319" lon="-105.56444048881531">
+    <time>2014-11-07T14:00:18.000Z</time>
+    <name>stop</name>
+    <cmt>1301-1317 David Drive, Estes Park, CO 80517, USA</cmt>
+    <desc>1301-1317 David Drive, Estes Park, CO 80517, USA</desc>
+    <extensions>
+      <frkt:duration>3600000</frkt:duration>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:StreetAddress>1301-1317 David Drive</gpxx:StreetAddress>
+          <gpxx:City>Estes Park</gpxx:City>
+          <gpxx:State>CO</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <wpt lat="40.39663" lon="-105.56648000000001">
+    <time>2014-11-08T14:01:23.000Z</time>
+    <name>end</name>
+    <cmt>1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA</cmt>
+    <desc>1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA</desc>
+    <link href="https://trips.furkot.com/book/venere?id=513209"></link>
+    <sym>Lodging</sym>
+    <extensions>
+      <frkt:duration>0</frkt:duration>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:StreetAddress>1508-1514 Fish Hatchery Road</gpxx:StreetAddress>
+          <gpxx:City>Estes Park</gpxx:City>
+          <gpxx:State>CO</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <wpt lat="40.391096" lon="-105.56273799999997">
+    <name>skip</name>
+    <cmt>2120 Fall River Road, Estes Park, CO 80517, USA</cmt>
+    <desc>2120 Fall River Road, Estes Park, CO 80517, USA</desc>
+    <link href="https://trips.furkot.com/book/bookingdotcom?id=1087237&amp;brand=%2Fhotel%2Fus%2Fbear-paw-suites.html"></link>
+    <sym>Lodging</sym>
+    <extensions>
+      <frkt:duration>86400000</frkt:duration>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:StreetAddress>2120 Fall River Road</gpxx:StreetAddress>
+          <gpxx:City>Estes Park</gpxx:City>
+          <gpxx:State>CO</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <rte>
+    <name>Day 1 - Tue Nov 04 2014</name>
+    <rtept lat="40.38901792992331" lon="-105.56204795837402">
+      <time>2014-11-04T14:00:00.000Z</time>
+      <name>begin</name>
+      <cmt>1050 Fall River Court, Estes Park, CO 80517, USA</cmt>
+      <desc>1050 Fall River Court, Estes Park, CO 80517, USA</desc>
+      <extensions>
+        <frkt:duration>3600000</frkt:duration>
+        <frkt:address>1050 Fall River Court, Estes Park, CO 80517, USA</frkt:address>
+      </extensions>
+    </rtept>
+    <rtept lat="40.38902" lon="-105.56202">
+    </rtept>
+    <rtept lat="40.39056" lon="-105.56258000000001">
+    </rtept>
+    <rtept lat="40.393550000000005" lon="-105.56401000000001">
+    </rtept>
+    <rtept lat="40.39450095251464" lon="-105.56532025337219">
+      <time>2014-11-04T15:01:20.000Z</time>
+      <name>nocleg</name>
+      <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
+      <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
+      <sym>Lodging</sym>
+      <extensions>
+        <frkt:duration>86400000</frkt:duration>
+        <frkt:address>1354-1400 David Drive, Estes Park, CO 80517, USA</frkt:address>
+      </extensions>
+    </rtept>
+  </rte>
+  <rte>
+    <name>Day 2 - Wed Nov 05 2014</name>
+    <rtept lat="40.39450095251464" lon="-105.56532025337219">
+      <time>2014-11-05T14:00:00.000Z</time>
+      <name>nocleg</name>
+      <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
+      <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
+      <sym>Lodging</sym>
+      <extensions>
+        <frkt:duration>86400000</frkt:duration>
+        <frkt:address>1354-1400 David Drive, Estes Park, CO 80517, USA</frkt:address>
+      </extensions>
+    </rtept>
+    <rtept lat="40.3945" lon="-105.56533">
+    </rtept>
+    <rtept lat="40.39421496386244" lon="-105.56494474411011">
+      <time>2014-11-05T14:00:07.000Z</time>
+      <name>pass-thru</name>
+      <cmt>1177-1399 Fall River Drive, Estes Park, CO 80517, USA</cmt>
+      <desc>1177-1399 Fall River Drive, Estes Park, CO 80517, USA</desc>
+      <extensions>
+        <frkt:duration>0</frkt:duration>
+        <frkt:address>1177-1399 Fall River Drive, Estes Park, CO 80517, USA</frkt:address>
+      </extensions>
+    </rtept>
+    <rtept lat="40.39423" lon="-105.56492000000001">
+    </rtept>
+    <rtept lat="40.39450095251464" lon="-105.56532025337219">
+      <time>2014-11-05T14:00:13.000Z</time>
+      <name>nocleg</name>
+      <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
+      <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
+      <sym>Lodging</sym>
+      <extensions>
+        <frkt:duration>86400000</frkt:duration>
+        <frkt:address>1354-1400 David Drive, Estes Park, CO 80517, USA</frkt:address>
+      </extensions>
+    </rtept>
+  </rte>
+  <rte>
+    <name>Day 4 - Fri Nov 07 2014</name>
+    <rtept lat="40.39450095251464" lon="-105.56532025337219">
+      <time>2014-11-07T14:00:00.000Z</time>
+      <name>nocleg</name>
+      <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
+      <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
+      <sym>Lodging</sym>
+      <extensions>
+        <frkt:duration>86400000</frkt:duration>
+        <frkt:address>1354-1400 David Drive, Estes Park, CO 80517, USA</frkt:address>
+      </extensions>
+    </rtept>
+    <rtept lat="40.3945" lon="-105.56533">
+    </rtept>
+    <rtept lat="40.39444" lon="-105.56444">
+    </rtept>
+    <rtept lat="40.39443354101319" lon="-105.56444048881531">
+      <time>2014-11-07T14:00:18.000Z</time>
+      <name>stop</name>
+      <cmt>1301-1317 David Drive, Estes Park, CO 80517, USA</cmt>
+      <desc>1301-1317 David Drive, Estes Park, CO 80517, USA</desc>
+      <extensions>
+        <frkt:duration>3600000</frkt:duration>
+        <frkt:address>1301-1317 David Drive, Estes Park, CO 80517, USA</frkt:address>
+      </extensions>
+    </rtept>
+    <rtept lat="40.39450095251464" lon="-105.56532025337219">
+      <time>2014-11-07T15:00:36.000Z</time>
+      <name>nocleg</name>
+      <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
+      <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
+      <sym>Lodging</sym>
+      <extensions>
+        <frkt:duration>86400000</frkt:duration>
+        <frkt:address>1354-1400 David Drive, Estes Park, CO 80517, USA</frkt:address>
+      </extensions>
+    </rtept>
+  </rte>
+  <rte>
+    <name>Day 5 - Sat Nov 08 2014</name>
+    <rtept lat="40.39450095251464" lon="-105.56532025337219">
+      <time>2014-11-08T14:00:00.000Z</time>
+      <name>nocleg</name>
+      <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
+      <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
+      <sym>Lodging</sym>
+      <extensions>
+        <frkt:duration>86400000</frkt:duration>
+        <frkt:address>1354-1400 David Drive, Estes Park, CO 80517, USA</frkt:address>
+      </extensions>
+    </rtept>
+    <rtept lat="40.3945" lon="-105.56533">
+    </rtept>
+    <rtept lat="40.39574" lon="-105.5669">
+    </rtept>
+    <rtept lat="40.39645" lon="-105.56927">
+    </rtept>
+    <rtept lat="40.39663" lon="-105.56648000000001">
+      <time>2014-11-08T14:01:23.000Z</time>
+      <name>end</name>
+      <cmt>1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA</cmt>
+      <desc>1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA</desc>
+      <link href="https://trips.furkot.com/book/venere?id=513209"></link>
+      <sym>Lodging</sym>
+      <extensions>
+        <frkt:duration>0</frkt:duration>
+        <frkt:address>1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA</frkt:address>
+      </extensions>
+    </rtept>
+  </rte>
+  <trk>
+    <name>Day 1 - Tue Nov 04 2014</name>
+    <trkseg>
+      <trkpt lat="40.38902" lon="-105.56202"></trkpt>
+      <trkpt lat="40.38909" lon="-105.56201000000001"></trkpt>
+      <trkpt lat="40.3894" lon="-105.56181000000001"></trkpt>
+      <trkpt lat="40.389500000000005" lon="-105.56211"></trkpt>
+      <trkpt lat="40.38969" lon="-105.56231000000001"></trkpt>
+      <trkpt lat="40.39034" lon="-105.56259000000001"></trkpt>
+      <trkpt lat="40.39056" lon="-105.56258000000001"></trkpt>
+      <trkpt lat="40.39126" lon="-105.563"></trkpt>
+      <trkpt lat="40.39168" lon="-105.56328"></trkpt>
+      <trkpt lat="40.392230000000005" lon="-105.56331000000002"></trkpt>
+      <trkpt lat="40.392860000000006" lon="-105.56339000000001"></trkpt>
+      <trkpt lat="40.39322000000001" lon="-105.56361000000001"></trkpt>
+      <trkpt lat="40.39347" lon="-105.56389000000001"></trkpt>
+      <trkpt lat="40.393550000000005" lon="-105.56401000000001"></trkpt>
+      <trkpt lat="40.393890000000006" lon="-105.56453"></trkpt>
+      <trkpt lat="40.394000000000005" lon="-105.56469000000001"></trkpt>
+      <trkpt lat="40.39432" lon="-105.56501000000002"></trkpt>
+      <trkpt lat="40.394330000000004" lon="-105.56506"></trkpt>
+      <trkpt lat="40.39448" lon="-105.56531000000001"></trkpt>
+      <trkpt lat="40.3945" lon="-105.56533"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 2 - Wed Nov 05 2014</name>
+    <trkseg>
+      <trkpt lat="40.3945" lon="-105.56533"></trkpt>
+      <trkpt lat="40.39434000000001" lon="-105.56511"></trkpt>
+      <trkpt lat="40.39432" lon="-105.56501000000002"></trkpt>
+      <trkpt lat="40.39423" lon="-105.56492000000001"></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="40.39423" lon="-105.56492000000001"></trkpt>
+      <trkpt lat="40.39432" lon="-105.56501000000002"></trkpt>
+      <trkpt lat="40.394330000000004" lon="-105.56506"></trkpt>
+      <trkpt lat="40.39448" lon="-105.56531000000001"></trkpt>
+      <trkpt lat="40.3945" lon="-105.56533"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 4 - Fri Nov 07 2014</name>
+    <trkseg>
+      <trkpt lat="40.3945" lon="-105.56533"></trkpt>
+      <trkpt lat="40.39434000000001" lon="-105.56511"></trkpt>
+      <trkpt lat="40.39432" lon="-105.56501000000002"></trkpt>
+      <trkpt lat="40.39437" lon="-105.56471"></trkpt>
+      <trkpt lat="40.39441" lon="-105.56457"></trkpt>
+      <trkpt lat="40.39444" lon="-105.56444"></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="40.39444" lon="-105.56444"></trkpt>
+      <trkpt lat="40.39437" lon="-105.56471"></trkpt>
+      <trkpt lat="40.39432" lon="-105.56501000000002"></trkpt>
+      <trkpt lat="40.39434000000001" lon="-105.56511"></trkpt>
+      <trkpt lat="40.3945" lon="-105.56533"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 5 - Sat Nov 08 2014</name>
+    <trkseg>
+      <trkpt lat="40.3945" lon="-105.56533"></trkpt>
+      <trkpt lat="40.394690000000004" lon="-105.56547"></trkpt>
+      <trkpt lat="40.394830000000006" lon="-105.56552"></trkpt>
+      <trkpt lat="40.39491" lon="-105.56556"></trkpt>
+      <trkpt lat="40.395100000000006" lon="-105.56563000000001"></trkpt>
+      <trkpt lat="40.39522" lon="-105.56571000000001"></trkpt>
+      <trkpt lat="40.395340000000004" lon="-105.56593000000001"></trkpt>
+      <trkpt lat="40.39546" lon="-105.56628"></trkpt>
+      <trkpt lat="40.39558" lon="-105.56651000000001"></trkpt>
+      <trkpt lat="40.39564" lon="-105.56666000000001"></trkpt>
+      <trkpt lat="40.39574" lon="-105.5669"></trkpt>
+      <trkpt lat="40.395810000000004" lon="-105.56732000000001"></trkpt>
+      <trkpt lat="40.395810000000004" lon="-105.56739"></trkpt>
+      <trkpt lat="40.395830000000004" lon="-105.56745000000001"></trkpt>
+      <trkpt lat="40.395880000000005" lon="-105.5678"></trkpt>
+      <trkpt lat="40.395990000000005" lon="-105.56825"></trkpt>
+      <trkpt lat="40.396100000000004" lon="-105.56857000000001"></trkpt>
+      <trkpt lat="40.39618" lon="-105.56885000000001"></trkpt>
+      <trkpt lat="40.39625" lon="-105.56899000000001"></trkpt>
+      <trkpt lat="40.396330000000006" lon="-105.56912000000001"></trkpt>
+      <trkpt lat="40.39645" lon="-105.56927"></trkpt>
+      <trkpt lat="40.39658" lon="-105.56957000000001"></trkpt>
+      <trkpt lat="40.39687" lon="-105.56970000000001"></trkpt>
+      <trkpt lat="40.3971" lon="-105.56975000000001"></trkpt>
+      <trkpt lat="40.39719" lon="-105.56975000000001"></trkpt>
+      <trkpt lat="40.397290000000005" lon="-105.56970000000001"></trkpt>
+      <trkpt lat="40.397220000000004" lon="-105.56906000000001"></trkpt>
+      <trkpt lat="40.39714" lon="-105.56836000000001"></trkpt>
+      <trkpt lat="40.396930000000005" lon="-105.56726"></trkpt>
+      <trkpt lat="40.39685" lon="-105.56693000000001"></trkpt>
+      <trkpt lat="40.39665" lon="-105.56647000000001"></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

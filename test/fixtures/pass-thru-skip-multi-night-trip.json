@@ -1,0 +1,1629 @@
+{
+  "metadata": {
+    "name": "sample",
+    "units": "m",
+    "author": {
+      "name": "Furkot - road trip planner",
+      "short_name": "Furkot",
+      "email": {
+        "id": "trips",
+        "domain": "furkot.com"
+      },
+      "link": "https://trips.furkot.com"
+    }
+  },
+  "waypoints": [
+    {
+      "day": 0,
+      "coordinates": {
+        "lat": 40.38901792992331,
+        "lon": -105.56204795837402
+      },
+      "visit_duration": 3600000,
+      "name": "begin",
+      "notes": "",
+      "locality": {
+        "town": "Estes Park",
+        "province": "CO",
+        "province_long": "Colorado",
+        "country": "US",
+        "country_long": "United States"
+      },
+      "address": "1050 Fall River Court, Estes Park, CO 80517, USA",
+      "tzoffset": -420,
+      "nights": 0,
+      "arrival_time": 1415109600000,
+      "departure_time": 1415113200000,
+      "keep": true,
+      "streetAddress": "1050 Fall River Court"
+    },
+    {
+      "day": 0,
+      "coordinates": {
+        "lat": 40.39450095251464,
+        "lon": -105.56532025337219
+      },
+      "visit_duration": 0,
+      "name": "nocleg",
+      "notes": "",
+      "locality": {
+        "town": "Estes Park",
+        "province": "CO",
+        "province_long": "Colorado",
+        "country": "US",
+        "country_long": "United States"
+      },
+      "address": "1354-1400 David Drive, Estes Park, CO 80517, USA",
+      "tzoffset": -420,
+      "distance": 721,
+      "driving": 80,
+      "nights": 1,
+      "arrival_time": 1415113280000,
+      "departure_time": 1415196000000,
+      "track": [
+        [
+          40.38902,
+          -105.56202
+        ],
+        [
+          40.38909,
+          -105.56201000000001
+        ],
+        [
+          40.3894,
+          -105.56181000000001
+        ],
+        [
+          40.389500000000005,
+          -105.56211
+        ],
+        [
+          40.38969,
+          -105.56231000000001
+        ],
+        [
+          40.39034,
+          -105.56259000000001
+        ],
+        [
+          40.39056,
+          -105.56258000000001
+        ],
+        [
+          40.39126,
+          -105.563
+        ],
+        [
+          40.39168,
+          -105.56328
+        ],
+        [
+          40.392230000000005,
+          -105.56331000000002
+        ],
+        [
+          40.392860000000006,
+          -105.56339000000001
+        ],
+        [
+          40.39322000000001,
+          -105.56361000000001
+        ],
+        [
+          40.39347,
+          -105.56389000000001
+        ],
+        [
+          40.393550000000005,
+          -105.56401000000001
+        ],
+        [
+          40.393890000000006,
+          -105.56453
+        ],
+        [
+          40.394000000000005,
+          -105.56469000000001
+        ],
+        [
+          40.39432,
+          -105.56501000000002
+        ],
+        [
+          40.394330000000004,
+          -105.56506
+        ],
+        [
+          40.39448,
+          -105.56531000000001
+        ],
+        [
+          40.3945,
+          -105.56533
+        ]
+      ],
+      "keep": true,
+      "symbol": "Lodging",
+      "streetAddress": "1354-1400 David Drive"
+    },
+    {
+      "day": 0,
+      "coordinates": {
+        "lat": 40.39443354101319,
+        "lon": -105.56444048881531
+      },
+      "visit_duration": 3600000,
+      "name": "stop",
+      "notes": "",
+      "locality": {
+        "town": "Estes Park",
+        "province": "CO",
+        "province_long": "Colorado",
+        "country": "US",
+        "country_long": "United States"
+      },
+      "address": "1301-1317 David Drive, Estes Park, CO 80517, USA",
+      "tzoffset": -420,
+      "distance": 84,
+      "driving": 18,
+      "nights": 0,
+      "arrival_time": 1415368818000,
+      "departure_time": 1415372418000,
+      "track": [
+        [
+          40.3945,
+          -105.56533
+        ],
+        [
+          40.39434000000001,
+          -105.56511
+        ],
+        [
+          40.39432,
+          -105.56501000000002
+        ],
+        [
+          40.39437,
+          -105.56471
+        ],
+        [
+          40.39441,
+          -105.56457
+        ],
+        [
+          40.39444,
+          -105.56444
+        ]
+      ],
+      "keep": true,
+      "streetAddress": "1301-1317 David Drive"
+    },
+    {
+      "day": 0,
+      "coordinates": {
+        "lat": 40.39663,
+        "lon": -105.56648000000001
+      },
+      "name": "end",
+      "address": "1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA",
+      "url": "/book/venere?id=513209",
+      "visit_duration": 0,
+      "notes": "",
+      "locality": {
+        "town": "Estes Park",
+        "province": "CO",
+        "province_long": "Colorado",
+        "country": "US",
+        "country_long": "United States"
+      },
+      "tzoffset": -420,
+      "distance": 821,
+      "driving": 83,
+      "nights": 0,
+      "arrival_time": 1415455283000,
+      "departure_time": 1415455283000,
+      "track": [
+        [
+          40.3945,
+          -105.56533
+        ],
+        [
+          40.394690000000004,
+          -105.56547
+        ],
+        [
+          40.394830000000006,
+          -105.56552
+        ],
+        [
+          40.39491,
+          -105.56556
+        ],
+        [
+          40.395100000000006,
+          -105.56563000000001
+        ],
+        [
+          40.39522,
+          -105.56571000000001
+        ],
+        [
+          40.395340000000004,
+          -105.56593000000001
+        ],
+        [
+          40.39546,
+          -105.56628
+        ],
+        [
+          40.39558,
+          -105.56651000000001
+        ],
+        [
+          40.39564,
+          -105.56666000000001
+        ],
+        [
+          40.39574,
+          -105.5669
+        ],
+        [
+          40.395810000000004,
+          -105.56732000000001
+        ],
+        [
+          40.395810000000004,
+          -105.56739
+        ],
+        [
+          40.395830000000004,
+          -105.56745000000001
+        ],
+        [
+          40.395880000000005,
+          -105.5678
+        ],
+        [
+          40.395990000000005,
+          -105.56825
+        ],
+        [
+          40.396100000000004,
+          -105.56857000000001
+        ],
+        [
+          40.39618,
+          -105.56885000000001
+        ],
+        [
+          40.39625,
+          -105.56899000000001
+        ],
+        [
+          40.396330000000006,
+          -105.56912000000001
+        ],
+        [
+          40.39645,
+          -105.56927
+        ],
+        [
+          40.39658,
+          -105.56957000000001
+        ],
+        [
+          40.39687,
+          -105.56970000000001
+        ],
+        [
+          40.3971,
+          -105.56975000000001
+        ],
+        [
+          40.39719,
+          -105.56975000000001
+        ],
+        [
+          40.397290000000005,
+          -105.56970000000001
+        ],
+        [
+          40.397220000000004,
+          -105.56906000000001
+        ],
+        [
+          40.39714,
+          -105.56836000000001
+        ],
+        [
+          40.396930000000005,
+          -105.56726
+        ],
+        [
+          40.39685,
+          -105.56693000000001
+        ],
+        [
+          40.39665,
+          -105.56647000000001
+        ]
+      ],
+      "keep": true,
+      "symbol": "Lodging",
+      "streetAddress": "1508-1514 Fish Hatchery Road"
+    },
+    {
+      "coordinates": {
+        "lat": 40.391096,
+        "lon": -105.56273799999997
+      },
+      "name": "skip",
+      "address": "2120 Fall River Road, Estes Park, CO 80517, USA",
+      "url": "/book/bookingdotcom?id=1087237&brand=%2Fhotel%2Fus%2Fbear-paw-suites.html",
+      "visit_duration": 86400000,
+      "notes": "",
+      "locality": {
+        "town": "Estes Park",
+        "province": "CO",
+        "province_long": "Colorado",
+        "country": "US",
+        "country_long": "United States"
+      },
+      "tzoffset": -420,
+      "symbol": "Lodging",
+      "streetAddress": "2120 Fall River Road"
+    }
+  ],
+  "tracks": [
+    {
+      "points": [
+        {
+          "day": 0,
+          "coordinates": {
+            "lat": 40.38901792992331,
+            "lon": -105.56204795837402
+          },
+          "visit_duration": 3600000,
+          "name": "begin",
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "address": "1050 Fall River Court, Estes Park, CO 80517, USA",
+          "tzoffset": -420,
+          "nights": 0,
+          "arrival_time": 1415109600000,
+          "departure_time": 1415113200000,
+          "keep": true,
+          "streetAddress": "1050 Fall River Court"
+        },
+        {
+          "day": 0,
+          "coordinates": {
+            "lat": 40.39450095251464,
+            "lon": -105.56532025337219
+          },
+          "visit_duration": 0,
+          "name": "nocleg",
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "address": "1354-1400 David Drive, Estes Park, CO 80517, USA",
+          "tzoffset": -420,
+          "distance": 721,
+          "driving": 80,
+          "nights": 1,
+          "arrival_time": 1415113280000,
+          "departure_time": 1415196000000,
+          "track": [
+            [
+              40.38902,
+              -105.56202
+            ],
+            [
+              40.38909,
+              -105.56201000000001
+            ],
+            [
+              40.3894,
+              -105.56181000000001
+            ],
+            [
+              40.389500000000005,
+              -105.56211
+            ],
+            [
+              40.38969,
+              -105.56231000000001
+            ],
+            [
+              40.39034,
+              -105.56259000000001
+            ],
+            [
+              40.39056,
+              -105.56258000000001
+            ],
+            [
+              40.39126,
+              -105.563
+            ],
+            [
+              40.39168,
+              -105.56328
+            ],
+            [
+              40.392230000000005,
+              -105.56331000000002
+            ],
+            [
+              40.392860000000006,
+              -105.56339000000001
+            ],
+            [
+              40.39322000000001,
+              -105.56361000000001
+            ],
+            [
+              40.39347,
+              -105.56389000000001
+            ],
+            [
+              40.393550000000005,
+              -105.56401000000001
+            ],
+            [
+              40.393890000000006,
+              -105.56453
+            ],
+            [
+              40.394000000000005,
+              -105.56469000000001
+            ],
+            [
+              40.39432,
+              -105.56501000000002
+            ],
+            [
+              40.394330000000004,
+              -105.56506
+            ],
+            [
+              40.39448,
+              -105.56531000000001
+            ],
+            [
+              40.3945,
+              -105.56533
+            ]
+          ],
+          "keep": true,
+          "symbol": "Lodging",
+          "streetAddress": "1354-1400 David Drive"
+        }
+      ],
+      "name": "Day 1 - Tue Nov 04 2014"
+    },
+    {
+      "points": [
+        {
+          "day": 0,
+          "coordinates": {
+            "lat": 40.39421496386244,
+            "lon": -105.56494474411011
+          },
+          "visit_duration": 0,
+          "name": "pass-thru",
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "address": "1177-1399 Fall River Drive, Estes Park, CO 80517, USA",
+          "tzoffset": -420,
+          "distance": 47,
+          "driving": 7,
+          "nights": 0,
+          "arrival_time": 1415196007000,
+          "departure_time": 1415196007000,
+          "track": [
+            [
+              40.3945,
+              -105.56533
+            ],
+            [
+              40.39434000000001,
+              -105.56511
+            ],
+            [
+              40.39432,
+              -105.56501000000002
+            ],
+            [
+              40.39423,
+              -105.56492000000001
+            ]
+          ],
+          "keep": true
+        },
+        {
+          "day": 1,
+          "coordinates": {
+            "lat": 40.39450095251464,
+            "lon": -105.56532025337219
+          },
+          "visit_duration": 0,
+          "name": "nocleg",
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "address": "1354-1400 David Drive, Estes Park, CO 80517, USA",
+          "tzoffset": -420,
+          "distance": 47,
+          "driving": 6,
+          "nights": 1,
+          "arrival_time": 1415196013000,
+          "departure_time": 1415282400000,
+          "track": [
+            [
+              40.39423,
+              -105.56492000000001
+            ],
+            [
+              40.39432,
+              -105.56501000000002
+            ],
+            [
+              40.394330000000004,
+              -105.56506
+            ],
+            [
+              40.39448,
+              -105.56531000000001
+            ],
+            [
+              40.3945,
+              -105.56533
+            ]
+          ],
+          "keep": true,
+          "symbol": "Lodging"
+        }
+      ],
+      "name": "Day 2 - Wed Nov 05 2014"
+    },
+    {
+      "points": [
+        {
+          "day": 0,
+          "coordinates": {
+            "lat": 40.39443354101319,
+            "lon": -105.56444048881531
+          },
+          "visit_duration": 3600000,
+          "name": "stop",
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "address": "1301-1317 David Drive, Estes Park, CO 80517, USA",
+          "tzoffset": -420,
+          "distance": 84,
+          "driving": 18,
+          "nights": 0,
+          "arrival_time": 1415368818000,
+          "departure_time": 1415372418000,
+          "track": [
+            [
+              40.3945,
+              -105.56533
+            ],
+            [
+              40.39434000000001,
+              -105.56511
+            ],
+            [
+              40.39432,
+              -105.56501000000002
+            ],
+            [
+              40.39437,
+              -105.56471
+            ],
+            [
+              40.39441,
+              -105.56457
+            ],
+            [
+              40.39444,
+              -105.56444
+            ]
+          ],
+          "keep": true,
+          "streetAddress": "1301-1317 David Drive"
+        },
+        {
+          "day": 3,
+          "coordinates": {
+            "lat": 40.39450095251464,
+            "lon": -105.56532025337219
+          },
+          "visit_duration": 0,
+          "name": "nocleg",
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "address": "1354-1400 David Drive, Estes Park, CO 80517, USA",
+          "tzoffset": -420,
+          "distance": 84,
+          "driving": 18,
+          "nights": 1,
+          "arrival_time": 1415372436000,
+          "departure_time": 1415455200000,
+          "track": [
+            [
+              40.39444,
+              -105.56444
+            ],
+            [
+              40.39437,
+              -105.56471
+            ],
+            [
+              40.39432,
+              -105.56501000000002
+            ],
+            [
+              40.39434000000001,
+              -105.56511
+            ],
+            [
+              40.3945,
+              -105.56533
+            ]
+          ],
+          "keep": true,
+          "symbol": "Lodging"
+        }
+      ],
+      "name": "Day 4 - Fri Nov 07 2014"
+    },
+    {
+      "points": [
+        {
+          "day": 0,
+          "coordinates": {
+            "lat": 40.39663,
+            "lon": -105.56648000000001
+          },
+          "name": "end",
+          "address": "1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA",
+          "url": "/book/venere?id=513209",
+          "visit_duration": 0,
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "tzoffset": -420,
+          "distance": 821,
+          "driving": 83,
+          "nights": 0,
+          "arrival_time": 1415455283000,
+          "departure_time": 1415455283000,
+          "track": [
+            [
+              40.3945,
+              -105.56533
+            ],
+            [
+              40.394690000000004,
+              -105.56547
+            ],
+            [
+              40.394830000000006,
+              -105.56552
+            ],
+            [
+              40.39491,
+              -105.56556
+            ],
+            [
+              40.395100000000006,
+              -105.56563000000001
+            ],
+            [
+              40.39522,
+              -105.56571000000001
+            ],
+            [
+              40.395340000000004,
+              -105.56593000000001
+            ],
+            [
+              40.39546,
+              -105.56628
+            ],
+            [
+              40.39558,
+              -105.56651000000001
+            ],
+            [
+              40.39564,
+              -105.56666000000001
+            ],
+            [
+              40.39574,
+              -105.5669
+            ],
+            [
+              40.395810000000004,
+              -105.56732000000001
+            ],
+            [
+              40.395810000000004,
+              -105.56739
+            ],
+            [
+              40.395830000000004,
+              -105.56745000000001
+            ],
+            [
+              40.395880000000005,
+              -105.5678
+            ],
+            [
+              40.395990000000005,
+              -105.56825
+            ],
+            [
+              40.396100000000004,
+              -105.56857000000001
+            ],
+            [
+              40.39618,
+              -105.56885000000001
+            ],
+            [
+              40.39625,
+              -105.56899000000001
+            ],
+            [
+              40.396330000000006,
+              -105.56912000000001
+            ],
+            [
+              40.39645,
+              -105.56927
+            ],
+            [
+              40.39658,
+              -105.56957000000001
+            ],
+            [
+              40.39687,
+              -105.56970000000001
+            ],
+            [
+              40.3971,
+              -105.56975000000001
+            ],
+            [
+              40.39719,
+              -105.56975000000001
+            ],
+            [
+              40.397290000000005,
+              -105.56970000000001
+            ],
+            [
+              40.397220000000004,
+              -105.56906000000001
+            ],
+            [
+              40.39714,
+              -105.56836000000001
+            ],
+            [
+              40.396930000000005,
+              -105.56726
+            ],
+            [
+              40.39685,
+              -105.56693000000001
+            ],
+            [
+              40.39665,
+              -105.56647000000001
+            ]
+          ],
+          "keep": true,
+          "symbol": "Lodging",
+          "streetAddress": "1508-1514 Fish Hatchery Road"
+        }
+      ],
+      "name": "Day 5 - Sat Nov 08 2014"
+    }
+  ],
+  "routes": [
+    {
+      "points": [
+        {
+          "day": 0,
+          "coordinates": {
+            "lat": 40.38901792992331,
+            "lon": -105.56204795837402
+          },
+          "visit_duration": 3600000,
+          "name": "begin",
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "address": "1050 Fall River Court, Estes Park, CO 80517, USA",
+          "tzoffset": -420,
+          "nights": 0,
+          "arrival_time": 1415109600000,
+          "departure_time": 1415113200000,
+          "keep": true,
+          "streetAddress": "1050 Fall River Court"
+        },
+        {
+          "coordinates": {
+            "lat": 40.38902,
+            "lon": -105.56202
+          },
+          "symbol": ""
+        },
+        {
+          "coordinates": {
+            "lat": 40.39056,
+            "lon": -105.56258000000001
+          },
+          "symbol": ""
+        },
+        {
+          "coordinates": {
+            "lat": 40.393550000000005,
+            "lon": -105.56401000000001
+          },
+          "symbol": ""
+        },
+        {
+          "day": 0,
+          "coordinates": {
+            "lat": 40.39450095251464,
+            "lon": -105.56532025337219
+          },
+          "visit_duration": 0,
+          "name": "nocleg",
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "address": "1354-1400 David Drive, Estes Park, CO 80517, USA",
+          "tzoffset": -420,
+          "distance": 721,
+          "driving": 80,
+          "nights": 1,
+          "arrival_time": 1415113280000,
+          "departure_time": 1415196000000,
+          "track": [
+            [
+              40.38902,
+              -105.56202
+            ],
+            [
+              40.38909,
+              -105.56201000000001
+            ],
+            [
+              40.3894,
+              -105.56181000000001
+            ],
+            [
+              40.389500000000005,
+              -105.56211
+            ],
+            [
+              40.38969,
+              -105.56231000000001
+            ],
+            [
+              40.39034,
+              -105.56259000000001
+            ],
+            [
+              40.39056,
+              -105.56258000000001
+            ],
+            [
+              40.39126,
+              -105.563
+            ],
+            [
+              40.39168,
+              -105.56328
+            ],
+            [
+              40.392230000000005,
+              -105.56331000000002
+            ],
+            [
+              40.392860000000006,
+              -105.56339000000001
+            ],
+            [
+              40.39322000000001,
+              -105.56361000000001
+            ],
+            [
+              40.39347,
+              -105.56389000000001
+            ],
+            [
+              40.393550000000005,
+              -105.56401000000001
+            ],
+            [
+              40.393890000000006,
+              -105.56453
+            ],
+            [
+              40.394000000000005,
+              -105.56469000000001
+            ],
+            [
+              40.39432,
+              -105.56501000000002
+            ],
+            [
+              40.394330000000004,
+              -105.56506
+            ],
+            [
+              40.39448,
+              -105.56531000000001
+            ],
+            [
+              40.3945,
+              -105.56533
+            ]
+          ],
+          "keep": true,
+          "symbol": "Lodging",
+          "streetAddress": "1354-1400 David Drive"
+        }
+      ],
+      "name": "Day 1 - Tue Nov 04 2014"
+    },
+    {
+      "points": [
+        {
+          "arrival_time": 1415196000000,
+          "day": 0,
+          "coordinates": {
+            "lat": 40.39450095251464,
+            "lon": -105.56532025337219
+          },
+          "visit_duration": 0,
+          "name": "nocleg",
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "address": "1354-1400 David Drive, Estes Park, CO 80517, USA",
+          "tzoffset": -420,
+          "distance": 721,
+          "driving": 80,
+          "nights": 1,
+          "departure_time": 1415196000000,
+          "track": [
+            [
+              40.38902,
+              -105.56202
+            ],
+            [
+              40.38909,
+              -105.56201000000001
+            ],
+            [
+              40.3894,
+              -105.56181000000001
+            ],
+            [
+              40.389500000000005,
+              -105.56211
+            ],
+            [
+              40.38969,
+              -105.56231000000001
+            ],
+            [
+              40.39034,
+              -105.56259000000001
+            ],
+            [
+              40.39056,
+              -105.56258000000001
+            ],
+            [
+              40.39126,
+              -105.563
+            ],
+            [
+              40.39168,
+              -105.56328
+            ],
+            [
+              40.392230000000005,
+              -105.56331000000002
+            ],
+            [
+              40.392860000000006,
+              -105.56339000000001
+            ],
+            [
+              40.39322000000001,
+              -105.56361000000001
+            ],
+            [
+              40.39347,
+              -105.56389000000001
+            ],
+            [
+              40.393550000000005,
+              -105.56401000000001
+            ],
+            [
+              40.393890000000006,
+              -105.56453
+            ],
+            [
+              40.394000000000005,
+              -105.56469000000001
+            ],
+            [
+              40.39432,
+              -105.56501000000002
+            ],
+            [
+              40.394330000000004,
+              -105.56506
+            ],
+            [
+              40.39448,
+              -105.56531000000001
+            ],
+            [
+              40.3945,
+              -105.56533
+            ]
+          ],
+          "keep": true,
+          "symbol": "Lodging"
+        },
+        {
+          "coordinates": {
+            "lat": 40.3945,
+            "lon": -105.56533
+          },
+          "symbol": ""
+        },
+        {
+          "day": 0,
+          "coordinates": {
+            "lat": 40.39421496386244,
+            "lon": -105.56494474411011
+          },
+          "visit_duration": 0,
+          "name": "pass-thru",
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "address": "1177-1399 Fall River Drive, Estes Park, CO 80517, USA",
+          "tzoffset": -420,
+          "distance": 47,
+          "driving": 7,
+          "nights": 0,
+          "arrival_time": 1415196007000,
+          "departure_time": 1415196007000,
+          "track": [
+            [
+              40.3945,
+              -105.56533
+            ],
+            [
+              40.39434000000001,
+              -105.56511
+            ],
+            [
+              40.39432,
+              -105.56501000000002
+            ],
+            [
+              40.39423,
+              -105.56492000000001
+            ]
+          ],
+          "keep": true
+        },
+        {
+          "coordinates": {
+            "lat": 40.39423,
+            "lon": -105.56492000000001
+          },
+          "symbol": ""
+        },
+        {
+          "day": 1,
+          "coordinates": {
+            "lat": 40.39450095251464,
+            "lon": -105.56532025337219
+          },
+          "visit_duration": 0,
+          "name": "nocleg",
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "address": "1354-1400 David Drive, Estes Park, CO 80517, USA",
+          "tzoffset": -420,
+          "distance": 47,
+          "driving": 6,
+          "nights": 1,
+          "arrival_time": 1415196013000,
+          "departure_time": 1415282400000,
+          "track": [
+            [
+              40.39423,
+              -105.56492000000001
+            ],
+            [
+              40.39432,
+              -105.56501000000002
+            ],
+            [
+              40.394330000000004,
+              -105.56506
+            ],
+            [
+              40.39448,
+              -105.56531000000001
+            ],
+            [
+              40.3945,
+              -105.56533
+            ]
+          ],
+          "keep": true,
+          "symbol": "Lodging"
+        }
+      ],
+      "name": "Day 2 - Wed Nov 05 2014"
+    },
+    {
+      "points": [
+        {
+          "arrival_time": 1415368800000,
+          "day": 2,
+          "coordinates": {
+            "lat": 40.39450095251464,
+            "lon": -105.56532025337219
+          },
+          "visit_duration": 0,
+          "name": "nocleg",
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "address": "1354-1400 David Drive, Estes Park, CO 80517, USA",
+          "tzoffset": -420,
+          "distance": 0,
+          "driving": 0,
+          "nights": 1,
+          "departure_time": 1415368800000,
+          "keep": true,
+          "symbol": "Lodging"
+        },
+        {
+          "coordinates": {
+            "lat": 40.3945,
+            "lon": -105.56533
+          },
+          "symbol": ""
+        },
+        {
+          "coordinates": {
+            "lat": 40.39444,
+            "lon": -105.56444
+          },
+          "symbol": ""
+        },
+        {
+          "day": 0,
+          "coordinates": {
+            "lat": 40.39443354101319,
+            "lon": -105.56444048881531
+          },
+          "visit_duration": 3600000,
+          "name": "stop",
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "address": "1301-1317 David Drive, Estes Park, CO 80517, USA",
+          "tzoffset": -420,
+          "distance": 84,
+          "driving": 18,
+          "nights": 0,
+          "arrival_time": 1415368818000,
+          "departure_time": 1415372418000,
+          "track": [
+            [
+              40.3945,
+              -105.56533
+            ],
+            [
+              40.39434000000001,
+              -105.56511
+            ],
+            [
+              40.39432,
+              -105.56501000000002
+            ],
+            [
+              40.39437,
+              -105.56471
+            ],
+            [
+              40.39441,
+              -105.56457
+            ],
+            [
+              40.39444,
+              -105.56444
+            ]
+          ],
+          "keep": true,
+          "streetAddress": "1301-1317 David Drive"
+        },
+        {
+          "day": 3,
+          "coordinates": {
+            "lat": 40.39450095251464,
+            "lon": -105.56532025337219
+          },
+          "visit_duration": 0,
+          "name": "nocleg",
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "address": "1354-1400 David Drive, Estes Park, CO 80517, USA",
+          "tzoffset": -420,
+          "distance": 84,
+          "driving": 18,
+          "nights": 1,
+          "arrival_time": 1415372436000,
+          "departure_time": 1415455200000,
+          "track": [
+            [
+              40.39444,
+              -105.56444
+            ],
+            [
+              40.39437,
+              -105.56471
+            ],
+            [
+              40.39432,
+              -105.56501000000002
+            ],
+            [
+              40.39434000000001,
+              -105.56511
+            ],
+            [
+              40.3945,
+              -105.56533
+            ]
+          ],
+          "keep": true,
+          "symbol": "Lodging"
+        }
+      ],
+      "name": "Day 4 - Fri Nov 07 2014"
+    },
+    {
+      "points": [
+        {
+          "arrival_time": 1415455200000,
+          "day": 3,
+          "coordinates": {
+            "lat": 40.39450095251464,
+            "lon": -105.56532025337219
+          },
+          "visit_duration": 0,
+          "name": "nocleg",
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "address": "1354-1400 David Drive, Estes Park, CO 80517, USA",
+          "tzoffset": -420,
+          "distance": 84,
+          "driving": 18,
+          "nights": 1,
+          "departure_time": 1415455200000,
+          "track": [
+            [
+              40.39444,
+              -105.56444
+            ],
+            [
+              40.39437,
+              -105.56471
+            ],
+            [
+              40.39432,
+              -105.56501000000002
+            ],
+            [
+              40.39434000000001,
+              -105.56511
+            ],
+            [
+              40.3945,
+              -105.56533
+            ]
+          ],
+          "keep": true,
+          "symbol": "Lodging"
+        },
+        {
+          "coordinates": {
+            "lat": 40.3945,
+            "lon": -105.56533
+          },
+          "symbol": ""
+        },
+        {
+          "coordinates": {
+            "lat": 40.39574,
+            "lon": -105.5669
+          },
+          "symbol": ""
+        },
+        {
+          "coordinates": {
+            "lat": 40.39645,
+            "lon": -105.56927
+          },
+          "symbol": ""
+        },
+        {
+          "day": 0,
+          "coordinates": {
+            "lat": 40.39663,
+            "lon": -105.56648000000001
+          },
+          "name": "end",
+          "address": "1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA",
+          "url": "/book/venere?id=513209",
+          "visit_duration": 0,
+          "notes": "",
+          "locality": {
+            "town": "Estes Park",
+            "province": "CO",
+            "province_long": "Colorado",
+            "country": "US",
+            "country_long": "United States"
+          },
+          "tzoffset": -420,
+          "distance": 821,
+          "driving": 83,
+          "nights": 0,
+          "arrival_time": 1415455283000,
+          "departure_time": 1415455283000,
+          "track": [
+            [
+              40.3945,
+              -105.56533
+            ],
+            [
+              40.394690000000004,
+              -105.56547
+            ],
+            [
+              40.394830000000006,
+              -105.56552
+            ],
+            [
+              40.39491,
+              -105.56556
+            ],
+            [
+              40.395100000000006,
+              -105.56563000000001
+            ],
+            [
+              40.39522,
+              -105.56571000000001
+            ],
+            [
+              40.395340000000004,
+              -105.56593000000001
+            ],
+            [
+              40.39546,
+              -105.56628
+            ],
+            [
+              40.39558,
+              -105.56651000000001
+            ],
+            [
+              40.39564,
+              -105.56666000000001
+            ],
+            [
+              40.39574,
+              -105.5669
+            ],
+            [
+              40.395810000000004,
+              -105.56732000000001
+            ],
+            [
+              40.395810000000004,
+              -105.56739
+            ],
+            [
+              40.395830000000004,
+              -105.56745000000001
+            ],
+            [
+              40.395880000000005,
+              -105.5678
+            ],
+            [
+              40.395990000000005,
+              -105.56825
+            ],
+            [
+              40.396100000000004,
+              -105.56857000000001
+            ],
+            [
+              40.39618,
+              -105.56885000000001
+            ],
+            [
+              40.39625,
+              -105.56899000000001
+            ],
+            [
+              40.396330000000006,
+              -105.56912000000001
+            ],
+            [
+              40.39645,
+              -105.56927
+            ],
+            [
+              40.39658,
+              -105.56957000000001
+            ],
+            [
+              40.39687,
+              -105.56970000000001
+            ],
+            [
+              40.3971,
+              -105.56975000000001
+            ],
+            [
+              40.39719,
+              -105.56975000000001
+            ],
+            [
+              40.397290000000005,
+              -105.56970000000001
+            ],
+            [
+              40.397220000000004,
+              -105.56906000000001
+            ],
+            [
+              40.39714,
+              -105.56836000000001
+            ],
+            [
+              40.396930000000005,
+              -105.56726
+            ],
+            [
+              40.39685,
+              -105.56693000000001
+            ],
+            [
+              40.39665,
+              -105.56647000000001
+            ]
+          ],
+          "keep": true,
+          "symbol": "Lodging",
+          "streetAddress": "1508-1514 Fish Hatchery Road"
+        }
+      ],
+      "name": "Day 5 - Sat Nov 08 2014"
+    }
+  ]
+}
