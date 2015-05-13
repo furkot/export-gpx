@@ -18,7 +18,9 @@
     "GPX",
     "export"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "jade": "^1.9.2"
+  },
   "devDependencies": {
     "jshint": "^2.7.0",
     "mocha": "^2.2.4",
