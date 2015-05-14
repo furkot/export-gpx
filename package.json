@@ -1,6 +1,6 @@
 {
   "name": "furkot-gpx",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Generate GPX files from Furkot trip data.",
   "homepage": "https://trips.furkot.com",
   "author": {
