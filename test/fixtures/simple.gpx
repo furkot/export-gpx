@@ -10,7 +10,7 @@
     </author>
   </metadata>
   <rte>
-    <rtept lat="37.7749295" lon="-122.41941550000001">
+    <rtept lat="37.77493" lon="-122.41942">
       <time>2013-07-08T13:00:00.000Z</time>
       <name>San Francisco</name>
       <cmt>San Francisco, CA</cmt>
@@ -20,7 +20,7 @@
         <frkt:address>San Francisco, CA</frkt:address>
       </extensions>
     </rtept>
-    <rtept lat="40.54720023441049" lon="-122.34375">
+    <rtept lat="40.54720" lon="-122.34375">
       <time>2013-07-08T16:13:00.000Z</time>
       <name>Redding</name>
       <cmt>1510 Gordon Lane, Redding, CA 96002, USA</cmt>
@@ -30,7 +30,7 @@
         <frkt:address>1510 Gordon Lane, Redding, CA 96002, USA</frkt:address>
       </extensions>
     </rtept>
-    <rtept lat="44.04811573082351" lon="-123.046875">
+    <rtept lat="44.04812" lon="-123.04688">
       <time>2013-07-08T21:31:00.000Z</time>
       <name>Lane</name>
       <cmt>51-559 Walnut Place, Springfield, OR 97477, USA</cmt>
@@ -42,7 +42,7 @@
         <frkt:pin>25</frkt:pin>
       </extensions>
     </rtept>
-    <rtept lat="45.5234515" lon="-122.6762071">
+    <rtept lat="45.52345" lon="-122.67621">
       <time>2013-07-08T23:35:55.000Z</time>
       <name>Portland</name>
       <cmt>Portland, OR</cmt>

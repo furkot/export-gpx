@@ -76,8 +76,8 @@ gpx(
     for step in waypoints
       if step.coordinates
         wpt(
-            lat=step.coordinates.lat
-            lon=step.coordinates.lon
+            lat=step.coordinates.lat.toFixed(5)
+            lon=step.coordinates.lon.toFixed(5)
           )
           mixin waypoint(step, true)
   if routes
@@ -93,8 +93,8 @@ gpx(
           for step in route.points
             if step.coordinates
               rtept(
-                  lat=step.coordinates.lat
-                  lon=step.coordinates.lon
+                  lat=step.coordinates.lat.toFixed(5)
+                  lon=step.coordinates.lon.toFixed(5)
                 )
                 mixin waypoint(step)
   if tracks
@@ -113,6 +113,6 @@ gpx(
               trkseg
                 for p in expanded
                   trkpt(
-                      lat=p[0]
-                      lon=p[1]
+                      lat=p[0].toFixed(5)
+                      lon=p[1].toFixed(5)
                     )
