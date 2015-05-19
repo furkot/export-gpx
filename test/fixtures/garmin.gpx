@@ -1,0 +1,1545 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://furkot.com/" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:frkt="http://www.furkot.com/2014/gpx" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.furkot.com/2014/gpx http://cdn.furkot.com/schema/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd">
+  <metadata>
+    <name>Ski trip</name>
+    <author>
+      <name>Furkot - road trip planner</name>
+      <email id="trips" domain="furkot.com"></email>
+      <link href="https://trips.furkot.com">
+        <text>Furkot</text>
+      </link>
+    </author>
+  </metadata>
+  <wpt lat="42.35843" lon="-71.05977">
+    <time>2013-04-23T13:00:00.000Z</time>
+    <name>Boston, MA</name>
+    <cmt>Boston, MA</cmt>
+    <desc>Boston, MA</desc>
+    <extensions>
+      <frkt:duration>0</frkt:duration>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:City>Boston</gpxx:City>
+          <gpxx:State>MA</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <wpt lat="42.94989" lon="-71.43241">
+    <time>2013-04-23T13:55:19.000Z</time>
+    <name>Courtyard by Marriott</name>
+    <cmt>736 Huse Road, Manchester, NH 03103, USA</cmt>
+    <desc>736 Huse Road, Manchester, NH 03103, USA</desc>
+    <link href="http://www.easytobook.com/en/united-states-of-america/new-hampshire/manchester/courtyard-by-marriott-manchester/?affid=280826683"></link>
+    <sym>Lodging</sym>
+    <extensions>
+      <frkt:duration>86400000</frkt:duration>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:StreetAddress>736 Huse Road</gpxx:StreetAddress>
+          <gpxx:City>Manchester</gpxx:City>
+          <gpxx:State>NH</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <wpt lat="43.20518" lon="-71.53198">
+    <time>2013-04-24T13:24:33.000Z</time>
+    <name>Concord, NH, USA</name>
+    <cmt>Frederick E. Everett Turnpike, Concord, NH 03301, USA</cmt>
+    <desc>Frederick E. Everett Turnpike, Concord, NH 03301, USA</desc>
+    <extensions>
+      <frkt:duration>7200000</frkt:duration>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:StreetAddress>Frederick E. Everett Turnpike</gpxx:StreetAddress>
+          <gpxx:City>Concord</gpxx:City>
+          <gpxx:State>NH</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <wpt lat="43.66472" lon="-72.79333">
+    <time>2013-04-25T17:01:49.000Z</time>
+    <name>Killington, VT</name>
+    <cmt>Killington, VT</cmt>
+    <desc>Killington, VT</desc>
+    <extensions>
+      <frkt:duration>0</frkt:duration>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:City>Killington</gpxx:City>
+          <gpxx:State>VT</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber>(508) 872-6101</gpxx:PhoneNumber>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <rte>
+    <name>Day 1 - Tue Apr 23 2013</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Blue</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <trp:Trip>
+        <trp:TransportationMode>Motorcycling</trp:TransportationMode>
+      </trp:Trip>
+    </extensions>
+    <rtept lat="42.35843" lon="-71.05977">
+      <time>2013-04-23T13:00:00.000Z</time>
+      <name>Boston, MA</name>
+      <cmt>Boston, MA</cmt>
+      <desc>Boston, MA</desc>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+        <frkt:duration>0</frkt:duration>
+        <frkt:address>Boston, MA</frkt:address>
+      </extensions>
+    </rtept>
+    <rtept lat="42.35849" lon="-71.06010">
+      <extensions>
+        <trp:ShapingPoint></trp:ShapingPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+          <gpxx:rpt lat="42.35849" lon="-71.06010"></gpxx:rpt>
+          <gpxx:rpt lat="42.35833" lon="-71.06019"></gpxx:rpt>
+          <gpxx:rpt lat="42.35801" lon="-71.06046"></gpxx:rpt>
+          <gpxx:rpt lat="42.35796" lon="-71.06031"></gpxx:rpt>
+          <gpxx:rpt lat="42.35769" lon="-71.05937"></gpxx:rpt>
+          <gpxx:rpt lat="42.35741" lon="-71.05829"></gpxx:rpt>
+          <gpxx:rpt lat="42.35766" lon="-71.05809"></gpxx:rpt>
+          <gpxx:rpt lat="42.35815" lon="-71.05784"></gpxx:rpt>
+          <gpxx:rpt lat="42.35883" lon="-71.05782"></gpxx:rpt>
+          <gpxx:rpt lat="42.35920" lon="-71.05928"></gpxx:rpt>
+          <gpxx:rpt lat="42.35928" lon="-71.05941"></gpxx:rpt>
+          <gpxx:rpt lat="42.35950" lon="-71.05967"></gpxx:rpt>
+          <gpxx:rpt lat="42.36026" lon="-71.06009"></gpxx:rpt>
+          <gpxx:rpt lat="42.36054" lon="-71.06038"></gpxx:rpt>
+          <gpxx:rpt lat="42.36090" lon="-71.06100"></gpxx:rpt>
+          <gpxx:rpt lat="42.36100" lon="-71.06124"></gpxx:rpt>
+          <gpxx:rpt lat="42.36125" lon="-71.06093"></gpxx:rpt>
+          <gpxx:rpt lat="42.36138" lon="-71.06070"></gpxx:rpt>
+          <gpxx:rpt lat="42.36162" lon="-71.06019"></gpxx:rpt>
+          <gpxx:rpt lat="42.36223" lon="-71.05894"></gpxx:rpt>
+          <gpxx:rpt lat="42.36259" lon="-71.05800"></gpxx:rpt>
+          <gpxx:rpt lat="42.36291" lon="-71.05718"></gpxx:rpt>
+          <gpxx:rpt lat="42.36311" lon="-71.05697"></gpxx:rpt>
+          <gpxx:rpt lat="42.36319" lon="-71.05704"></gpxx:rpt>
+          <gpxx:rpt lat="42.36330" lon="-71.05726"></gpxx:rpt>
+          <gpxx:rpt lat="42.36409" lon="-71.05804"></gpxx:rpt>
+          <gpxx:rpt lat="42.36678" lon="-71.06061"></gpxx:rpt>
+          <gpxx:rpt lat="42.36970" lon="-71.06386"></gpxx:rpt>
+          <gpxx:rpt lat="42.37046" lon="-71.06472"></gpxx:rpt>
+          <gpxx:rpt lat="42.37199" lon="-71.06688"></gpxx:rpt>
+          <gpxx:rpt lat="42.37330" lon="-71.06921"></gpxx:rpt>
+          <gpxx:rpt lat="42.37410" lon="-71.07085"></gpxx:rpt>
+          <gpxx:rpt lat="42.37455" lon="-71.07181"></gpxx:rpt>
+          <gpxx:rpt lat="42.37511" lon="-71.07273"></gpxx:rpt>
+          <gpxx:rpt lat="42.37577" lon="-71.07358"></gpxx:rpt>
+          <gpxx:rpt lat="42.37657" lon="-71.07443"></gpxx:rpt>
+          <gpxx:rpt lat="42.37781" lon="-71.07542"></gpxx:rpt>
+          <gpxx:rpt lat="42.37874" lon="-71.07612"></gpxx:rpt>
+          <gpxx:rpt lat="42.37950" lon="-71.07652"></gpxx:rpt>
+          <gpxx:rpt lat="42.38020" lon="-71.07672"></gpxx:rpt>
+          <gpxx:rpt lat="42.38094" lon="-71.07680"></gpxx:rpt>
+          <gpxx:rpt lat="42.38148" lon="-71.07676"></gpxx:rpt>
+          <gpxx:rpt lat="42.38331" lon="-71.07647"></gpxx:rpt>
+          <gpxx:rpt lat="42.38448" lon="-71.07664"></gpxx:rpt>
+          <gpxx:rpt lat="42.38530" lon="-71.07691"></gpxx:rpt>
+          <gpxx:rpt lat="42.38581" lon="-71.07718"></gpxx:rpt>
+          <gpxx:rpt lat="42.38658" lon="-71.07773"></gpxx:rpt>
+          <gpxx:rpt lat="42.38704" lon="-71.07816"></gpxx:rpt>
+          <gpxx:rpt lat="42.38780" lon="-71.07900"></gpxx:rpt>
+          <gpxx:rpt lat="42.38883" lon="-71.08035"></gpxx:rpt>
+          <gpxx:rpt lat="42.39008" lon="-71.08201"></gpxx:rpt>
+          <gpxx:rpt lat="42.39112" lon="-71.08320"></gpxx:rpt>
+          <gpxx:rpt lat="42.39178" lon="-71.08379"></gpxx:rpt>
+          <gpxx:rpt lat="42.39261" lon="-71.08452"></gpxx:rpt>
+          <gpxx:rpt lat="42.39345" lon="-71.08542"></gpxx:rpt>
+          <gpxx:rpt lat="42.39438" lon="-71.08667"></gpxx:rpt>
+          <gpxx:rpt lat="42.39797" lon="-71.09142"></gpxx:rpt>
+          <gpxx:rpt lat="42.39924" lon="-71.09298"></gpxx:rpt>
+          <gpxx:rpt lat="42.40041" lon="-71.09422"></gpxx:rpt>
+          <gpxx:rpt lat="42.40239" lon="-71.09602"></gpxx:rpt>
+          <gpxx:rpt lat="42.40756" lon="-71.10063"></gpxx:rpt>
+          <gpxx:rpt lat="42.40827" lon="-71.10129"></gpxx:rpt>
+          <gpxx:rpt lat="42.40977" lon="-71.10258"></gpxx:rpt>
+          <gpxx:rpt lat="42.41059" lon="-71.10307"></gpxx:rpt>
+          <gpxx:rpt lat="42.41146" lon="-71.10343"></gpxx:rpt>
+          <gpxx:rpt lat="42.41279" lon="-71.10366"></gpxx:rpt>
+          <gpxx:rpt lat="42.41391" lon="-71.10374"></gpxx:rpt>
+          <gpxx:rpt lat="42.41625" lon="-71.10385"></gpxx:rpt>
+          <gpxx:rpt lat="42.41874" lon="-71.10394"></gpxx:rpt>
+          <gpxx:rpt lat="42.42180" lon="-71.10355"></gpxx:rpt>
+          <gpxx:rpt lat="42.42484" lon="-71.10319"></gpxx:rpt>
+          <gpxx:rpt lat="42.42592" lon="-71.10308"></gpxx:rpt>
+          <gpxx:rpt lat="42.42789" lon="-71.10307"></gpxx:rpt>
+          <gpxx:rpt lat="42.43011" lon="-71.10293"></gpxx:rpt>
+          <gpxx:rpt lat="42.43152" lon="-71.10259"></gpxx:rpt>
+          <gpxx:rpt lat="42.43170" lon="-71.10246"></gpxx:rpt>
+          <gpxx:rpt lat="42.43228" lon="-71.10237"></gpxx:rpt>
+          <gpxx:rpt lat="42.43336" lon="-71.10223"></gpxx:rpt>
+          <gpxx:rpt lat="42.43516" lon="-71.10241"></gpxx:rpt>
+          <gpxx:rpt lat="42.43780" lon="-71.10328"></gpxx:rpt>
+          <gpxx:rpt lat="42.44224" lon="-71.10472"></gpxx:rpt>
+          <gpxx:rpt lat="42.44434" lon="-71.10510"></gpxx:rpt>
+          <gpxx:rpt lat="42.44625" lon="-71.10504"></gpxx:rpt>
+          <gpxx:rpt lat="42.44767" lon="-71.10473"></gpxx:rpt>
+          <gpxx:rpt lat="42.45099" lon="-71.10376"></gpxx:rpt>
+          <gpxx:rpt lat="42.45457" lon="-71.10271"></gpxx:rpt>
+          <gpxx:rpt lat="42.45595" lon="-71.10230"></gpxx:rpt>
+          <gpxx:rpt lat="42.45744" lon="-71.10198"></gpxx:rpt>
+          <gpxx:rpt lat="42.45916" lon="-71.10191"></gpxx:rpt>
+          <gpxx:rpt lat="42.46008" lon="-71.10200"></gpxx:rpt>
+          <gpxx:rpt lat="42.46136" lon="-71.10228"></gpxx:rpt>
+          <gpxx:rpt lat="42.46240" lon="-71.10264"></gpxx:rpt>
+          <gpxx:rpt lat="42.46439" lon="-71.10371"></gpxx:rpt>
+          <gpxx:rpt lat="42.46974" lon="-71.10752"></gpxx:rpt>
+          <gpxx:rpt lat="42.47748" lon="-71.11296"></gpxx:rpt>
+          <gpxx:rpt lat="42.48113" lon="-71.11552"></gpxx:rpt>
+          <gpxx:rpt lat="42.48308" lon="-71.11649"></gpxx:rpt>
+          <gpxx:rpt lat="42.48485" lon="-71.11711"></gpxx:rpt>
+          <gpxx:rpt lat="42.48588" lon="-71.11732"></gpxx:rpt>
+          <gpxx:rpt lat="42.48709" lon="-71.11747"></gpxx:rpt>
+          <gpxx:rpt lat="42.48950" lon="-71.11757"></gpxx:rpt>
+          <gpxx:rpt lat="42.49068" lon="-71.11762"></gpxx:rpt>
+          <gpxx:rpt lat="42.49812" lon="-71.11792"></gpxx:rpt>
+          <gpxx:rpt lat="42.49985" lon="-71.11814"></gpxx:rpt>
+          <gpxx:rpt lat="42.50071" lon="-71.11834"></gpxx:rpt>
+          <gpxx:rpt lat="42.50246" lon="-71.11877"></gpxx:rpt>
+          <gpxx:rpt lat="42.50288" lon="-71.11889"></gpxx:rpt>
+          <gpxx:rpt lat="42.50406" lon="-71.11944"></gpxx:rpt>
+          <gpxx:rpt lat="42.50519" lon="-71.12015"></gpxx:rpt>
+          <gpxx:rpt lat="42.50615" lon="-71.12082"></gpxx:rpt>
+          <gpxx:rpt lat="42.50748" lon="-71.12199"></gpxx:rpt>
+          <gpxx:rpt lat="42.50912" lon="-71.12344"></gpxx:rpt>
+          <gpxx:rpt lat="42.51312" lon="-71.12704"></gpxx:rpt>
+          <gpxx:rpt lat="42.51677" lon="-71.13022"></gpxx:rpt>
+          <gpxx:rpt lat="42.51834" lon="-71.13174"></gpxx:rpt>
+          <gpxx:rpt lat="42.51980" lon="-71.13289"></gpxx:rpt>
+          <gpxx:rpt lat="42.52128" lon="-71.13385"></gpxx:rpt>
+          <gpxx:rpt lat="42.52316" lon="-71.13476"></gpxx:rpt>
+          <gpxx:rpt lat="42.52507" lon="-71.13532"></gpxx:rpt>
+          <gpxx:rpt lat="42.52661" lon="-71.13570"></gpxx:rpt>
+          <gpxx:rpt lat="42.52805" lon="-71.13585"></gpxx:rpt>
+          <gpxx:rpt lat="42.52935" lon="-71.13585"></gpxx:rpt>
+          <gpxx:rpt lat="42.53016" lon="-71.13579"></gpxx:rpt>
+          <gpxx:rpt lat="42.53497" lon="-71.13523"></gpxx:rpt>
+          <gpxx:rpt lat="42.53855" lon="-71.13485"></gpxx:rpt>
+          <gpxx:rpt lat="42.54097" lon="-71.13477"></gpxx:rpt>
+          <gpxx:rpt lat="42.54165" lon="-71.13486"></gpxx:rpt>
+          <gpxx:rpt lat="42.54314" lon="-71.13506"></gpxx:rpt>
+          <gpxx:rpt lat="42.54510" lon="-71.13545"></gpxx:rpt>
+          <gpxx:rpt lat="42.54972" lon="-71.13662"></gpxx:rpt>
+          <gpxx:rpt lat="42.55187" lon="-71.13726"></gpxx:rpt>
+          <gpxx:rpt lat="42.55500" lon="-71.13861"></gpxx:rpt>
+          <gpxx:rpt lat="42.55831" lon="-71.14045"></gpxx:rpt>
+          <gpxx:rpt lat="42.55868" lon="-71.14071"></gpxx:rpt>
+          <gpxx:rpt lat="42.56849" lon="-71.14618"></gpxx:rpt>
+          <gpxx:rpt lat="42.57022" lon="-71.14721"></gpxx:rpt>
+          <gpxx:rpt lat="42.57453" lon="-71.15007"></gpxx:rpt>
+          <gpxx:rpt lat="42.57644" lon="-71.15151"></gpxx:rpt>
+          <gpxx:rpt lat="42.57732" lon="-71.15203"></gpxx:rpt>
+          <gpxx:rpt lat="42.58112" lon="-71.15482"></gpxx:rpt>
+          <gpxx:rpt lat="42.58300" lon="-71.15645"></gpxx:rpt>
+          <gpxx:rpt lat="42.58736" lon="-71.16051"></gpxx:rpt>
+          <gpxx:rpt lat="42.59100" lon="-71.16393"></gpxx:rpt>
+          <gpxx:rpt lat="42.59406" lon="-71.16668"></gpxx:rpt>
+          <gpxx:rpt lat="42.59620" lon="-71.16824"></gpxx:rpt>
+          <gpxx:rpt lat="42.59738" lon="-71.16896"></gpxx:rpt>
+          <gpxx:rpt lat="42.59915" lon="-71.16987"></gpxx:rpt>
+          <gpxx:rpt lat="42.60050" lon="-71.17043"></gpxx:rpt>
+          <gpxx:rpt lat="42.60468" lon="-71.17175"></gpxx:rpt>
+          <gpxx:rpt lat="42.62110" lon="-71.17662"></gpxx:rpt>
+          <gpxx:rpt lat="42.62768" lon="-71.17855"></gpxx:rpt>
+          <gpxx:rpt lat="42.63104" lon="-71.17955"></gpxx:rpt>
+          <gpxx:rpt lat="42.63255" lon="-71.18002"></gpxx:rpt>
+          <gpxx:rpt lat="42.63572" lon="-71.18120"></gpxx:rpt>
+          <gpxx:rpt lat="42.64263" lon="-71.18432"></gpxx:rpt>
+          <gpxx:rpt lat="42.64598" lon="-71.18580"></gpxx:rpt>
+          <gpxx:rpt lat="42.65681" lon="-71.19080"></gpxx:rpt>
+          <gpxx:rpt lat="42.66425" lon="-71.19418"></gpxx:rpt>
+          <gpxx:rpt lat="42.67452" lon="-71.19889"></gpxx:rpt>
+          <gpxx:rpt lat="42.68722" lon="-71.20472"></gpxx:rpt>
+          <gpxx:rpt lat="42.69332" lon="-71.20749"></gpxx:rpt>
+          <gpxx:rpt lat="42.69590" lon="-71.20867"></gpxx:rpt>
+          <gpxx:rpt lat="42.69743" lon="-71.20919"></gpxx:rpt>
+          <gpxx:rpt lat="42.69935" lon="-71.20958"></gpxx:rpt>
+          <gpxx:rpt lat="42.70199" lon="-71.20995"></gpxx:rpt>
+          <gpxx:rpt lat="42.70573" lon="-71.21050"></gpxx:rpt>
+          <gpxx:rpt lat="42.70798" lon="-71.21077"></gpxx:rpt>
+          <gpxx:rpt lat="42.71089" lon="-71.21095"></gpxx:rpt>
+          <gpxx:rpt lat="42.71363" lon="-71.21080"></gpxx:rpt>
+          <gpxx:rpt lat="42.71620" lon="-71.21035"></gpxx:rpt>
+          <gpxx:rpt lat="42.71859" lon="-71.20970"></gpxx:rpt>
+          <gpxx:rpt lat="42.72200" lon="-71.20834"></gpxx:rpt>
+          <gpxx:rpt lat="42.72834" lon="-71.20495"></gpxx:rpt>
+          <gpxx:rpt lat="42.73002" lon="-71.20405"></gpxx:rpt>
+          <gpxx:rpt lat="42.73146" lon="-71.20359"></gpxx:rpt>
+          <gpxx:rpt lat="42.73296" lon="-71.20337"></gpxx:rpt>
+          <gpxx:rpt lat="42.73403" lon="-71.20337"></gpxx:rpt>
+          <gpxx:rpt lat="42.73532" lon="-71.20358"></gpxx:rpt>
+          <gpxx:rpt lat="42.73678" lon="-71.20404"></gpxx:rpt>
+          <gpxx:rpt lat="42.73786" lon="-71.20458"></gpxx:rpt>
+          <gpxx:rpt lat="42.73873" lon="-71.20515"></gpxx:rpt>
+          <gpxx:rpt lat="42.74073" lon="-71.20700"></gpxx:rpt>
+          <gpxx:rpt lat="42.74799" lon="-71.21434"></gpxx:rpt>
+          <gpxx:rpt lat="42.75136" lon="-71.21782"></gpxx:rpt>
+          <gpxx:rpt lat="42.75251" lon="-71.21925"></gpxx:rpt>
+          <gpxx:rpt lat="42.75358" lon="-71.22091"></gpxx:rpt>
+          <gpxx:rpt lat="42.75649" lon="-71.22652"></gpxx:rpt>
+          <gpxx:rpt lat="42.75729" lon="-71.22801"></gpxx:rpt>
+          <gpxx:rpt lat="42.75839" lon="-71.22978"></gpxx:rpt>
+          <gpxx:rpt lat="42.76031" lon="-71.23226"></gpxx:rpt>
+          <gpxx:rpt lat="42.76237" lon="-71.23431"></gpxx:rpt>
+          <gpxx:rpt lat="42.76536" lon="-71.23647"></gpxx:rpt>
+          <gpxx:rpt lat="42.77342" lon="-71.24184"></gpxx:rpt>
+          <gpxx:rpt lat="42.77671" lon="-71.24402"></gpxx:rpt>
+          <gpxx:rpt lat="42.77751" lon="-71.24462"></gpxx:rpt>
+          <gpxx:rpt lat="42.77859" lon="-71.24557"></gpxx:rpt>
+          <gpxx:rpt lat="42.77955" lon="-71.24659"></gpxx:rpt>
+          <gpxx:rpt lat="42.78055" lon="-71.24795"></gpxx:rpt>
+          <gpxx:rpt lat="42.78128" lon="-71.24918"></gpxx:rpt>
+          <gpxx:rpt lat="42.78217" lon="-71.25102"></gpxx:rpt>
+          <gpxx:rpt lat="42.78271" lon="-71.25249"></gpxx:rpt>
+          <gpxx:rpt lat="42.78384" lon="-71.25704"></gpxx:rpt>
+          <gpxx:rpt lat="42.78470" lon="-71.26082"></gpxx:rpt>
+          <gpxx:rpt lat="42.78517" lon="-71.26248"></gpxx:rpt>
+          <gpxx:rpt lat="42.78569" lon="-71.26376"></gpxx:rpt>
+          <gpxx:rpt lat="42.78637" lon="-71.26504"></gpxx:rpt>
+          <gpxx:rpt lat="42.78740" lon="-71.26647"></gpxx:rpt>
+          <gpxx:rpt lat="42.78859" lon="-71.26766"></gpxx:rpt>
+          <gpxx:rpt lat="42.78974" lon="-71.26849"></gpxx:rpt>
+          <gpxx:rpt lat="42.79086" lon="-71.26905"></gpxx:rpt>
+          <gpxx:rpt lat="42.79199" lon="-71.26937"></gpxx:rpt>
+          <gpxx:rpt lat="42.79326" lon="-71.26949"></gpxx:rpt>
+          <gpxx:rpt lat="42.79446" lon="-71.26940"></gpxx:rpt>
+          <gpxx:rpt lat="42.79703" lon="-71.26874"></gpxx:rpt>
+          <gpxx:rpt lat="42.80281" lon="-71.26721"></gpxx:rpt>
+          <gpxx:rpt lat="42.80463" lon="-71.26676"></gpxx:rpt>
+          <gpxx:rpt lat="42.80597" lon="-71.26664"></gpxx:rpt>
+          <gpxx:rpt lat="42.80721" lon="-71.26691"></gpxx:rpt>
+          <gpxx:rpt lat="42.80800" lon="-71.26733"></gpxx:rpt>
+          <gpxx:rpt lat="42.80836" lon="-71.26761"></gpxx:rpt>
+          <gpxx:rpt lat="42.80915" lon="-71.26840"></gpxx:rpt>
+          <gpxx:rpt lat="42.80990" lon="-71.26953"></gpxx:rpt>
+          <gpxx:rpt lat="42.81048" lon="-71.27084"></gpxx:rpt>
+          <gpxx:rpt lat="42.81276" lon="-71.27750"></gpxx:rpt>
+          <gpxx:rpt lat="42.81359" lon="-71.27961"></gpxx:rpt>
+          <gpxx:rpt lat="42.81409" lon="-71.28061"></gpxx:rpt>
+          <gpxx:rpt lat="42.81481" lon="-71.28183"></gpxx:rpt>
+          <gpxx:rpt lat="42.81558" lon="-71.28293"></gpxx:rpt>
+          <gpxx:rpt lat="42.81688" lon="-71.28439"></gpxx:rpt>
+          <gpxx:rpt lat="42.81794" lon="-71.28532"></gpxx:rpt>
+          <gpxx:rpt lat="42.82207" lon="-71.28810"></gpxx:rpt>
+          <gpxx:rpt lat="42.82580" lon="-71.29053"></gpxx:rpt>
+          <gpxx:rpt lat="42.83023" lon="-71.29344"></gpxx:rpt>
+          <gpxx:rpt lat="42.83179" lon="-71.29452"></gpxx:rpt>
+          <gpxx:rpt lat="42.83360" lon="-71.29614"></gpxx:rpt>
+          <gpxx:rpt lat="42.83494" lon="-71.29769"></gpxx:rpt>
+          <gpxx:rpt lat="42.83627" lon="-71.29941"></gpxx:rpt>
+          <gpxx:rpt lat="42.83749" lon="-71.30097"></gpxx:rpt>
+          <gpxx:rpt lat="42.83926" lon="-71.30304"></gpxx:rpt>
+          <gpxx:rpt lat="42.84120" lon="-71.30485"></gpxx:rpt>
+          <gpxx:rpt lat="42.84394" lon="-71.30727"></gpxx:rpt>
+          <gpxx:rpt lat="42.84718" lon="-71.31012"></gpxx:rpt>
+          <gpxx:rpt lat="42.85313" lon="-71.31547"></gpxx:rpt>
+          <gpxx:rpt lat="42.85470" lon="-71.31731"></gpxx:rpt>
+          <gpxx:rpt lat="42.85596" lon="-71.31917"></gpxx:rpt>
+          <gpxx:rpt lat="42.85705" lon="-71.32122"></gpxx:rpt>
+          <gpxx:rpt lat="42.85766" lon="-71.32266"></gpxx:rpt>
+          <gpxx:rpt lat="42.85823" lon="-71.32436"></gpxx:rpt>
+          <gpxx:rpt lat="42.86021" lon="-71.33115"></gpxx:rpt>
+          <gpxx:rpt lat="42.86118" lon="-71.33346"></gpxx:rpt>
+          <gpxx:rpt lat="42.86191" lon="-71.33471"></gpxx:rpt>
+          <gpxx:rpt lat="42.86252" lon="-71.33563"></gpxx:rpt>
+          <gpxx:rpt lat="42.86314" lon="-71.33640"></gpxx:rpt>
+          <gpxx:rpt lat="42.86408" lon="-71.33738"></gpxx:rpt>
+          <gpxx:rpt lat="42.86491" lon="-71.33811"></gpxx:rpt>
+          <gpxx:rpt lat="42.86615" lon="-71.33897"></gpxx:rpt>
+          <gpxx:rpt lat="42.86721" lon="-71.33950"></gpxx:rpt>
+          <gpxx:rpt lat="42.86861" lon="-71.34005"></gpxx:rpt>
+          <gpxx:rpt lat="42.87311" lon="-71.34182"></gpxx:rpt>
+          <gpxx:rpt lat="42.87685" lon="-71.34326"></gpxx:rpt>
+          <gpxx:rpt lat="42.88182" lon="-71.34524"></gpxx:rpt>
+          <gpxx:rpt lat="42.88253" lon="-71.34565"></gpxx:rpt>
+          <gpxx:rpt lat="42.88330" lon="-71.34624"></gpxx:rpt>
+          <gpxx:rpt lat="42.88531" lon="-71.34842"></gpxx:rpt>
+          <gpxx:rpt lat="42.89232" lon="-71.35656"></gpxx:rpt>
+          <gpxx:rpt lat="42.89416" lon="-71.35846"></gpxx:rpt>
+          <gpxx:rpt lat="42.89588" lon="-71.35978"></gpxx:rpt>
+          <gpxx:rpt lat="42.89715" lon="-71.36053"></gpxx:rpt>
+          <gpxx:rpt lat="42.90368" lon="-71.36387"></gpxx:rpt>
+          <gpxx:rpt lat="42.90915" lon="-71.36668"></gpxx:rpt>
+          <gpxx:rpt lat="42.91149" lon="-71.36787"></gpxx:rpt>
+          <gpxx:rpt lat="42.91312" lon="-71.36884"></gpxx:rpt>
+          <gpxx:rpt lat="42.91669" lon="-71.37131"></gpxx:rpt>
+          <gpxx:rpt lat="42.92103" lon="-71.37430"></gpxx:rpt>
+          <gpxx:rpt lat="42.92561" lon="-71.37725"></gpxx:rpt>
+          <gpxx:rpt lat="42.92751" lon="-71.37839"></gpxx:rpt>
+          <gpxx:rpt lat="42.92956" lon="-71.37946"></gpxx:rpt>
+          <gpxx:rpt lat="42.93328" lon="-71.38108"></gpxx:rpt>
+          <gpxx:rpt lat="42.93551" lon="-71.38219"></gpxx:rpt>
+          <gpxx:rpt lat="42.94098" lon="-71.38583"></gpxx:rpt>
+          <gpxx:rpt lat="42.94215" lon="-71.38692"></gpxx:rpt>
+          <gpxx:rpt lat="42.94476" lon="-71.39033"></gpxx:rpt>
+          <gpxx:rpt lat="42.94994" lon="-71.39723"></gpxx:rpt>
+          <gpxx:rpt lat="42.95385" lon="-71.40241"></gpxx:rpt>
+          <gpxx:rpt lat="42.95469" lon="-71.40341"></gpxx:rpt>
+          <gpxx:rpt lat="42.95513" lon="-71.40383"></gpxx:rpt>
+          <gpxx:rpt lat="42.95553" lon="-71.40430"></gpxx:rpt>
+          <gpxx:rpt lat="42.95792" lon="-71.40644"></gpxx:rpt>
+          <gpxx:rpt lat="42.95892" lon="-71.40736"></gpxx:rpt>
+          <gpxx:rpt lat="42.95956" lon="-71.40822"></gpxx:rpt>
+          <gpxx:rpt lat="42.95999" lon="-71.40908"></gpxx:rpt>
+          <gpxx:rpt lat="42.96022" lon="-71.40972"></gpxx:rpt>
+          <gpxx:rpt lat="42.96149" lon="-71.41434"></gpxx:rpt>
+          <gpxx:rpt lat="42.96174" lon="-71.41571"></gpxx:rpt>
+          <gpxx:rpt lat="42.96171" lon="-71.41685"></gpxx:rpt>
+          <gpxx:rpt lat="42.96035" lon="-71.42365"></gpxx:rpt>
+          <gpxx:rpt lat="42.95902" lon="-71.42980"></gpxx:rpt>
+          <gpxx:rpt lat="42.95873" lon="-71.43133"></gpxx:rpt>
+          <gpxx:rpt lat="42.95775" lon="-71.43522"></gpxx:rpt>
+          <gpxx:rpt lat="42.95739" lon="-71.43629"></gpxx:rpt>
+          <gpxx:rpt lat="42.95675" lon="-71.43612"></gpxx:rpt>
+          <gpxx:rpt lat="42.95544" lon="-71.43602"></gpxx:rpt>
+          <gpxx:rpt lat="42.95460" lon="-71.43622"></gpxx:rpt>
+          <gpxx:rpt lat="42.95419" lon="-71.43640"></gpxx:rpt>
+          <gpxx:rpt lat="42.95356" lon="-71.43654"></gpxx:rpt>
+          <gpxx:rpt lat="42.95265" lon="-71.43635"></gpxx:rpt>
+          <gpxx:rpt lat="42.95135" lon="-71.43553"></gpxx:rpt>
+          <gpxx:rpt lat="42.94969" lon="-71.43450"></gpxx:rpt>
+          <gpxx:rpt lat="42.94965" lon="-71.43368"></gpxx:rpt>
+          <gpxx:rpt lat="42.94979" lon="-71.43287"></gpxx:rpt>
+          <gpxx:rpt lat="42.94993" lon="-71.43244"></gpxx:rpt>
+          <gpxx:rpt lat="42.94993" lon="-71.43244">
+            <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="42.94989" lon="-71.43241">
+      <time>2013-04-23T13:55:19.000Z</time>
+      <name>Courtyard by Marriott</name>
+      <cmt>736 Huse Road, Manchester, NH 03103, USA</cmt>
+      <desc>736 Huse Road, Manchester, NH 03103, USA</desc>
+      <link href="http://www.easytobook.com/en/united-states-of-america/new-hampshire/manchester/courtyard-by-marriott-manchester/?affid=280826683"></link>
+      <sym>Lodging</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+        <frkt:duration>86400000</frkt:duration>
+        <frkt:address>736 Huse Road, Manchester, NH 03103, USA</frkt:address>
+      </extensions>
+    </rtept>
+  </rte>
+  <rte>
+    <name>Day 2 - Wed Apr 24 2013</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Blue</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <trp:Trip>
+        <trp:TransportationMode>Motorcycling</trp:TransportationMode>
+      </trp:Trip>
+    </extensions>
+    <rtept lat="42.94989" lon="-71.43241">
+      <time>2013-04-24T13:00:00.000Z</time>
+      <name>Courtyard by Marriott</name>
+      <cmt>736 Huse Road, Manchester, NH 03103, USA</cmt>
+      <desc>736 Huse Road, Manchester, NH 03103, USA</desc>
+      <link href="http://www.easytobook.com/en/united-states-of-america/new-hampshire/manchester/courtyard-by-marriott-manchester/?affid=280826683"></link>
+      <sym>Lodging</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+          <gpxx:rpt lat="42.94993" lon="-71.43244"></gpxx:rpt>
+          <gpxx:rpt lat="42.94997" lon="-71.43234"></gpxx:rpt>
+          <gpxx:rpt lat="42.95004" lon="-71.43244"></gpxx:rpt>
+          <gpxx:rpt lat="42.94988" lon="-71.43296"></gpxx:rpt>
+          <gpxx:rpt lat="42.94980" lon="-71.43326"></gpxx:rpt>
+          <gpxx:rpt lat="42.94978" lon="-71.43344"></gpxx:rpt>
+          <gpxx:rpt lat="42.94976" lon="-71.43369"></gpxx:rpt>
+          <gpxx:rpt lat="42.94975" lon="-71.43391"></gpxx:rpt>
+          <gpxx:rpt lat="42.94977" lon="-71.43438"></gpxx:rpt>
+          <gpxx:rpt lat="42.94993" lon="-71.43444"></gpxx:rpt>
+          <gpxx:rpt lat="42.95042" lon="-71.43476"></gpxx:rpt>
+          <gpxx:rpt lat="42.95071" lon="-71.43493"></gpxx:rpt>
+          <gpxx:rpt lat="42.95115" lon="-71.43521"></gpxx:rpt>
+          <gpxx:rpt lat="42.95166" lon="-71.43556"></gpxx:rpt>
+          <gpxx:rpt lat="42.95234" lon="-71.43599"></gpxx:rpt>
+          <gpxx:rpt lat="42.95256" lon="-71.43610"></gpxx:rpt>
+          <gpxx:rpt lat="42.95277" lon="-71.43618"></gpxx:rpt>
+          <gpxx:rpt lat="42.95297" lon="-71.43624"></gpxx:rpt>
+          <gpxx:rpt lat="42.95319" lon="-71.43627"></gpxx:rpt>
+          <gpxx:rpt lat="42.95355" lon="-71.43628"></gpxx:rpt>
+          <gpxx:rpt lat="42.95412" lon="-71.43617"></gpxx:rpt>
+          <gpxx:rpt lat="42.95422" lon="-71.43613"></gpxx:rpt>
+          <gpxx:rpt lat="42.95433" lon="-71.43604"></gpxx:rpt>
+          <gpxx:rpt lat="42.95453" lon="-71.43596"></gpxx:rpt>
+          <gpxx:rpt lat="42.95490" lon="-71.43582"></gpxx:rpt>
+          <gpxx:rpt lat="42.95509" lon="-71.43580"></gpxx:rpt>
+          <gpxx:rpt lat="42.95537" lon="-71.43576"></gpxx:rpt>
+          <gpxx:rpt lat="42.95551" lon="-71.43573"></gpxx:rpt>
+          <gpxx:rpt lat="42.95566" lon="-71.43573"></gpxx:rpt>
+          <gpxx:rpt lat="42.95614" lon="-71.43574"></gpxx:rpt>
+          <gpxx:rpt lat="42.95648" lon="-71.43580"></gpxx:rpt>
+          <gpxx:rpt lat="42.95684" lon="-71.43474"></gpxx:rpt>
+          <gpxx:rpt lat="42.95707" lon="-71.43426"></gpxx:rpt>
+          <gpxx:rpt lat="42.95747" lon="-71.43359"></gpxx:rpt>
+          <gpxx:rpt lat="42.95774" lon="-71.43285"></gpxx:rpt>
+          <gpxx:rpt lat="42.95782" lon="-71.43260"></gpxx:rpt>
+          <gpxx:rpt lat="42.95824" lon="-71.43161"></gpxx:rpt>
+          <gpxx:rpt lat="42.95867" lon="-71.43009"></gpxx:rpt>
+          <gpxx:rpt lat="42.95898" lon="-71.42887"></gpxx:rpt>
+          <gpxx:rpt lat="42.95925" lon="-71.42767"></gpxx:rpt>
+          <gpxx:rpt lat="42.95956" lon="-71.42611"></gpxx:rpt>
+          <gpxx:rpt lat="42.95977" lon="-71.42492"></gpxx:rpt>
+          <gpxx:rpt lat="42.96012" lon="-71.42263"></gpxx:rpt>
+          <gpxx:rpt lat="42.96066" lon="-71.41913"></gpxx:rpt>
+          <gpxx:rpt lat="42.96086" lon="-71.41793"></gpxx:rpt>
+          <gpxx:rpt lat="42.96099" lon="-71.41725"></gpxx:rpt>
+          <gpxx:rpt lat="42.96106" lon="-71.41696"></gpxx:rpt>
+          <gpxx:rpt lat="42.96118" lon="-71.41656"></gpxx:rpt>
+          <gpxx:rpt lat="42.96132" lon="-71.41619"></gpxx:rpt>
+          <gpxx:rpt lat="42.96146" lon="-71.41590"></gpxx:rpt>
+          <gpxx:rpt lat="42.96156" lon="-71.41573"></gpxx:rpt>
+          <gpxx:rpt lat="42.96166" lon="-71.41556"></gpxx:rpt>
+          <gpxx:rpt lat="42.96189" lon="-71.41524"></gpxx:rpt>
+          <gpxx:rpt lat="42.96218" lon="-71.41490"></gpxx:rpt>
+          <gpxx:rpt lat="42.96250" lon="-71.41463"></gpxx:rpt>
+          <gpxx:rpt lat="42.96272" lon="-71.41447"></gpxx:rpt>
+          <gpxx:rpt lat="42.96299" lon="-71.41432"></gpxx:rpt>
+          <gpxx:rpt lat="42.96382" lon="-71.41400"></gpxx:rpt>
+          <gpxx:rpt lat="42.96522" lon="-71.41349"></gpxx:rpt>
+          <gpxx:rpt lat="42.96691" lon="-71.41288"></gpxx:rpt>
+          <gpxx:rpt lat="42.96734" lon="-71.41276"></gpxx:rpt>
+          <gpxx:rpt lat="42.96777" lon="-71.41268"></gpxx:rpt>
+          <gpxx:rpt lat="42.96809" lon="-71.41265"></gpxx:rpt>
+          <gpxx:rpt lat="42.96843" lon="-71.41266"></gpxx:rpt>
+          <gpxx:rpt lat="42.96878" lon="-71.41269"></gpxx:rpt>
+          <gpxx:rpt lat="42.96914" lon="-71.41274"></gpxx:rpt>
+          <gpxx:rpt lat="42.96926" lon="-71.41273"></gpxx:rpt>
+          <gpxx:rpt lat="42.96936" lon="-71.41267"></gpxx:rpt>
+          <gpxx:rpt lat="42.97009" lon="-71.41284"></gpxx:rpt>
+          <gpxx:rpt lat="42.97192" lon="-71.41318"></gpxx:rpt>
+          <gpxx:rpt lat="42.97376" lon="-71.41346"></gpxx:rpt>
+          <gpxx:rpt lat="42.97475" lon="-71.41363"></gpxx:rpt>
+          <gpxx:rpt lat="42.97540" lon="-71.41374"></gpxx:rpt>
+          <gpxx:rpt lat="42.97670" lon="-71.41402"></gpxx:rpt>
+          <gpxx:rpt lat="42.97756" lon="-71.41421"></gpxx:rpt>
+          <gpxx:rpt lat="42.97871" lon="-71.41447"></gpxx:rpt>
+          <gpxx:rpt lat="42.97951" lon="-71.41467"></gpxx:rpt>
+          <gpxx:rpt lat="42.98006" lon="-71.41478"></gpxx:rpt>
+          <gpxx:rpt lat="42.98140" lon="-71.41511"></gpxx:rpt>
+          <gpxx:rpt lat="42.98211" lon="-71.41524"></gpxx:rpt>
+          <gpxx:rpt lat="42.98347" lon="-71.41541"></gpxx:rpt>
+          <gpxx:rpt lat="42.98385" lon="-71.41544"></gpxx:rpt>
+          <gpxx:rpt lat="42.98525" lon="-71.41559"></gpxx:rpt>
+          <gpxx:rpt lat="42.98635" lon="-71.41566"></gpxx:rpt>
+          <gpxx:rpt lat="42.98750" lon="-71.41571"></gpxx:rpt>
+          <gpxx:rpt lat="42.98803" lon="-71.41572"></gpxx:rpt>
+          <gpxx:rpt lat="42.98961" lon="-71.41570"></gpxx:rpt>
+          <gpxx:rpt lat="42.99207" lon="-71.41562"></gpxx:rpt>
+          <gpxx:rpt lat="42.99226" lon="-71.41566"></gpxx:rpt>
+          <gpxx:rpt lat="42.99251" lon="-71.41566"></gpxx:rpt>
+          <gpxx:rpt lat="42.99280" lon="-71.41567"></gpxx:rpt>
+          <gpxx:rpt lat="42.99308" lon="-71.41571"></gpxx:rpt>
+          <gpxx:rpt lat="42.99363" lon="-71.41586"></gpxx:rpt>
+          <gpxx:rpt lat="42.99375" lon="-71.41590"></gpxx:rpt>
+          <gpxx:rpt lat="42.99417" lon="-71.41610"></gpxx:rpt>
+          <gpxx:rpt lat="42.99450" lon="-71.41630"></gpxx:rpt>
+          <gpxx:rpt lat="42.99487" lon="-71.41659"></gpxx:rpt>
+          <gpxx:rpt lat="42.99522" lon="-71.41695"></gpxx:rpt>
+          <gpxx:rpt lat="42.99536" lon="-71.41711"></gpxx:rpt>
+          <gpxx:rpt lat="42.99560" lon="-71.41744"></gpxx:rpt>
+          <gpxx:rpt lat="42.99587" lon="-71.41788"></gpxx:rpt>
+          <gpxx:rpt lat="42.99616" lon="-71.41842"></gpxx:rpt>
+          <gpxx:rpt lat="42.99631" lon="-71.41878"></gpxx:rpt>
+          <gpxx:rpt lat="42.99649" lon="-71.41928"></gpxx:rpt>
+          <gpxx:rpt lat="42.99764" lon="-71.42300"></gpxx:rpt>
+          <gpxx:rpt lat="42.99892" lon="-71.42734"></gpxx:rpt>
+          <gpxx:rpt lat="42.99918" lon="-71.42826"></gpxx:rpt>
+          <gpxx:rpt lat="42.99947" lon="-71.42905"></gpxx:rpt>
+          <gpxx:rpt lat="42.99957" lon="-71.42927"></gpxx:rpt>
+          <gpxx:rpt lat="42.99973" lon="-71.42959"></gpxx:rpt>
+          <gpxx:rpt lat="43.00004" lon="-71.43012"></gpxx:rpt>
+          <gpxx:rpt lat="43.00053" lon="-71.43078"></gpxx:rpt>
+          <gpxx:rpt lat="43.00092" lon="-71.43118"></gpxx:rpt>
+          <gpxx:rpt lat="43.00128" lon="-71.43149"></gpxx:rpt>
+          <gpxx:rpt lat="43.00166" lon="-71.43175"></gpxx:rpt>
+          <gpxx:rpt lat="43.00204" lon="-71.43197"></gpxx:rpt>
+          <gpxx:rpt lat="43.00251" lon="-71.43217"></gpxx:rpt>
+          <gpxx:rpt lat="43.00327" lon="-71.43239"></gpxx:rpt>
+          <gpxx:rpt lat="43.00438" lon="-71.43262"></gpxx:rpt>
+          <gpxx:rpt lat="43.00480" lon="-71.43273"></gpxx:rpt>
+          <gpxx:rpt lat="43.00680" lon="-71.43327"></gpxx:rpt>
+          <gpxx:rpt lat="43.00828" lon="-71.43361"></gpxx:rpt>
+          <gpxx:rpt lat="43.01010" lon="-71.43407"></gpxx:rpt>
+          <gpxx:rpt lat="43.01093" lon="-71.43436"></gpxx:rpt>
+          <gpxx:rpt lat="43.01160" lon="-71.43466"></gpxx:rpt>
+          <gpxx:rpt lat="43.01220" lon="-71.43498"></gpxx:rpt>
+          <gpxx:rpt lat="43.01303" lon="-71.43554"></gpxx:rpt>
+          <gpxx:rpt lat="43.01382" lon="-71.43618"></gpxx:rpt>
+          <gpxx:rpt lat="43.01641" lon="-71.43836"></gpxx:rpt>
+          <gpxx:rpt lat="43.01778" lon="-71.43948"></gpxx:rpt>
+          <gpxx:rpt lat="43.01871" lon="-71.44023"></gpxx:rpt>
+          <gpxx:rpt lat="43.01950" lon="-71.44093"></gpxx:rpt>
+          <gpxx:rpt lat="43.02021" lon="-71.44161"></gpxx:rpt>
+          <gpxx:rpt lat="43.02240" lon="-71.44342"></gpxx:rpt>
+          <gpxx:rpt lat="43.02317" lon="-71.44406"></gpxx:rpt>
+          <gpxx:rpt lat="43.02333" lon="-71.44418"></gpxx:rpt>
+          <gpxx:rpt lat="43.02393" lon="-71.44464"></gpxx:rpt>
+          <gpxx:rpt lat="43.02528" lon="-71.44589"></gpxx:rpt>
+          <gpxx:rpt lat="43.02597" lon="-71.44646"></gpxx:rpt>
+          <gpxx:rpt lat="43.02711" lon="-71.44724"></gpxx:rpt>
+          <gpxx:rpt lat="43.02734" lon="-71.44732"></gpxx:rpt>
+          <gpxx:rpt lat="43.02860" lon="-71.44810"></gpxx:rpt>
+          <gpxx:rpt lat="43.03067" lon="-71.44937"></gpxx:rpt>
+          <gpxx:rpt lat="43.03153" lon="-71.44988"></gpxx:rpt>
+          <gpxx:rpt lat="43.03249" lon="-71.45052"></gpxx:rpt>
+          <gpxx:rpt lat="43.03330" lon="-71.45110"></gpxx:rpt>
+          <gpxx:rpt lat="43.03374" lon="-71.45150"></gpxx:rpt>
+          <gpxx:rpt lat="43.03453" lon="-71.45231"></gpxx:rpt>
+          <gpxx:rpt lat="43.03548" lon="-71.45344"></gpxx:rpt>
+          <gpxx:rpt lat="43.03585" lon="-71.45393"></gpxx:rpt>
+          <gpxx:rpt lat="43.03673" lon="-71.45512"></gpxx:rpt>
+          <gpxx:rpt lat="43.03728" lon="-71.45585"></gpxx:rpt>
+          <gpxx:rpt lat="43.03741" lon="-71.45606"></gpxx:rpt>
+          <gpxx:rpt lat="43.03814" lon="-71.45704"></gpxx:rpt>
+          <gpxx:rpt lat="43.03939" lon="-71.45866"></gpxx:rpt>
+          <gpxx:rpt lat="43.04002" lon="-71.45947"></gpxx:rpt>
+          <gpxx:rpt lat="43.04148" lon="-71.46143"></gpxx:rpt>
+          <gpxx:rpt lat="43.04166" lon="-71.46167"></gpxx:rpt>
+          <gpxx:rpt lat="43.04207" lon="-71.46212"></gpxx:rpt>
+          <gpxx:rpt lat="43.04310" lon="-71.46356"></gpxx:rpt>
+          <gpxx:rpt lat="43.04366" lon="-71.46421"></gpxx:rpt>
+          <gpxx:rpt lat="43.04409" lon="-71.46480"></gpxx:rpt>
+          <gpxx:rpt lat="43.04422" lon="-71.46498"></gpxx:rpt>
+          <gpxx:rpt lat="43.04521" lon="-71.46633"></gpxx:rpt>
+          <gpxx:rpt lat="43.04708" lon="-71.46870"></gpxx:rpt>
+          <gpxx:rpt lat="43.04759" lon="-71.46929"></gpxx:rpt>
+          <gpxx:rpt lat="43.04785" lon="-71.46959"></gpxx:rpt>
+          <gpxx:rpt lat="43.04834" lon="-71.46998"></gpxx:rpt>
+          <gpxx:rpt lat="43.04877" lon="-71.47033"></gpxx:rpt>
+          <gpxx:rpt lat="43.04956" lon="-71.47078"></gpxx:rpt>
+          <gpxx:rpt lat="43.05048" lon="-71.47106"></gpxx:rpt>
+          <gpxx:rpt lat="43.05117" lon="-71.47115"></gpxx:rpt>
+          <gpxx:rpt lat="43.05150" lon="-71.47117"></gpxx:rpt>
+          <gpxx:rpt lat="43.05519" lon="-71.47110"></gpxx:rpt>
+          <gpxx:rpt lat="43.05689" lon="-71.47116"></gpxx:rpt>
+          <gpxx:rpt lat="43.05903" lon="-71.47108"></gpxx:rpt>
+          <gpxx:rpt lat="43.05996" lon="-71.47107"></gpxx:rpt>
+          <gpxx:rpt lat="43.06404" lon="-71.47128"></gpxx:rpt>
+          <gpxx:rpt lat="43.06817" lon="-71.47149"></gpxx:rpt>
+          <gpxx:rpt lat="43.06911" lon="-71.47156"></gpxx:rpt>
+          <gpxx:rpt lat="43.07147" lon="-71.47170"></gpxx:rpt>
+          <gpxx:rpt lat="43.07398" lon="-71.47183"></gpxx:rpt>
+          <gpxx:rpt lat="43.07522" lon="-71.47192"></gpxx:rpt>
+          <gpxx:rpt lat="43.07816" lon="-71.47210"></gpxx:rpt>
+          <gpxx:rpt lat="43.07885" lon="-71.47214"></gpxx:rpt>
+          <gpxx:rpt lat="43.07950" lon="-71.47225"></gpxx:rpt>
+          <gpxx:rpt lat="43.08168" lon="-71.47272"></gpxx:rpt>
+          <gpxx:rpt lat="43.08328" lon="-71.47308"></gpxx:rpt>
+          <gpxx:rpt lat="43.08380" lon="-71.47319"></gpxx:rpt>
+          <gpxx:rpt lat="43.08488" lon="-71.47337"></gpxx:rpt>
+          <gpxx:rpt lat="43.08604" lon="-71.47362"></gpxx:rpt>
+          <gpxx:rpt lat="43.08625" lon="-71.47367"></gpxx:rpt>
+          <gpxx:rpt lat="43.08646" lon="-71.47372"></gpxx:rpt>
+          <gpxx:rpt lat="43.08904" lon="-71.47447"></gpxx:rpt>
+          <gpxx:rpt lat="43.09085" lon="-71.47482"></gpxx:rpt>
+          <gpxx:rpt lat="43.09366" lon="-71.47547"></gpxx:rpt>
+          <gpxx:rpt lat="43.09437" lon="-71.47561"></gpxx:rpt>
+          <gpxx:rpt lat="43.09534" lon="-71.47575"></gpxx:rpt>
+          <gpxx:rpt lat="43.09600" lon="-71.47577"></gpxx:rpt>
+          <gpxx:rpt lat="43.09668" lon="-71.47575"></gpxx:rpt>
+          <gpxx:rpt lat="43.09808" lon="-71.47556"></gpxx:rpt>
+          <gpxx:rpt lat="43.10244" lon="-71.47491"></gpxx:rpt>
+          <gpxx:rpt lat="43.10327" lon="-71.47478"></gpxx:rpt>
+          <gpxx:rpt lat="43.10404" lon="-71.47469"></gpxx:rpt>
+          <gpxx:rpt lat="43.10498" lon="-71.47471"></gpxx:rpt>
+          <gpxx:rpt lat="43.10592" lon="-71.47479"></gpxx:rpt>
+          <gpxx:rpt lat="43.10679" lon="-71.47497"></gpxx:rpt>
+          <gpxx:rpt lat="43.10781" lon="-71.47535"></gpxx:rpt>
+          <gpxx:rpt lat="43.10905" lon="-71.47595"></gpxx:rpt>
+          <gpxx:rpt lat="43.10968" lon="-71.47629"></gpxx:rpt>
+          <gpxx:rpt lat="43.11447" lon="-71.47872"></gpxx:rpt>
+          <gpxx:rpt lat="43.11538" lon="-71.47916"></gpxx:rpt>
+          <gpxx:rpt lat="43.12044" lon="-71.48182"></gpxx:rpt>
+          <gpxx:rpt lat="43.12264" lon="-71.48295"></gpxx:rpt>
+          <gpxx:rpt lat="43.12521" lon="-71.48423"></gpxx:rpt>
+          <gpxx:rpt lat="43.12693" lon="-71.48512"></gpxx:rpt>
+          <gpxx:rpt lat="43.12783" lon="-71.48566"></gpxx:rpt>
+          <gpxx:rpt lat="43.13077" lon="-71.48807"></gpxx:rpt>
+          <gpxx:rpt lat="43.13274" lon="-71.48967"></gpxx:rpt>
+          <gpxx:rpt lat="43.13436" lon="-71.49094"></gpxx:rpt>
+          <gpxx:rpt lat="43.13549" lon="-71.49188"></gpxx:rpt>
+          <gpxx:rpt lat="43.13760" lon="-71.49362"></gpxx:rpt>
+          <gpxx:rpt lat="43.13888" lon="-71.49458"></gpxx:rpt>
+          <gpxx:rpt lat="43.13914" lon="-71.49480"></gpxx:rpt>
+          <gpxx:rpt lat="43.14083" lon="-71.49617"></gpxx:rpt>
+          <gpxx:rpt lat="43.14290" lon="-71.49787"></gpxx:rpt>
+          <gpxx:rpt lat="43.14605" lon="-71.50045"></gpxx:rpt>
+          <gpxx:rpt lat="43.14992" lon="-71.50364"></gpxx:rpt>
+          <gpxx:rpt lat="43.15255" lon="-71.50575"></gpxx:rpt>
+          <gpxx:rpt lat="43.15408" lon="-71.50702"></gpxx:rpt>
+          <gpxx:rpt lat="43.15425" lon="-71.50715"></gpxx:rpt>
+          <gpxx:rpt lat="43.15745" lon="-71.50978"></gpxx:rpt>
+          <gpxx:rpt lat="43.15824" lon="-71.51055"></gpxx:rpt>
+          <gpxx:rpt lat="43.15862" lon="-71.51098"></gpxx:rpt>
+          <gpxx:rpt lat="43.15900" lon="-71.51147"></gpxx:rpt>
+          <gpxx:rpt lat="43.15966" lon="-71.51244"></gpxx:rpt>
+          <gpxx:rpt lat="43.16002" lon="-71.51302"></gpxx:rpt>
+          <gpxx:rpt lat="43.16085" lon="-71.51453"></gpxx:rpt>
+          <gpxx:rpt lat="43.16127" lon="-71.51534"></gpxx:rpt>
+          <gpxx:rpt lat="43.16195" lon="-71.51656"></gpxx:rpt>
+          <gpxx:rpt lat="43.16552" lon="-71.52316"></gpxx:rpt>
+          <gpxx:rpt lat="43.16603" lon="-71.52408"></gpxx:rpt>
+          <gpxx:rpt lat="43.16724" lon="-71.52633"></gpxx:rpt>
+          <gpxx:rpt lat="43.16771" lon="-71.52718"></gpxx:rpt>
+          <gpxx:rpt lat="43.16812" lon="-71.52786"></gpxx:rpt>
+          <gpxx:rpt lat="43.16839" lon="-71.52823"></gpxx:rpt>
+          <gpxx:rpt lat="43.16883" lon="-71.52876"></gpxx:rpt>
+          <gpxx:rpt lat="43.16950" lon="-71.52939"></gpxx:rpt>
+          <gpxx:rpt lat="43.17022" lon="-71.52997"></gpxx:rpt>
+          <gpxx:rpt lat="43.17047" lon="-71.53013"></gpxx:rpt>
+          <gpxx:rpt lat="43.17089" lon="-71.53038"></gpxx:rpt>
+          <gpxx:rpt lat="43.17359" lon="-71.53146"></gpxx:rpt>
+          <gpxx:rpt lat="43.17414" lon="-71.53165"></gpxx:rpt>
+          <gpxx:rpt lat="43.17560" lon="-71.53227"></gpxx:rpt>
+          <gpxx:rpt lat="43.17642" lon="-71.53254"></gpxx:rpt>
+          <gpxx:rpt lat="43.17705" lon="-71.53257"></gpxx:rpt>
+          <gpxx:rpt lat="43.17760" lon="-71.53247"></gpxx:rpt>
+          <gpxx:rpt lat="43.17810" lon="-71.53233"></gpxx:rpt>
+          <gpxx:rpt lat="43.17849" lon="-71.53213"></gpxx:rpt>
+          <gpxx:rpt lat="43.17887" lon="-71.53186"></gpxx:rpt>
+          <gpxx:rpt lat="43.17922" lon="-71.53155"></gpxx:rpt>
+          <gpxx:rpt lat="43.17960" lon="-71.53108"></gpxx:rpt>
+          <gpxx:rpt lat="43.17998" lon="-71.53057"></gpxx:rpt>
+          <gpxx:rpt lat="43.18152" lon="-71.52806"></gpxx:rpt>
+          <gpxx:rpt lat="43.18195" lon="-71.52740"></gpxx:rpt>
+          <gpxx:rpt lat="43.18370" lon="-71.52447"></gpxx:rpt>
+          <gpxx:rpt lat="43.18395" lon="-71.52411"></gpxx:rpt>
+          <gpxx:rpt lat="43.18427" lon="-71.52376"></gpxx:rpt>
+          <gpxx:rpt lat="43.18448" lon="-71.52354"></gpxx:rpt>
+          <gpxx:rpt lat="43.18506" lon="-71.52308"></gpxx:rpt>
+          <gpxx:rpt lat="43.18529" lon="-71.52294"></gpxx:rpt>
+          <gpxx:rpt lat="43.18551" lon="-71.52282"></gpxx:rpt>
+          <gpxx:rpt lat="43.18593" lon="-71.52265"></gpxx:rpt>
+          <gpxx:rpt lat="43.18636" lon="-71.52255"></gpxx:rpt>
+          <gpxx:rpt lat="43.18679" lon="-71.52250"></gpxx:rpt>
+          <gpxx:rpt lat="43.18723" lon="-71.52251"></gpxx:rpt>
+          <gpxx:rpt lat="43.18766" lon="-71.52259"></gpxx:rpt>
+          <gpxx:rpt lat="43.18808" lon="-71.52272"></gpxx:rpt>
+          <gpxx:rpt lat="43.18836" lon="-71.52285"></gpxx:rpt>
+          <gpxx:rpt lat="43.19008" lon="-71.52382"></gpxx:rpt>
+          <gpxx:rpt lat="43.19190" lon="-71.52484"></gpxx:rpt>
+          <gpxx:rpt lat="43.19339" lon="-71.52562"></gpxx:rpt>
+          <gpxx:rpt lat="43.19446" lon="-71.52621"></gpxx:rpt>
+          <gpxx:rpt lat="43.19549" lon="-71.52675"></gpxx:rpt>
+          <gpxx:rpt lat="43.19963" lon="-71.52896"></gpxx:rpt>
+          <gpxx:rpt lat="43.20072" lon="-71.52955"></gpxx:rpt>
+          <gpxx:rpt lat="43.20166" lon="-71.53004"></gpxx:rpt>
+          <gpxx:rpt lat="43.20351" lon="-71.53099"></gpxx:rpt>
+          <gpxx:rpt lat="43.20413" lon="-71.53129"></gpxx:rpt>
+          <gpxx:rpt lat="43.20501" lon="-71.53167"></gpxx:rpt>
+          <gpxx:rpt lat="43.20542" lon="-71.53184"></gpxx:rpt>
+          <gpxx:rpt lat="43.20676" lon="-71.53240"></gpxx:rpt>
+          <gpxx:rpt lat="43.20766" lon="-71.53272"></gpxx:rpt>
+          <gpxx:rpt lat="43.20858" lon="-71.53299"></gpxx:rpt>
+          <gpxx:rpt lat="43.21017" lon="-71.53335"></gpxx:rpt>
+          <gpxx:rpt lat="43.21127" lon="-71.53357"></gpxx:rpt>
+          <gpxx:rpt lat="43.21194" lon="-71.53369"></gpxx:rpt>
+          <gpxx:rpt lat="43.21246" lon="-71.53374"></gpxx:rpt>
+          <gpxx:rpt lat="43.21307" lon="-71.53378"></gpxx:rpt>
+          <gpxx:rpt lat="43.21399" lon="-71.53378"></gpxx:rpt>
+          <gpxx:rpt lat="43.21562" lon="-71.53372"></gpxx:rpt>
+          <gpxx:rpt lat="43.21726" lon="-71.53365"></gpxx:rpt>
+          <gpxx:rpt lat="43.21752" lon="-71.53353"></gpxx:rpt>
+          <gpxx:rpt lat="43.21768" lon="-71.53349"></gpxx:rpt>
+          <gpxx:rpt lat="43.21782" lon="-71.53342"></gpxx:rpt>
+          <gpxx:rpt lat="43.21795" lon="-71.53333"></gpxx:rpt>
+          <gpxx:rpt lat="43.21805" lon="-71.53319"></gpxx:rpt>
+          <gpxx:rpt lat="43.21813" lon="-71.53303"></gpxx:rpt>
+          <gpxx:rpt lat="43.21818" lon="-71.53286"></gpxx:rpt>
+          <gpxx:rpt lat="43.21820" lon="-71.53267"></gpxx:rpt>
+          <gpxx:rpt lat="43.21819" lon="-71.53249"></gpxx:rpt>
+          <gpxx:rpt lat="43.21815" lon="-71.53232"></gpxx:rpt>
+          <gpxx:rpt lat="43.21807" lon="-71.53216"></gpxx:rpt>
+          <gpxx:rpt lat="43.21800" lon="-71.53208"></gpxx:rpt>
+          <gpxx:rpt lat="43.21793" lon="-71.53201"></gpxx:rpt>
+          <gpxx:rpt lat="43.21785" lon="-71.53195"></gpxx:rpt>
+          <gpxx:rpt lat="43.21772" lon="-71.53190"></gpxx:rpt>
+          <gpxx:rpt lat="43.21761" lon="-71.53190"></gpxx:rpt>
+          <gpxx:rpt lat="43.21755" lon="-71.53191"></gpxx:rpt>
+          <gpxx:rpt lat="43.21742" lon="-71.53198"></gpxx:rpt>
+          <gpxx:rpt lat="43.21734" lon="-71.53204"></gpxx:rpt>
+          <gpxx:rpt lat="43.21715" lon="-71.53226"></gpxx:rpt>
+          <gpxx:rpt lat="43.21703" lon="-71.53246"></gpxx:rpt>
+          <gpxx:rpt lat="43.21686" lon="-71.53274"></gpxx:rpt>
+          <gpxx:rpt lat="43.21659" lon="-71.53366"></gpxx:rpt>
+          <gpxx:rpt lat="43.21638" lon="-71.53442"></gpxx:rpt>
+          <gpxx:rpt lat="43.21643" lon="-71.53501"></gpxx:rpt>
+          <gpxx:rpt lat="43.21656" lon="-71.53532"></gpxx:rpt>
+          <gpxx:rpt lat="43.21672" lon="-71.53550"></gpxx:rpt>
+          <gpxx:rpt lat="43.21692" lon="-71.53560"></gpxx:rpt>
+          <gpxx:rpt lat="43.21706" lon="-71.53561"></gpxx:rpt>
+          <gpxx:rpt lat="43.21721" lon="-71.53559"></gpxx:rpt>
+          <gpxx:rpt lat="43.21739" lon="-71.53547"></gpxx:rpt>
+          <gpxx:rpt lat="43.21750" lon="-71.53535"></gpxx:rpt>
+          <gpxx:rpt lat="43.21759" lon="-71.53520"></gpxx:rpt>
+          <gpxx:rpt lat="43.21764" lon="-71.53502"></gpxx:rpt>
+          <gpxx:rpt lat="43.21767" lon="-71.53483"></gpxx:rpt>
+          <gpxx:rpt lat="43.21766" lon="-71.53464"></gpxx:rpt>
+          <gpxx:rpt lat="43.21760" lon="-71.53443"></gpxx:rpt>
+          <gpxx:rpt lat="43.21753" lon="-71.53429"></gpxx:rpt>
+          <gpxx:rpt lat="43.21742" lon="-71.53416"></gpxx:rpt>
+          <gpxx:rpt lat="43.21735" lon="-71.53410"></gpxx:rpt>
+          <gpxx:rpt lat="43.21721" lon="-71.53405"></gpxx:rpt>
+          <gpxx:rpt lat="43.21705" lon="-71.53401"></gpxx:rpt>
+          <gpxx:rpt lat="43.21683" lon="-71.53400"></gpxx:rpt>
+          <gpxx:rpt lat="43.21672" lon="-71.53397"></gpxx:rpt>
+          <gpxx:rpt lat="43.21666" lon="-71.53391"></gpxx:rpt>
+          <gpxx:rpt lat="43.21360" lon="-71.53401"></gpxx:rpt>
+          <gpxx:rpt lat="43.21302" lon="-71.53399"></gpxx:rpt>
+          <gpxx:rpt lat="43.21226" lon="-71.53392"></gpxx:rpt>
+          <gpxx:rpt lat="43.21081" lon="-71.53363"></gpxx:rpt>
+          <gpxx:rpt lat="43.20914" lon="-71.53328"></gpxx:rpt>
+          <gpxx:rpt lat="43.20854" lon="-71.53313"></gpxx:rpt>
+          <gpxx:rpt lat="43.20769" lon="-71.53289"></gpxx:rpt>
+          <gpxx:rpt lat="43.20705" lon="-71.53266"></gpxx:rpt>
+          <gpxx:rpt lat="43.20600" lon="-71.53225"></gpxx:rpt>
+          <gpxx:rpt lat="43.20519" lon="-71.53192"></gpxx:rpt>
+          <gpxx:rpt lat="43.20519" lon="-71.53192">
+            <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+        <frkt:duration>86400000</frkt:duration>
+        <frkt:address>736 Huse Road, Manchester, NH 03103, USA</frkt:address>
+      </extensions>
+    </rtept>
+    <rtept lat="43.20518" lon="-71.53198">
+      <time>2013-04-24T13:24:33.000Z</time>
+      <name>Concord, NH, USA</name>
+      <cmt>Frederick E. Everett Turnpike, Concord, NH 03301, USA</cmt>
+      <desc>Frederick E. Everett Turnpike, Concord, NH 03301, USA</desc>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+          <gpxx:rpt lat="43.20519" lon="-71.53192"></gpxx:rpt>
+          <gpxx:rpt lat="43.20469" lon="-71.53172"></gpxx:rpt>
+          <gpxx:rpt lat="43.20363" lon="-71.53121"></gpxx:rpt>
+          <gpxx:rpt lat="43.20071" lon="-71.52972"></gpxx:rpt>
+          <gpxx:rpt lat="43.19880" lon="-71.52879"></gpxx:rpt>
+          <gpxx:rpt lat="43.19574" lon="-71.52719"></gpxx:rpt>
+          <gpxx:rpt lat="43.19351" lon="-71.52598"></gpxx:rpt>
+          <gpxx:rpt lat="43.19239" lon="-71.52541"></gpxx:rpt>
+          <gpxx:rpt lat="43.19167" lon="-71.52503"></gpxx:rpt>
+          <gpxx:rpt lat="43.19150" lon="-71.52493"></gpxx:rpt>
+          <gpxx:rpt lat="43.19147" lon="-71.52490"></gpxx:rpt>
+          <gpxx:rpt lat="43.18900" lon="-71.52341"></gpxx:rpt>
+          <gpxx:rpt lat="43.18863" lon="-71.52319"></gpxx:rpt>
+          <gpxx:rpt lat="43.18825" lon="-71.52300"></gpxx:rpt>
+          <gpxx:rpt lat="43.18778" lon="-71.52283"></gpxx:rpt>
+          <gpxx:rpt lat="43.18714" lon="-71.52271"></gpxx:rpt>
+          <gpxx:rpt lat="43.18645" lon="-71.52270"></gpxx:rpt>
+          <gpxx:rpt lat="43.18588" lon="-71.52285"></gpxx:rpt>
+          <gpxx:rpt lat="43.18551" lon="-71.52302"></gpxx:rpt>
+          <gpxx:rpt lat="43.18523" lon="-71.52317"></gpxx:rpt>
+          <gpxx:rpt lat="43.18505" lon="-71.52330"></gpxx:rpt>
+          <gpxx:rpt lat="43.18471" lon="-71.52360"></gpxx:rpt>
+          <gpxx:rpt lat="43.18448" lon="-71.52382"></gpxx:rpt>
+          <gpxx:rpt lat="43.18390" lon="-71.52445"></gpxx:rpt>
+          <gpxx:rpt lat="43.18366" lon="-71.52481"></gpxx:rpt>
+          <gpxx:rpt lat="43.18276" lon="-71.52636"></gpxx:rpt>
+          <gpxx:rpt lat="43.18175" lon="-71.52808"></gpxx:rpt>
+          <gpxx:rpt lat="43.18155" lon="-71.52838"></gpxx:rpt>
+          <gpxx:rpt lat="43.18074" lon="-71.52962"></gpxx:rpt>
+          <gpxx:rpt lat="43.18014" lon="-71.53059"></gpxx:rpt>
+          <gpxx:rpt lat="43.17976" lon="-71.53114"></gpxx:rpt>
+          <gpxx:rpt lat="43.17952" lon="-71.53146"></gpxx:rpt>
+          <gpxx:rpt lat="43.17918" lon="-71.53181"></gpxx:rpt>
+          <gpxx:rpt lat="43.17862" lon="-71.53224"></gpxx:rpt>
+          <gpxx:rpt lat="43.17808" lon="-71.53251"></gpxx:rpt>
+          <gpxx:rpt lat="43.17746" lon="-71.53270"></gpxx:rpt>
+          <gpxx:rpt lat="43.17675" lon="-71.53282"></gpxx:rpt>
+          <gpxx:rpt lat="43.17641" lon="-71.53277"></gpxx:rpt>
+          <gpxx:rpt lat="43.17595" lon="-71.53265"></gpxx:rpt>
+          <gpxx:rpt lat="43.17534" lon="-71.53242"></gpxx:rpt>
+          <gpxx:rpt lat="43.17364" lon="-71.53177"></gpxx:rpt>
+          <gpxx:rpt lat="43.17295" lon="-71.53156"></gpxx:rpt>
+          <gpxx:rpt lat="43.17153" lon="-71.53103"></gpxx:rpt>
+          <gpxx:rpt lat="43.17098" lon="-71.53081"></gpxx:rpt>
+          <gpxx:rpt lat="43.17067" lon="-71.53068"></gpxx:rpt>
+          <gpxx:rpt lat="43.17042" lon="-71.53051"></gpxx:rpt>
+          <gpxx:rpt lat="43.17031" lon="-71.53044"></gpxx:rpt>
+          <gpxx:rpt lat="43.17021" lon="-71.53037"></gpxx:rpt>
+          <gpxx:rpt lat="43.17009" lon="-71.53029"></gpxx:rpt>
+          <gpxx:rpt lat="43.16943" lon="-71.52974"></gpxx:rpt>
+          <gpxx:rpt lat="43.16880" lon="-71.52912"></gpxx:rpt>
+          <gpxx:rpt lat="43.16840" lon="-71.52865"></gpxx:rpt>
+          <gpxx:rpt lat="43.16805" lon="-71.52814"></gpxx:rpt>
+          <gpxx:rpt lat="43.16755" lon="-71.52732"></gpxx:rpt>
+          <gpxx:rpt lat="43.16723" lon="-71.52680"></gpxx:rpt>
+          <gpxx:rpt lat="43.16692" lon="-71.52618"></gpxx:rpt>
+          <gpxx:rpt lat="43.16602" lon="-71.52447"></gpxx:rpt>
+          <gpxx:rpt lat="43.16500" lon="-71.52264"></gpxx:rpt>
+          <gpxx:rpt lat="43.16353" lon="-71.51992"></gpxx:rpt>
+          <gpxx:rpt lat="43.16256" lon="-71.51808"></gpxx:rpt>
+          <gpxx:rpt lat="43.16185" lon="-71.51683"></gpxx:rpt>
+          <gpxx:rpt lat="43.16080" lon="-71.51476"></gpxx:rpt>
+          <gpxx:rpt lat="43.16000" lon="-71.51328"></gpxx:rpt>
+          <gpxx:rpt lat="43.15938" lon="-71.51225"></gpxx:rpt>
+          <gpxx:rpt lat="43.15864" lon="-71.51124"></gpxx:rpt>
+          <gpxx:rpt lat="43.15786" lon="-71.51039"></gpxx:rpt>
+          <gpxx:rpt lat="43.15748" lon="-71.51004"></gpxx:rpt>
+          <gpxx:rpt lat="43.15609" lon="-71.50889"></gpxx:rpt>
+          <gpxx:rpt lat="43.15400" lon="-71.50719"></gpxx:rpt>
+          <gpxx:rpt lat="43.15379" lon="-71.50702"></gpxx:rpt>
+          <gpxx:rpt lat="43.15259" lon="-71.50603"></gpxx:rpt>
+          <gpxx:rpt lat="43.14991" lon="-71.50390"></gpxx:rpt>
+          <gpxx:rpt lat="43.14591" lon="-71.50063"></gpxx:rpt>
+          <gpxx:rpt lat="43.14557" lon="-71.50038"></gpxx:rpt>
+          <gpxx:rpt lat="43.14308" lon="-71.49832"></gpxx:rpt>
+          <gpxx:rpt lat="43.14173" lon="-71.49725"></gpxx:rpt>
+          <gpxx:rpt lat="43.14067" lon="-71.49640"></gpxx:rpt>
+          <gpxx:rpt lat="43.13980" lon="-71.49569"></gpxx:rpt>
+          <gpxx:rpt lat="43.13880" lon="-71.49482"></gpxx:rpt>
+          <gpxx:rpt lat="43.13733" lon="-71.49365"></gpxx:rpt>
+          <gpxx:rpt lat="43.13427" lon="-71.49112"></gpxx:rpt>
+          <gpxx:rpt lat="43.13213" lon="-71.48942"></gpxx:rpt>
+          <gpxx:rpt lat="43.13073" lon="-71.48827"></gpxx:rpt>
+          <gpxx:rpt lat="43.12929" lon="-71.48702"></gpxx:rpt>
+          <gpxx:rpt lat="43.12851" lon="-71.48637"></gpxx:rpt>
+          <gpxx:rpt lat="43.12787" lon="-71.48589"></gpxx:rpt>
+          <gpxx:rpt lat="43.12639" lon="-71.48498"></gpxx:rpt>
+          <gpxx:rpt lat="43.12346" lon="-71.48350"></gpxx:rpt>
+          <gpxx:rpt lat="43.11709" lon="-71.48030"></gpxx:rpt>
+          <gpxx:rpt lat="43.11674" lon="-71.48010"></gpxx:rpt>
+          <gpxx:rpt lat="43.11344" lon="-71.47842"></gpxx:rpt>
+          <gpxx:rpt lat="43.10885" lon="-71.47610"></gpxx:rpt>
+          <gpxx:rpt lat="43.10771" lon="-71.47556"></gpxx:rpt>
+          <gpxx:rpt lat="43.10704" lon="-71.47529"></gpxx:rpt>
+          <gpxx:rpt lat="43.10644" lon="-71.47512"></gpxx:rpt>
+          <gpxx:rpt lat="43.10598" lon="-71.47502"></gpxx:rpt>
+          <gpxx:rpt lat="43.10542" lon="-71.47494"></gpxx:rpt>
+          <gpxx:rpt lat="43.10490" lon="-71.47490"></gpxx:rpt>
+          <gpxx:rpt lat="43.10426" lon="-71.47490"></gpxx:rpt>
+          <gpxx:rpt lat="43.10352" lon="-71.47497"></gpxx:rpt>
+          <gpxx:rpt lat="43.10132" lon="-71.47530"></gpxx:rpt>
+          <gpxx:rpt lat="43.09694" lon="-71.47595"></gpxx:rpt>
+          <gpxx:rpt lat="43.09614" lon="-71.47599"></gpxx:rpt>
+          <gpxx:rpt lat="43.09532" lon="-71.47599"></gpxx:rpt>
+          <gpxx:rpt lat="43.09457" lon="-71.47591"></gpxx:rpt>
+          <gpxx:rpt lat="43.09331" lon="-71.47568"></gpxx:rpt>
+          <gpxx:rpt lat="43.08838" lon="-71.47453"></gpxx:rpt>
+          <gpxx:rpt lat="43.08616" lon="-71.47415"></gpxx:rpt>
+          <gpxx:rpt lat="43.08494" lon="-71.47392"></gpxx:rpt>
+          <gpxx:rpt lat="43.08320" lon="-71.47350"></gpxx:rpt>
+          <gpxx:rpt lat="43.08150" lon="-71.47307"></gpxx:rpt>
+          <gpxx:rpt lat="43.08023" lon="-71.47279"></gpxx:rpt>
+          <gpxx:rpt lat="43.07892" lon="-71.47256"></gpxx:rpt>
+          <gpxx:rpt lat="43.07824" lon="-71.47247"></gpxx:rpt>
+          <gpxx:rpt lat="43.07278" lon="-71.47212"></gpxx:rpt>
+          <gpxx:rpt lat="43.06495" lon="-71.47162"></gpxx:rpt>
+          <gpxx:rpt lat="43.06151" lon="-71.47149"></gpxx:rpt>
+          <gpxx:rpt lat="43.05603" lon="-71.47167"></gpxx:rpt>
+          <gpxx:rpt lat="43.05041" lon="-71.47185"></gpxx:rpt>
+          <gpxx:rpt lat="43.04937" lon="-71.47194"></gpxx:rpt>
+          <gpxx:rpt lat="43.04891" lon="-71.47193"></gpxx:rpt>
+          <gpxx:rpt lat="43.04828" lon="-71.47195"></gpxx:rpt>
+          <gpxx:rpt lat="43.04781" lon="-71.47201"></gpxx:rpt>
+          <gpxx:rpt lat="43.04753" lon="-71.47205"></gpxx:rpt>
+          <gpxx:rpt lat="43.04718" lon="-71.47214"></gpxx:rpt>
+          <gpxx:rpt lat="43.04641" lon="-71.47242"></gpxx:rpt>
+          <gpxx:rpt lat="43.04570" lon="-71.47277"></gpxx:rpt>
+          <gpxx:rpt lat="43.04507" lon="-71.47319"></gpxx:rpt>
+          <gpxx:rpt lat="43.04432" lon="-71.47381"></gpxx:rpt>
+          <gpxx:rpt lat="43.04392" lon="-71.47424"></gpxx:rpt>
+          <gpxx:rpt lat="43.04355" lon="-71.47465"></gpxx:rpt>
+          <gpxx:rpt lat="43.04286" lon="-71.47557"></gpxx:rpt>
+          <gpxx:rpt lat="43.04108" lon="-71.47791"></gpxx:rpt>
+          <gpxx:rpt lat="43.04021" lon="-71.47899"></gpxx:rpt>
+          <gpxx:rpt lat="43.03921" lon="-71.48033"></gpxx:rpt>
+          <gpxx:rpt lat="43.03819" lon="-71.48167"></gpxx:rpt>
+          <gpxx:rpt lat="43.03716" lon="-71.48299"></gpxx:rpt>
+          <gpxx:rpt lat="43.03707" lon="-71.48312"></gpxx:rpt>
+          <gpxx:rpt lat="43.03664" lon="-71.48371"></gpxx:rpt>
+          <gpxx:rpt lat="43.03611" lon="-71.48435"></gpxx:rpt>
+          <gpxx:rpt lat="43.03554" lon="-71.48493"></gpxx:rpt>
+          <gpxx:rpt lat="43.03506" lon="-71.48534"></gpxx:rpt>
+          <gpxx:rpt lat="43.03457" lon="-71.48570"></gpxx:rpt>
+          <gpxx:rpt lat="43.03405" lon="-71.48601"></gpxx:rpt>
+          <gpxx:rpt lat="43.03353" lon="-71.48627"></gpxx:rpt>
+          <gpxx:rpt lat="43.03285" lon="-71.48652"></gpxx:rpt>
+          <gpxx:rpt lat="43.02699" lon="-71.48824"></gpxx:rpt>
+          <gpxx:rpt lat="43.02580" lon="-71.48859"></gpxx:rpt>
+          <gpxx:rpt lat="43.02509" lon="-71.48872"></gpxx:rpt>
+          <gpxx:rpt lat="43.02439" lon="-71.48876"></gpxx:rpt>
+          <gpxx:rpt lat="43.02382" lon="-71.48873"></gpxx:rpt>
+          <gpxx:rpt lat="43.02298" lon="-71.48859"></gpxx:rpt>
+          <gpxx:rpt lat="43.02243" lon="-71.48843"></gpxx:rpt>
+          <gpxx:rpt lat="43.02189" lon="-71.48822"></gpxx:rpt>
+          <gpxx:rpt lat="43.02141" lon="-71.48798"></gpxx:rpt>
+          <gpxx:rpt lat="43.02110" lon="-71.48780"></gpxx:rpt>
+          <gpxx:rpt lat="43.02048" lon="-71.48738"></gpxx:rpt>
+          <gpxx:rpt lat="43.02001" lon="-71.48698"></gpxx:rpt>
+          <gpxx:rpt lat="43.01944" lon="-71.48641"></gpxx:rpt>
+          <gpxx:rpt lat="43.01577" lon="-71.48199"></gpxx:rpt>
+          <gpxx:rpt lat="43.01525" lon="-71.48135"></gpxx:rpt>
+          <gpxx:rpt lat="43.01361" lon="-71.47938"></gpxx:rpt>
+          <gpxx:rpt lat="43.01296" lon="-71.47872"></gpxx:rpt>
+          <gpxx:rpt lat="43.01233" lon="-71.47820"></gpxx:rpt>
+          <gpxx:rpt lat="43.01213" lon="-71.47804"></gpxx:rpt>
+          <gpxx:rpt lat="43.01163" lon="-71.47773"></gpxx:rpt>
+          <gpxx:rpt lat="43.01085" lon="-71.47733"></gpxx:rpt>
+          <gpxx:rpt lat="43.01005" lon="-71.47698"></gpxx:rpt>
+          <gpxx:rpt lat="43.00817" lon="-71.47615"></gpxx:rpt>
+          <gpxx:rpt lat="43.00748" lon="-71.47588"></gpxx:rpt>
+          <gpxx:rpt lat="43.00692" lon="-71.47573"></gpxx:rpt>
+          <gpxx:rpt lat="43.00607" lon="-71.47561"></gpxx:rpt>
+          <gpxx:rpt lat="43.00527" lon="-71.47554"></gpxx:rpt>
+          <gpxx:rpt lat="43.00273" lon="-71.47536"></gpxx:rpt>
+          <gpxx:rpt lat="43.00117" lon="-71.47521"></gpxx:rpt>
+          <gpxx:rpt lat="43.00018" lon="-71.47514"></gpxx:rpt>
+          <gpxx:rpt lat="42.99990" lon="-71.47510"></gpxx:rpt>
+          <gpxx:rpt lat="42.99963" lon="-71.47503"></gpxx:rpt>
+          <gpxx:rpt lat="42.99936" lon="-71.47492"></gpxx:rpt>
+          <gpxx:rpt lat="42.99910" lon="-71.47478"></gpxx:rpt>
+          <gpxx:rpt lat="42.99885" lon="-71.47459"></gpxx:rpt>
+          <gpxx:rpt lat="42.99862" lon="-71.47438"></gpxx:rpt>
+          <gpxx:rpt lat="42.99840" lon="-71.47413"></gpxx:rpt>
+          <gpxx:rpt lat="42.99807" lon="-71.47364"></gpxx:rpt>
+          <gpxx:rpt lat="42.99738" lon="-71.47222"></gpxx:rpt>
+          <gpxx:rpt lat="42.99702" lon="-71.47166"></gpxx:rpt>
+          <gpxx:rpt lat="42.99678" lon="-71.47141"></gpxx:rpt>
+          <gpxx:rpt lat="42.99661" lon="-71.47126"></gpxx:rpt>
+          <gpxx:rpt lat="42.99640" lon="-71.47111"></gpxx:rpt>
+          <gpxx:rpt lat="42.99619" lon="-71.47098"></gpxx:rpt>
+          <gpxx:rpt lat="42.99609" lon="-71.47092"></gpxx:rpt>
+          <gpxx:rpt lat="42.99591" lon="-71.47086"></gpxx:rpt>
+          <gpxx:rpt lat="42.99557" lon="-71.47077"></gpxx:rpt>
+          <gpxx:rpt lat="42.99526" lon="-71.47074"></gpxx:rpt>
+          <gpxx:rpt lat="42.99425" lon="-71.47075"></gpxx:rpt>
+          <gpxx:rpt lat="42.99391" lon="-71.47076"></gpxx:rpt>
+          <gpxx:rpt lat="42.99348" lon="-71.47076"></gpxx:rpt>
+          <gpxx:rpt lat="42.99294" lon="-71.47080"></gpxx:rpt>
+          <gpxx:rpt lat="42.99161" lon="-71.47096"></gpxx:rpt>
+          <gpxx:rpt lat="42.99099" lon="-71.47107"></gpxx:rpt>
+          <gpxx:rpt lat="42.99046" lon="-71.47118"></gpxx:rpt>
+          <gpxx:rpt lat="42.98984" lon="-71.47135"></gpxx:rpt>
+          <gpxx:rpt lat="42.98908" lon="-71.47155"></gpxx:rpt>
+          <gpxx:rpt lat="42.98774" lon="-71.47184"></gpxx:rpt>
+          <gpxx:rpt lat="42.98739" lon="-71.47192"></gpxx:rpt>
+          <gpxx:rpt lat="42.98717" lon="-71.47193"></gpxx:rpt>
+          <gpxx:rpt lat="42.98682" lon="-71.47193"></gpxx:rpt>
+          <gpxx:rpt lat="42.98647" lon="-71.47186"></gpxx:rpt>
+          <gpxx:rpt lat="42.98608" lon="-71.47174"></gpxx:rpt>
+          <gpxx:rpt lat="42.98497" lon="-71.47121"></gpxx:rpt>
+          <gpxx:rpt lat="42.98470" lon="-71.47108"></gpxx:rpt>
+          <gpxx:rpt lat="42.98418" lon="-71.47085"></gpxx:rpt>
+          <gpxx:rpt lat="42.98333" lon="-71.47047"></gpxx:rpt>
+          <gpxx:rpt lat="42.98287" lon="-71.47032"></gpxx:rpt>
+          <gpxx:rpt lat="42.98231" lon="-71.47022"></gpxx:rpt>
+          <gpxx:rpt lat="42.98150" lon="-71.47019"></gpxx:rpt>
+          <gpxx:rpt lat="42.98072" lon="-71.47027"></gpxx:rpt>
+          <gpxx:rpt lat="42.98058" lon="-71.47029"></gpxx:rpt>
+          <gpxx:rpt lat="42.98041" lon="-71.47037"></gpxx:rpt>
+          <gpxx:rpt lat="42.97986" lon="-71.47050"></gpxx:rpt>
+          <gpxx:rpt lat="42.97969" lon="-71.47053"></gpxx:rpt>
+          <gpxx:rpt lat="42.97863" lon="-71.47093"></gpxx:rpt>
+          <gpxx:rpt lat="42.97782" lon="-71.47129"></gpxx:rpt>
+          <gpxx:rpt lat="42.97700" lon="-71.47172"></gpxx:rpt>
+          <gpxx:rpt lat="42.97651" lon="-71.47200"></gpxx:rpt>
+          <gpxx:rpt lat="42.97569" lon="-71.47256"></gpxx:rpt>
+          <gpxx:rpt lat="42.97478" lon="-71.47318"></gpxx:rpt>
+          <gpxx:rpt lat="42.97360" lon="-71.47407"></gpxx:rpt>
+          <gpxx:rpt lat="42.97281" lon="-71.47461"></gpxx:rpt>
+          <gpxx:rpt lat="42.97235" lon="-71.47491"></gpxx:rpt>
+          <gpxx:rpt lat="42.97110" lon="-71.47575"></gpxx:rpt>
+          <gpxx:rpt lat="42.97031" lon="-71.47618"></gpxx:rpt>
+          <gpxx:rpt lat="42.96964" lon="-71.47646"></gpxx:rpt>
+          <gpxx:rpt lat="42.96890" lon="-71.47670"></gpxx:rpt>
+          <gpxx:rpt lat="42.96840" lon="-71.47682"></gpxx:rpt>
+          <gpxx:rpt lat="42.96784" lon="-71.47692"></gpxx:rpt>
+          <gpxx:rpt lat="42.96744" lon="-71.47696"></gpxx:rpt>
+          <gpxx:rpt lat="42.96685" lon="-71.47698"></gpxx:rpt>
+          <gpxx:rpt lat="42.96642" lon="-71.47696"></gpxx:rpt>
+          <gpxx:rpt lat="42.96567" lon="-71.47689"></gpxx:rpt>
+          <gpxx:rpt lat="42.96526" lon="-71.47681"></gpxx:rpt>
+          <gpxx:rpt lat="42.96409" lon="-71.47652"></gpxx:rpt>
+          <gpxx:rpt lat="42.96044" lon="-71.47557"></gpxx:rpt>
+          <gpxx:rpt lat="42.95995" lon="-71.47546"></gpxx:rpt>
+          <gpxx:rpt lat="42.95676" lon="-71.47464"></gpxx:rpt>
+          <gpxx:rpt lat="42.95516" lon="-71.47421"></gpxx:rpt>
+          <gpxx:rpt lat="42.95497" lon="-71.47417"></gpxx:rpt>
+          <gpxx:rpt lat="42.95468" lon="-71.47420"></gpxx:rpt>
+          <gpxx:rpt lat="42.95407" lon="-71.47413"></gpxx:rpt>
+          <gpxx:rpt lat="42.95334" lon="-71.47416"></gpxx:rpt>
+          <gpxx:rpt lat="42.95271" lon="-71.47434"></gpxx:rpt>
+          <gpxx:rpt lat="42.95230" lon="-71.47458"></gpxx:rpt>
+          <gpxx:rpt lat="42.95154" lon="-71.47504"></gpxx:rpt>
+          <gpxx:rpt lat="42.95114" lon="-71.47521"></gpxx:rpt>
+          <gpxx:rpt lat="42.95079" lon="-71.47527"></gpxx:rpt>
+          <gpxx:rpt lat="42.95036" lon="-71.47528"></gpxx:rpt>
+          <gpxx:rpt lat="42.95017" lon="-71.47524"></gpxx:rpt>
+          <gpxx:rpt lat="42.94988" lon="-71.47516"></gpxx:rpt>
+          <gpxx:rpt lat="42.94955" lon="-71.47501"></gpxx:rpt>
+          <gpxx:rpt lat="42.94924" lon="-71.47483"></gpxx:rpt>
+          <gpxx:rpt lat="42.94890" lon="-71.47465"></gpxx:rpt>
+          <gpxx:rpt lat="42.94876" lon="-71.47447"></gpxx:rpt>
+          <gpxx:rpt lat="42.94853" lon="-71.47408"></gpxx:rpt>
+          <gpxx:rpt lat="42.94831" lon="-71.47368"></gpxx:rpt>
+          <gpxx:rpt lat="42.94816" lon="-71.47342"></gpxx:rpt>
+          <gpxx:rpt lat="42.94789" lon="-71.47285"></gpxx:rpt>
+          <gpxx:rpt lat="42.94746" lon="-71.47165"></gpxx:rpt>
+          <gpxx:rpt lat="42.94725" lon="-71.47099"></gpxx:rpt>
+          <gpxx:rpt lat="42.94710" lon="-71.47035"></gpxx:rpt>
+          <gpxx:rpt lat="42.94663" lon="-71.46778"></gpxx:rpt>
+          <gpxx:rpt lat="42.94643" lon="-71.46668"></gpxx:rpt>
+          <gpxx:rpt lat="42.94633" lon="-71.46578"></gpxx:rpt>
+          <gpxx:rpt lat="42.94639" lon="-71.46419"></gpxx:rpt>
+          <gpxx:rpt lat="42.94689" lon="-71.46153"></gpxx:rpt>
+          <gpxx:rpt lat="42.94729" lon="-71.45952"></gpxx:rpt>
+          <gpxx:rpt lat="42.94743" lon="-71.45870"></gpxx:rpt>
+          <gpxx:rpt lat="42.94765" lon="-71.45760"></gpxx:rpt>
+          <gpxx:rpt lat="42.94791" lon="-71.45667"></gpxx:rpt>
+          <gpxx:rpt lat="42.94807" lon="-71.45620"></gpxx:rpt>
+          <gpxx:rpt lat="42.94828" lon="-71.45568"></gpxx:rpt>
+          <gpxx:rpt lat="42.94867" lon="-71.45486"></gpxx:rpt>
+          <gpxx:rpt lat="42.94913" lon="-71.45403"></gpxx:rpt>
+          <gpxx:rpt lat="42.94948" lon="-71.45351"></gpxx:rpt>
+          <gpxx:rpt lat="42.95007" lon="-71.45271"></gpxx:rpt>
+          <gpxx:rpt lat="42.95105" lon="-71.45140"></gpxx:rpt>
+          <gpxx:rpt lat="42.95141" lon="-71.45086"></gpxx:rpt>
+          <gpxx:rpt lat="42.95157" lon="-71.45056"></gpxx:rpt>
+          <gpxx:rpt lat="42.95186" lon="-71.44998"></gpxx:rpt>
+          <gpxx:rpt lat="42.95216" lon="-71.44938"></gpxx:rpt>
+          <gpxx:rpt lat="42.95244" lon="-71.44875"></gpxx:rpt>
+          <gpxx:rpt lat="42.95286" lon="-71.44760"></gpxx:rpt>
+          <gpxx:rpt lat="42.95386" lon="-71.44464"></gpxx:rpt>
+          <gpxx:rpt lat="42.95404" lon="-71.44412"></gpxx:rpt>
+          <gpxx:rpt lat="42.95411" lon="-71.44390"></gpxx:rpt>
+          <gpxx:rpt lat="42.95410" lon="-71.44374"></gpxx:rpt>
+          <gpxx:rpt lat="42.95454" lon="-71.44241"></gpxx:rpt>
+          <gpxx:rpt lat="42.95504" lon="-71.44078"></gpxx:rpt>
+          <gpxx:rpt lat="42.95537" lon="-71.43960"></gpxx:rpt>
+          <gpxx:rpt lat="42.95582" lon="-71.43783"></gpxx:rpt>
+          <gpxx:rpt lat="42.95592" lon="-71.43726"></gpxx:rpt>
+          <gpxx:rpt lat="42.95614" lon="-71.43641"></gpxx:rpt>
+          <gpxx:rpt lat="42.95614" lon="-71.43623"></gpxx:rpt>
+          <gpxx:rpt lat="42.95611" lon="-71.43615"></gpxx:rpt>
+          <gpxx:rpt lat="42.95601" lon="-71.43602"></gpxx:rpt>
+          <gpxx:rpt lat="42.95544" lon="-71.43602"></gpxx:rpt>
+          <gpxx:rpt lat="42.95507" lon="-71.43608"></gpxx:rpt>
+          <gpxx:rpt lat="42.95460" lon="-71.43622"></gpxx:rpt>
+          <gpxx:rpt lat="42.95419" lon="-71.43640"></gpxx:rpt>
+          <gpxx:rpt lat="42.95371" lon="-71.43653"></gpxx:rpt>
+          <gpxx:rpt lat="42.95356" lon="-71.43654"></gpxx:rpt>
+          <gpxx:rpt lat="42.95332" lon="-71.43653"></gpxx:rpt>
+          <gpxx:rpt lat="42.95310" lon="-71.43650"></gpxx:rpt>
+          <gpxx:rpt lat="42.95289" lon="-71.43644"></gpxx:rpt>
+          <gpxx:rpt lat="42.95265" lon="-71.43635"></gpxx:rpt>
+          <gpxx:rpt lat="42.95234" lon="-71.43618"></gpxx:rpt>
+          <gpxx:rpt lat="42.95135" lon="-71.43553"></gpxx:rpt>
+          <gpxx:rpt lat="42.95106" lon="-71.43536"></gpxx:rpt>
+          <gpxx:rpt lat="42.95059" lon="-71.43504"></gpxx:rpt>
+          <gpxx:rpt lat="42.94991" lon="-71.43463"></gpxx:rpt>
+          <gpxx:rpt lat="42.94969" lon="-71.43450"></gpxx:rpt>
+          <gpxx:rpt lat="42.94965" lon="-71.43368"></gpxx:rpt>
+          <gpxx:rpt lat="42.94970" lon="-71.43330"></gpxx:rpt>
+          <gpxx:rpt lat="42.94979" lon="-71.43287"></gpxx:rpt>
+          <gpxx:rpt lat="42.94984" lon="-71.43267"></gpxx:rpt>
+          <gpxx:rpt lat="42.94993" lon="-71.43244"></gpxx:rpt>
+          <gpxx:rpt lat="42.94993" lon="-71.43244">
+            <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+        <frkt:duration>7200000</frkt:duration>
+        <frkt:address>Frederick E. Everett Turnpike, Concord, NH 03301, USA</frkt:address>
+      </extensions>
+    </rtept>
+    <rtept lat="42.94989" lon="-71.43241">
+      <time>2013-04-24T15:48:07.000Z</time>
+      <name>Courtyard by Marriott</name>
+      <cmt>736 Huse Road, Manchester, NH 03103, USA</cmt>
+      <desc>736 Huse Road, Manchester, NH 03103, USA</desc>
+      <link href="http://www.easytobook.com/en/united-states-of-america/new-hampshire/manchester/courtyard-by-marriott-manchester/?affid=280826683"></link>
+      <sym>Lodging</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+        <frkt:duration>93600000</frkt:duration>
+        <frkt:address>736 Huse Road, Manchester, NH 03103, USA</frkt:address>
+      </extensions>
+    </rtept>
+  </rte>
+  <rte>
+    <name>Day 3 - Thu Apr 25 2013</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Blue</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <trp:Trip>
+        <trp:TransportationMode>Motorcycling</trp:TransportationMode>
+      </trp:Trip>
+    </extensions>
+    <rtept lat="42.94989" lon="-71.43241">
+      <time>2013-04-25T15:00:00.000Z</time>
+      <name>Courtyard by Marriott</name>
+      <cmt>736 Huse Road, Manchester, NH 03103, USA</cmt>
+      <desc>736 Huse Road, Manchester, NH 03103, USA</desc>
+      <link href="http://www.easytobook.com/en/united-states-of-america/new-hampshire/manchester/courtyard-by-marriott-manchester/?affid=280826683"></link>
+      <sym>Lodging</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+        <frkt:duration>93600000</frkt:duration>
+        <frkt:address>736 Huse Road, Manchester, NH 03103, USA</frkt:address>
+      </extensions>
+    </rtept>
+    <rtept lat="42.94993" lon="-71.43244">
+      <extensions>
+        <trp:ShapingPoint></trp:ShapingPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+          <gpxx:rpt lat="42.94993" lon="-71.43244"></gpxx:rpt>
+          <gpxx:rpt lat="42.94976" lon="-71.43369"></gpxx:rpt>
+          <gpxx:rpt lat="42.95071" lon="-71.43493"></gpxx:rpt>
+          <gpxx:rpt lat="42.95319" lon="-71.43627"></gpxx:rpt>
+          <gpxx:rpt lat="42.95509" lon="-71.43580"></gpxx:rpt>
+          <gpxx:rpt lat="42.95648" lon="-71.43580"></gpxx:rpt>
+          <gpxx:rpt lat="42.95747" lon="-71.43359"></gpxx:rpt>
+          <gpxx:rpt lat="42.96012" lon="-71.42263"></gpxx:rpt>
+          <gpxx:rpt lat="42.96132" lon="-71.41619"></gpxx:rpt>
+          <gpxx:rpt lat="42.96299" lon="-71.41432"></gpxx:rpt>
+          <gpxx:rpt lat="42.96843" lon="-71.41266"></gpxx:rpt>
+          <gpxx:rpt lat="42.98385" lon="-71.41544"></gpxx:rpt>
+          <gpxx:rpt lat="42.99251" lon="-71.41566"></gpxx:rpt>
+          <gpxx:rpt lat="42.99522" lon="-71.41695"></gpxx:rpt>
+          <gpxx:rpt lat="43.00053" lon="-71.43078"></gpxx:rpt>
+          <gpxx:rpt lat="43.00480" lon="-71.43273"></gpxx:rpt>
+          <gpxx:rpt lat="43.01093" lon="-71.43436"></gpxx:rpt>
+          <gpxx:rpt lat="43.01382" lon="-71.43618"></gpxx:rpt>
+          <gpxx:rpt lat="43.02528" lon="-71.44589"></gpxx:rpt>
+          <gpxx:rpt lat="43.03453" lon="-71.45231"></gpxx:rpt>
+          <gpxx:rpt lat="43.04834" lon="-71.46998"></gpxx:rpt>
+          <gpxx:rpt lat="43.05048" lon="-71.47106"></gpxx:rpt>
+          <gpxx:rpt lat="43.05519" lon="-71.47110"></gpxx:rpt>
+          <gpxx:rpt lat="43.06817" lon="-71.47149"></gpxx:rpt>
+          <gpxx:rpt lat="43.08488" lon="-71.47337"></gpxx:rpt>
+          <gpxx:rpt lat="43.09085" lon="-71.47482"></gpxx:rpt>
+          <gpxx:rpt lat="43.09600" lon="-71.47577"></gpxx:rpt>
+          <gpxx:rpt lat="43.10244" lon="-71.47491"></gpxx:rpt>
+          <gpxx:rpt lat="43.10592" lon="-71.47479"></gpxx:rpt>
+          <gpxx:rpt lat="43.10905" lon="-71.47595"></gpxx:rpt>
+          <gpxx:rpt lat="43.12521" lon="-71.48423"></gpxx:rpt>
+          <gpxx:rpt lat="43.13549" lon="-71.49188"></gpxx:rpt>
+          <gpxx:rpt lat="43.14290" lon="-71.49787"></gpxx:rpt>
+          <gpxx:rpt lat="43.15900" lon="-71.51147"></gpxx:rpt>
+          <gpxx:rpt lat="43.16890" lon="-71.52838"></gpxx:rpt>
+          <gpxx:rpt lat="43.17091" lon="-71.53009"></gpxx:rpt>
+          <gpxx:rpt lat="43.17195" lon="-71.53022"></gpxx:rpt>
+          <gpxx:rpt lat="43.17196" lon="-71.52890"></gpxx:rpt>
+          <gpxx:rpt lat="43.17091" lon="-71.52953"></gpxx:rpt>
+          <gpxx:rpt lat="43.16987" lon="-71.53155"></gpxx:rpt>
+          <gpxx:rpt lat="43.16807" lon="-71.53705"></gpxx:rpt>
+          <gpxx:rpt lat="43.17071" lon="-71.54576"></gpxx:rpt>
+          <gpxx:rpt lat="43.18293" lon="-71.57419"></gpxx:rpt>
+          <gpxx:rpt lat="43.18459" lon="-71.58505"></gpxx:rpt>
+          <gpxx:rpt lat="43.18441" lon="-71.58916"></gpxx:rpt>
+          <gpxx:rpt lat="43.17842" lon="-71.60593"></gpxx:rpt>
+          <gpxx:rpt lat="43.17621" lon="-71.61287"></gpxx:rpt>
+          <gpxx:rpt lat="43.17637" lon="-71.61764"></gpxx:rpt>
+          <gpxx:rpt lat="43.18384" lon="-71.65244"></gpxx:rpt>
+          <gpxx:rpt lat="43.18295" lon="-71.67515"></gpxx:rpt>
+          <gpxx:rpt lat="43.18186" lon="-71.69120"></gpxx:rpt>
+          <gpxx:rpt lat="43.18365" lon="-71.69629"></gpxx:rpt>
+          <gpxx:rpt lat="43.18499" lon="-71.69746"></gpxx:rpt>
+          <gpxx:rpt lat="43.19145" lon="-71.69940"></gpxx:rpt>
+          <gpxx:rpt lat="43.19421" lon="-71.70034"></gpxx:rpt>
+          <gpxx:rpt lat="43.19834" lon="-71.70373"></gpxx:rpt>
+          <gpxx:rpt lat="43.20620" lon="-71.71028"></gpxx:rpt>
+          <gpxx:rpt lat="43.21263" lon="-71.71541"></gpxx:rpt>
+          <gpxx:rpt lat="43.22446" lon="-71.73024"></gpxx:rpt>
+          <gpxx:rpt lat="43.23628" lon="-71.74438"></gpxx:rpt>
+          <gpxx:rpt lat="43.24743" lon="-71.74792"></gpxx:rpt>
+          <gpxx:rpt lat="43.25243" lon="-71.74977"></gpxx:rpt>
+          <gpxx:rpt lat="43.25680" lon="-71.75289"></gpxx:rpt>
+          <gpxx:rpt lat="43.26131" lon="-71.75702"></gpxx:rpt>
+          <gpxx:rpt lat="43.26844" lon="-71.77289"></gpxx:rpt>
+          <gpxx:rpt lat="43.26988" lon="-71.78191"></gpxx:rpt>
+          <gpxx:rpt lat="43.27362" lon="-71.79058"></gpxx:rpt>
+          <gpxx:rpt lat="43.27278" lon="-71.80375"></gpxx:rpt>
+          <gpxx:rpt lat="43.27339" lon="-71.80808"></gpxx:rpt>
+          <gpxx:rpt lat="43.27604" lon="-71.81224"></gpxx:rpt>
+          <gpxx:rpt lat="43.27773" lon="-71.81660"></gpxx:rpt>
+          <gpxx:rpt lat="43.27953" lon="-71.82651"></gpxx:rpt>
+          <gpxx:rpt lat="43.28250" lon="-71.83191"></gpxx:rpt>
+          <gpxx:rpt lat="43.28722" lon="-71.83508"></gpxx:rpt>
+          <gpxx:rpt lat="43.29697" lon="-71.83921"></gpxx:rpt>
+          <gpxx:rpt lat="43.30743" lon="-71.84351"></gpxx:rpt>
+          <gpxx:rpt lat="43.31060" lon="-71.84557"></gpxx:rpt>
+          <gpxx:rpt lat="43.31272" lon="-71.84876"></gpxx:rpt>
+          <gpxx:rpt lat="43.31394" lon="-71.85324"></gpxx:rpt>
+          <gpxx:rpt lat="43.31494" lon="-71.86333"></gpxx:rpt>
+          <gpxx:rpt lat="43.31845" lon="-71.87250"></gpxx:rpt>
+          <gpxx:rpt lat="43.31952" lon="-71.88632"></gpxx:rpt>
+          <gpxx:rpt lat="43.32042" lon="-71.88998"></gpxx:rpt>
+          <gpxx:rpt lat="43.32290" lon="-71.89405"></gpxx:rpt>
+          <gpxx:rpt lat="43.32754" lon="-71.90422"></gpxx:rpt>
+          <gpxx:rpt lat="43.32971" lon="-71.90665"></gpxx:rpt>
+          <gpxx:rpt lat="43.33279" lon="-71.90762"></gpxx:rpt>
+          <gpxx:rpt lat="43.34441" lon="-71.90889"></gpxx:rpt>
+          <gpxx:rpt lat="43.34880" lon="-71.91046"></gpxx:rpt>
+          <gpxx:rpt lat="43.35130" lon="-71.91304"></gpxx:rpt>
+          <gpxx:rpt lat="43.35351" lon="-71.91889"></gpxx:rpt>
+          <gpxx:rpt lat="43.35626" lon="-71.92387"></gpxx:rpt>
+          <gpxx:rpt lat="43.36140" lon="-71.92848"></gpxx:rpt>
+          <gpxx:rpt lat="43.37028" lon="-71.93371"></gpxx:rpt>
+          <gpxx:rpt lat="43.37280" lon="-71.93631"></gpxx:rpt>
+          <gpxx:rpt lat="43.37922" lon="-71.95597"></gpxx:rpt>
+          <gpxx:rpt lat="43.38185" lon="-71.96161"></gpxx:rpt>
+          <gpxx:rpt lat="43.38930" lon="-71.97316"></gpxx:rpt>
+          <gpxx:rpt lat="43.39389" lon="-71.98704"></gpxx:rpt>
+          <gpxx:rpt lat="43.39530" lon="-71.99658"></gpxx:rpt>
+          <gpxx:rpt lat="43.39728" lon="-72.00985"></gpxx:rpt>
+          <gpxx:rpt lat="43.40241" lon="-72.01758"></gpxx:rpt>
+          <gpxx:rpt lat="43.40939" lon="-72.02568"></gpxx:rpt>
+          <gpxx:rpt lat="43.42173" lon="-72.03668"></gpxx:rpt>
+          <gpxx:rpt lat="43.43450" lon="-72.04281"></gpxx:rpt>
+          <gpxx:rpt lat="43.43693" lon="-72.04599"></gpxx:rpt>
+          <gpxx:rpt lat="43.43979" lon="-72.05350"></gpxx:rpt>
+          <gpxx:rpt lat="43.44253" lon="-72.06929"></gpxx:rpt>
+          <gpxx:rpt lat="43.44553" lon="-72.07766"></gpxx:rpt>
+          <gpxx:rpt lat="43.45278" lon="-72.08993"></gpxx:rpt>
+          <gpxx:rpt lat="43.46080" lon="-72.09482"></gpxx:rpt>
+          <gpxx:rpt lat="43.46694" lon="-72.10224"></gpxx:rpt>
+          <gpxx:rpt lat="43.46912" lon="-72.10277"></gpxx:rpt>
+          <gpxx:rpt lat="43.47099" lon="-72.10214"></gpxx:rpt>
+          <gpxx:rpt lat="43.47406" lon="-72.10089"></gpxx:rpt>
+          <gpxx:rpt lat="43.47603" lon="-72.10124"></gpxx:rpt>
+          <gpxx:rpt lat="43.48786" lon="-72.10588"></gpxx:rpt>
+          <gpxx:rpt lat="43.48955" lon="-72.10747"></gpxx:rpt>
+          <gpxx:rpt lat="43.49106" lon="-72.11208"></gpxx:rpt>
+          <gpxx:rpt lat="43.49042" lon="-72.12493"></gpxx:rpt>
+          <gpxx:rpt lat="43.49264" lon="-72.12956"></gpxx:rpt>
+          <gpxx:rpt lat="43.50099" lon="-72.13339"></gpxx:rpt>
+          <gpxx:rpt lat="43.51041" lon="-72.13425"></gpxx:rpt>
+          <gpxx:rpt lat="43.51288" lon="-72.13504"></gpxx:rpt>
+          <gpxx:rpt lat="43.52123" lon="-72.14090"></gpxx:rpt>
+          <gpxx:rpt lat="43.52411" lon="-72.14138"></gpxx:rpt>
+          <gpxx:rpt lat="43.53205" lon="-72.13942"></gpxx:rpt>
+          <gpxx:rpt lat="43.54121" lon="-72.13811"></gpxx:rpt>
+          <gpxx:rpt lat="43.56130" lon="-72.14263"></gpxx:rpt>
+          <gpxx:rpt lat="43.56469" lon="-72.14601"></gpxx:rpt>
+          <gpxx:rpt lat="43.56774" lon="-72.15035"></gpxx:rpt>
+          <gpxx:rpt lat="43.57358" lon="-72.15865"></gpxx:rpt>
+          <gpxx:rpt lat="43.57660" lon="-72.16056"></gpxx:rpt>
+          <gpxx:rpt lat="43.58131" lon="-72.16171"></gpxx:rpt>
+          <gpxx:rpt lat="43.59048" lon="-72.16687"></gpxx:rpt>
+          <gpxx:rpt lat="43.59731" lon="-72.16548"></gpxx:rpt>
+          <gpxx:rpt lat="43.59937" lon="-72.16625"></gpxx:rpt>
+          <gpxx:rpt lat="43.60150" lon="-72.16928"></gpxx:rpt>
+          <gpxx:rpt lat="43.60241" lon="-72.18026"></gpxx:rpt>
+          <gpxx:rpt lat="43.60452" lon="-72.18370"></gpxx:rpt>
+          <gpxx:rpt lat="43.61018" lon="-72.18830"></gpxx:rpt>
+          <gpxx:rpt lat="43.61493" lon="-72.19338"></gpxx:rpt>
+          <gpxx:rpt lat="43.62288" lon="-72.19919"></gpxx:rpt>
+          <gpxx:rpt lat="43.62501" lon="-72.20226"></gpxx:rpt>
+          <gpxx:rpt lat="43.62779" lon="-72.20788"></gpxx:rpt>
+          <gpxx:rpt lat="43.63116" lon="-72.21020"></gpxx:rpt>
+          <gpxx:rpt lat="43.63677" lon="-72.21254"></gpxx:rpt>
+          <gpxx:rpt lat="43.63847" lon="-72.21368"></gpxx:rpt>
+          <gpxx:rpt lat="43.64022" lon="-72.21676"></gpxx:rpt>
+          <gpxx:rpt lat="43.64218" lon="-72.22822"></gpxx:rpt>
+          <gpxx:rpt lat="43.64709" lon="-72.23760"></gpxx:rpt>
+          <gpxx:rpt lat="43.65011" lon="-72.25350"></gpxx:rpt>
+          <gpxx:rpt lat="43.65075" lon="-72.25868"></gpxx:rpt>
+          <gpxx:rpt lat="43.64867" lon="-72.26384"></gpxx:rpt>
+          <gpxx:rpt lat="43.63910" lon="-72.27900"></gpxx:rpt>
+          <gpxx:rpt lat="43.63767" lon="-72.28147"></gpxx:rpt>
+          <gpxx:rpt lat="43.63507" lon="-72.28849"></gpxx:rpt>
+          <gpxx:rpt lat="43.63114" lon="-72.31388"></gpxx:rpt>
+          <gpxx:rpt lat="43.63192" lon="-72.32254"></gpxx:rpt>
+          <gpxx:rpt lat="43.63542" lon="-72.33060"></gpxx:rpt>
+          <gpxx:rpt lat="43.64016" lon="-72.33860"></gpxx:rpt>
+          <gpxx:rpt lat="43.64550" lon="-72.34609"></gpxx:rpt>
+          <gpxx:rpt lat="43.64992" lon="-72.34621"></gpxx:rpt>
+          <gpxx:rpt lat="43.65216" lon="-72.34674"></gpxx:rpt>
+          <gpxx:rpt lat="43.65791" lon="-72.35079"></gpxx:rpt>
+          <gpxx:rpt lat="43.65980" lon="-72.35541"></gpxx:rpt>
+          <gpxx:rpt lat="43.66272" lon="-72.37366"></gpxx:rpt>
+          <gpxx:rpt lat="43.66524" lon="-72.38153"></gpxx:rpt>
+          <gpxx:rpt lat="43.66678" lon="-72.38405"></gpxx:rpt>
+          <gpxx:rpt lat="43.66684" lon="-72.38662"></gpxx:rpt>
+          <gpxx:rpt lat="43.66438" lon="-72.38845"></gpxx:rpt>
+          <gpxx:rpt lat="43.65882" lon="-72.38760"></gpxx:rpt>
+          <gpxx:rpt lat="43.65487" lon="-72.38818"></gpxx:rpt>
+          <gpxx:rpt lat="43.65323" lon="-72.38930"></gpxx:rpt>
+          <gpxx:rpt lat="43.65088" lon="-72.39231"></gpxx:rpt>
+          <gpxx:rpt lat="43.64568" lon="-72.39416"></gpxx:rpt>
+          <gpxx:rpt lat="43.64397" lon="-72.39408"></gpxx:rpt>
+          <gpxx:rpt lat="43.64109" lon="-72.39210"></gpxx:rpt>
+          <gpxx:rpt lat="43.63962" lon="-72.39174"></gpxx:rpt>
+          <gpxx:rpt lat="43.63825" lon="-72.39257"></gpxx:rpt>
+          <gpxx:rpt lat="43.63700" lon="-72.39682"></gpxx:rpt>
+          <gpxx:rpt lat="43.63728" lon="-72.40825"></gpxx:rpt>
+          <gpxx:rpt lat="43.63811" lon="-72.41051"></gpxx:rpt>
+          <gpxx:rpt lat="43.64083" lon="-72.41185"></gpxx:rpt>
+          <gpxx:rpt lat="43.64255" lon="-72.41470"></gpxx:rpt>
+          <gpxx:rpt lat="43.64335" lon="-72.42006"></gpxx:rpt>
+          <gpxx:rpt lat="43.64463" lon="-72.42583"></gpxx:rpt>
+          <gpxx:rpt lat="43.64407" lon="-72.42957"></gpxx:rpt>
+          <gpxx:rpt lat="43.64490" lon="-72.43535"></gpxx:rpt>
+          <gpxx:rpt lat="43.64298" lon="-72.44006"></gpxx:rpt>
+          <gpxx:rpt lat="43.63849" lon="-72.44305"></gpxx:rpt>
+          <gpxx:rpt lat="43.63635" lon="-72.44746"></gpxx:rpt>
+          <gpxx:rpt lat="43.63459" lon="-72.45354"></gpxx:rpt>
+          <gpxx:rpt lat="43.63374" lon="-72.45517"></gpxx:rpt>
+          <gpxx:rpt lat="43.63234" lon="-72.45581"></gpxx:rpt>
+          <gpxx:rpt lat="43.62941" lon="-72.45492"></gpxx:rpt>
+          <gpxx:rpt lat="43.62797" lon="-72.45547"></gpxx:rpt>
+          <gpxx:rpt lat="43.62698" lon="-72.45909"></gpxx:rpt>
+          <gpxx:rpt lat="43.62955" lon="-72.46716"></gpxx:rpt>
+          <gpxx:rpt lat="43.63384" lon="-72.47074"></gpxx:rpt>
+          <gpxx:rpt lat="43.63725" lon="-72.47258"></gpxx:rpt>
+          <gpxx:rpt lat="43.63833" lon="-72.47493"></gpxx:rpt>
+          <gpxx:rpt lat="43.63853" lon="-72.47858"></gpxx:rpt>
+          <gpxx:rpt lat="43.63861" lon="-72.48530"></gpxx:rpt>
+          <gpxx:rpt lat="43.63832" lon="-72.49016"></gpxx:rpt>
+          <gpxx:rpt lat="43.63620" lon="-72.49522"></gpxx:rpt>
+          <gpxx:rpt lat="43.63602" lon="-72.49972"></gpxx:rpt>
+          <gpxx:rpt lat="43.63413" lon="-72.50280"></gpxx:rpt>
+          <gpxx:rpt lat="43.62980" lon="-72.50581"></gpxx:rpt>
+          <gpxx:rpt lat="43.62791" lon="-72.50638"></gpxx:rpt>
+          <gpxx:rpt lat="43.62708" lon="-72.50678"></gpxx:rpt>
+          <gpxx:rpt lat="43.62653" lon="-72.50763"></gpxx:rpt>
+          <gpxx:rpt lat="43.62673" lon="-72.50980"></gpxx:rpt>
+          <gpxx:rpt lat="43.62681" lon="-72.51304"></gpxx:rpt>
+          <gpxx:rpt lat="43.62599" lon="-72.51620"></gpxx:rpt>
+          <gpxx:rpt lat="43.62497" lon="-72.51875"></gpxx:rpt>
+          <gpxx:rpt lat="43.62528" lon="-72.52296"></gpxx:rpt>
+          <gpxx:rpt lat="43.62368" lon="-72.52526"></gpxx:rpt>
+          <gpxx:rpt lat="43.62273" lon="-72.52663"></gpxx:rpt>
+          <gpxx:rpt lat="43.62183" lon="-72.52741"></gpxx:rpt>
+          <gpxx:rpt lat="43.62103" lon="-72.52892"></gpxx:rpt>
+          <gpxx:rpt lat="43.61989" lon="-72.53315"></gpxx:rpt>
+          <gpxx:rpt lat="43.61880" lon="-72.53497"></gpxx:rpt>
+          <gpxx:rpt lat="43.61634" lon="-72.54379"></gpxx:rpt>
+          <gpxx:rpt lat="43.61320" lon="-72.54779"></gpxx:rpt>
+          <gpxx:rpt lat="43.60870" lon="-72.55134"></gpxx:rpt>
+          <gpxx:rpt lat="43.60551" lon="-72.55864"></gpxx:rpt>
+          <gpxx:rpt lat="43.60239" lon="-72.56384"></gpxx:rpt>
+          <gpxx:rpt lat="43.60083" lon="-72.56859"></gpxx:rpt>
+          <gpxx:rpt lat="43.60106" lon="-72.57293"></gpxx:rpt>
+          <gpxx:rpt lat="43.60143" lon="-72.57784"></gpxx:rpt>
+          <gpxx:rpt lat="43.59904" lon="-72.58199"></gpxx:rpt>
+          <gpxx:rpt lat="43.59988" lon="-72.59125"></gpxx:rpt>
+          <gpxx:rpt lat="43.59938" lon="-72.59592"></gpxx:rpt>
+          <gpxx:rpt lat="43.59568" lon="-72.60222"></gpxx:rpt>
+          <gpxx:rpt lat="43.59380" lon="-72.60739"></gpxx:rpt>
+          <gpxx:rpt lat="43.59024" lon="-72.60936"></gpxx:rpt>
+          <gpxx:rpt lat="43.58631" lon="-72.61495"></gpxx:rpt>
+          <gpxx:rpt lat="43.58670" lon="-72.61895"></gpxx:rpt>
+          <gpxx:rpt lat="43.58760" lon="-72.62410"></gpxx:rpt>
+          <gpxx:rpt lat="43.58801" lon="-72.63296"></gpxx:rpt>
+          <gpxx:rpt lat="43.58880" lon="-72.64043"></gpxx:rpt>
+          <gpxx:rpt lat="43.58812" lon="-72.64656"></gpxx:rpt>
+          <gpxx:rpt lat="43.58713" lon="-72.65234"></gpxx:rpt>
+          <gpxx:rpt lat="43.58839" lon="-72.65735"></gpxx:rpt>
+          <gpxx:rpt lat="43.59041" lon="-72.66283"></gpxx:rpt>
+          <gpxx:rpt lat="43.59741" lon="-72.66906"></gpxx:rpt>
+          <gpxx:rpt lat="43.59833" lon="-72.67293"></gpxx:rpt>
+          <gpxx:rpt lat="43.59751" lon="-72.67517"></gpxx:rpt>
+          <gpxx:rpt lat="43.59781" lon="-72.67977"></gpxx:rpt>
+          <gpxx:rpt lat="43.59807" lon="-72.68376"></gpxx:rpt>
+          <gpxx:rpt lat="43.59681" lon="-72.68584"></gpxx:rpt>
+          <gpxx:rpt lat="43.59643" lon="-72.69126"></gpxx:rpt>
+          <gpxx:rpt lat="43.59454" lon="-72.69496"></gpxx:rpt>
+          <gpxx:rpt lat="43.59333" lon="-72.69879"></gpxx:rpt>
+          <gpxx:rpt lat="43.59226" lon="-72.70194"></gpxx:rpt>
+          <gpxx:rpt lat="43.59269" lon="-72.70361"></gpxx:rpt>
+          <gpxx:rpt lat="43.59444" lon="-72.70852"></gpxx:rpt>
+          <gpxx:rpt lat="43.59776" lon="-72.71028"></gpxx:rpt>
+          <gpxx:rpt lat="43.60013" lon="-72.71480"></gpxx:rpt>
+          <gpxx:rpt lat="43.59884" lon="-72.71973"></gpxx:rpt>
+          <gpxx:rpt lat="43.59928" lon="-72.72164"></gpxx:rpt>
+          <gpxx:rpt lat="43.60132" lon="-72.72401"></gpxx:rpt>
+          <gpxx:rpt lat="43.60384" lon="-72.73074"></gpxx:rpt>
+          <gpxx:rpt lat="43.60395" lon="-72.73669"></gpxx:rpt>
+          <gpxx:rpt lat="43.60008" lon="-72.74631"></gpxx:rpt>
+          <gpxx:rpt lat="43.60068" lon="-72.74993"></gpxx:rpt>
+          <gpxx:rpt lat="43.60396" lon="-72.75085"></gpxx:rpt>
+          <gpxx:rpt lat="43.61120" lon="-72.75185"></gpxx:rpt>
+          <gpxx:rpt lat="43.61387" lon="-72.75522"></gpxx:rpt>
+          <gpxx:rpt lat="43.62006" lon="-72.75944"></gpxx:rpt>
+          <gpxx:rpt lat="43.62584" lon="-72.76194"></gpxx:rpt>
+          <gpxx:rpt lat="43.64923" lon="-72.77011"></gpxx:rpt>
+          <gpxx:rpt lat="43.65799" lon="-72.77306"></gpxx:rpt>
+          <gpxx:rpt lat="43.66153" lon="-72.77685"></gpxx:rpt>
+          <gpxx:rpt lat="43.66499" lon="-72.78493"></gpxx:rpt>
+          <gpxx:rpt lat="43.66389" lon="-72.78801"></gpxx:rpt>
+          <gpxx:rpt lat="43.66398" lon="-72.78960"></gpxx:rpt>
+          <gpxx:rpt lat="43.66549" lon="-72.79212"></gpxx:rpt>
+          <gpxx:rpt lat="43.66549" lon="-72.79212">
+            <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+          </gpxx:rpt>
+        </gpxx:RoutePointExtension>
+      </extensions>
+    </rtept>
+    <rtept lat="43.66472" lon="-72.79333">
+      <time>2013-04-25T17:01:49.000Z</time>
+      <name>Killington, VT</name>
+      <cmt>Killington, VT</cmt>
+      <desc>Killington, VT</desc>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+        <gpxx:RoutePointExtension>
+          <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
+        </gpxx:RoutePointExtension>
+        <frkt:duration>0</frkt:duration>
+        <frkt:address>Killington, VT</frkt:address>
+      </extensions>
+    </rtept>
+  </rte>
+</gpx>

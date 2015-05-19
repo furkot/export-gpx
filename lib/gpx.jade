@@ -1,7 +1,7 @@
 doctype xml
 
 mixin gpx()
-  gpx&attributes(getSchema(attributes))
+  gpx&attributes(getSchema(attributes, garmin))
     if block
       block
 
@@ -69,7 +69,48 @@ mixin wpt_ext(step)
   if step.pin !== undefined
     frkt:pin= step.pin
 
-mixin rtept_ext(step)
+mixin rte_ext(route)
+  gpxx:RouteExtension
+    gpxx:IsAutoNamed false
+    gpxx:DisplayColor Blue
+  if route.mode !== undefined || (metadata && metadata.mode !== undefined)
+    trp:Trip
+      //- The <trp:TransportationMode> extension tells the devices Trip Planner algorithm what calculation type to use:
+      //- Automotive, Motorcycling, Walking, Bicycling.
+      trp:TransportationMode= getMode(route.mode, metadata && metadata.mode)
+
+mixin rtept_ext(step, index, next)
+  if garmin
+    if isStop(step) || index % 124 === 0 || !next
+      //- The <trp:ViaPoint> is equivalent to a Furkot Stop.
+      trp:ViaPoint
+        trp:CalculationMode FasterTime
+        trp:ElevationMode Standard
+    else
+      //- The <trp:ShapingPoint> is equivalent to Furkot Pass-through Points.
+      //- These points are displayed in the Route point list on the GPS but are not announced during navigation.
+      //- There can be up to 124 ShapingPoints between each ViaPoint.
+      trp:ShapingPoint
+    gpxx:RoutePointExtension
+      //- The <gpxx:Subclass> is a special Garmin code for older Garmin devices that do not use
+      //- the Trip Planner algorithm. This specific code says to use the above RoutePoint as a waypoint.
+      //- Older Garmin devices don't use the Trip Planner algorithm.
+      gpxx:Subclass 000000000000FFFFFFFFFFFFFFFFFFFFFFFF
+      - var expanded = next && next.track;
+      if expanded && expanded.length
+        for p in expanded
+          //- All of the <gpxx:rpt> are equivalent to Furkot Track Points generated between Stops.
+          //- These points are not displayed on the GPS or announced during navigation.
+          gpxx:rpt(
+              lat=p[0].toFixed(5)
+              lon=p[1].toFixed(5)
+            )
+        - var p = expanded[expanded.length - 1];
+        gpxx:rpt(
+            lat=p[0].toFixed(5)
+            lon=p[1].toFixed(5)
+          )
+          gpxx:Subclass 000000000000FFFFFFFFFFFFFFFFFFFFFFFF
   if step.visit_duration !== undefined
     frkt:duration= getDuration(step)
   if step.address
@@ -114,17 +155,20 @@ mixin rtept_ext(step)
   if routes
     for route in routes
       +rte(route)
+        if garmin
+          extensions
+            +rte_ext(route)
         if route.points
-          for step in route.points
+          each step, index in route.points
             if step.coordinates
               rtept(
                   lat=step.coordinates.lat.toFixed(5)
                   lon=step.coordinates.lon.toFixed(5)
                 )
                 +waypoint(step)
-                  if step.address || step.visit_duration !== undefined || step.pin !== undefined
+                  if step.address || step.visit_duration !== undefined || step.pin !== undefined || garmin
                     extensions
-                      +rtept_ext(step)
+                      +rtept_ext(step, index, route.points[index + 1])
   if tracks
     for track in tracks
       +trk(track)

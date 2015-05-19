@@ -47,4 +47,14 @@ describe('furkot-gpx node module', function () {
     should.exist(generated);
     generated.should.eql(expected);
   });
+
+  it('garmin routes', function() {
+    var t = require('./fixtures/overview-routes.json'),
+      expected = readFileSync('./fixtures/garmin.gpx'),
+      generated;
+    t.options = 'garmin';
+    generated = gpx(t);
+    should.exist(generated);
+    generated.should.eql(expected);
+  });
 });
