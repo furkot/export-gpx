@@ -1,6 +1,11 @@
 doctype xml
 
-mixin waypoint(step, wpt)
+mixin gpx()
+  gpx&attributes(getSchema(attributes))
+    if block
+      block
+
+mixin waypoint(step)
   if step.arrival_time
     time= getTimestamp(step)
   if step.name
@@ -18,43 +23,65 @@ mixin waypoint(step, wpt)
   - var symbol = getSymbol(step);
   if symbol
     sym= symbol
-  if step.address || step.visit_duration !== undefined || step.pin !== undefined || step.phone
-    extensions
-      if step.visit_duration !== undefined
-        frkt:duration= getDuration(step)
-      if step.address || step.phone
-        if wpt
-          gpxx:WaypointExtension
-            if step.address
-              gpxx:Address
-                if streetAddress(step)
-                  gpxx:StreetAddress= streetAddress(step)
-                if step.locality
-                  if step.locality.town
-                    gpxx:City= step.locality.town
-                  if step.locality.province
-                    gpxx:State= step.locality.province
-                  if step.locality.country_long
-                    gpxx:Country= step.locality.country_long
-            if step.phone
-              gpxx:PhoneNumber= step.phone
-        else
-          frkt:address= step.address
-      if step.pin !== undefined
-        frkt:pin= step.pin
+  if block
+    block
 
-gpx(
+mixin rte(route)
+  rte
+    if route.name
+      name= route.name
+    if route.desc
+      desc= route.desc
+    if route.link
+      link(href=route.link)
+    if block
+      block
+
+mixin trk(track)
+  trk
+    if track.name
+      name= track.name
+    if track.desc
+      desc= track.desc
+    if track.link
+      link(href=track.link)
+    if block
+      block
+
+mixin wpt_ext(step)
+  if step.visit_duration !== undefined
+    frkt:duration= getDuration(step)
+  if step.address || step.phone
+    gpxx:WaypointExtension
+      if step.address
+        gpxx:Address
+          if streetAddress(step)
+            gpxx:StreetAddress= streetAddress(step)
+          if step.locality
+            if step.locality.town
+              gpxx:City= step.locality.town
+            if step.locality.province
+              gpxx:State= step.locality.province
+            if step.locality.country_long
+              gpxx:Country= step.locality.country_long
+      if step.phone
+        gpxx:PhoneNumber= step.phone
+  if step.pin !== undefined
+    frkt:pin= step.pin
+
+mixin rtept_ext(step)
+  if step.visit_duration !== undefined
+    frkt:duration= getDuration(step)
+  if step.address
+    frkt:address= step.address
+  if step.pin !== undefined
+    frkt:pin= step.pin
+
++gpx(
       xmlns="http://www.topografix.com/GPX/1/1"
       creator="http://furkot.com/"
       version="1.1"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns:frkt="http://www.furkot.com/2014/gpx"
-      xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3"
-      xsi:schemaLocation=[
-        "http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd",
-        "http://www.furkot.com/2014/gpx http://cdn.furkot.com/schema/gpx.xsd",
-        "http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd"
-      ].join(' ')
   )
   if metadata
     metadata
@@ -79,16 +106,14 @@ gpx(
             lat=step.coordinates.lat.toFixed(5)
             lon=step.coordinates.lon.toFixed(5)
           )
-          mixin waypoint(step, true)
+          +waypoint(step)
+            if step.address || step.visit_duration !== undefined || step.pin !== undefined || step.phone
+              extensions
+                +wpt_ext(step)
+          
   if routes
     for route in routes
-      rte
-        if route.name
-          name= route.name
-        if route.desc
-          desc= route.desc
-        if route.link
-          link(href=route.link)
+      +rte(route)
         if route.points
           for step in route.points
             if step.coordinates
@@ -96,16 +121,13 @@ gpx(
                   lat=step.coordinates.lat.toFixed(5)
                   lon=step.coordinates.lon.toFixed(5)
                 )
-                mixin waypoint(step)
+                +waypoint(step)
+                  if step.address || step.visit_duration !== undefined || step.pin !== undefined
+                    extensions
+                      +rtept_ext(step)
   if tracks
     for track in tracks
-      trk
-        if track.name
-          name= track.name
-        if track.desc
-          desc= track.desc
-        if track.link
-          link(href=track.link)
+      +trk(track)
         if track.points
           for step in track.points
             - var expanded = step.track;
