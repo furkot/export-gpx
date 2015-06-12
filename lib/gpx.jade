@@ -10,14 +10,15 @@ mixin waypoint(step)
     time= getTimestamp(step)
   if step.name
     name= step.name
-  if step.cmt
-    cmt= step.cmt
-  else if step.address
-    cmt= step.address
-  if step.notes
-    desc= step.notes
-  else if step.address
-    desc= step.address
+  if garmin
+    if step.notes
+      cmt= step.notes
+      desc= step.notes
+  else
+    - var cmt = getComment(step);
+    if cmt
+      cmt= cmt
+      desc= cmt
   if step.url
     link(href=absUrl(step.url))
   - var symbol = getSymbol(step);

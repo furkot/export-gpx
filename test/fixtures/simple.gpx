@@ -45,8 +45,10 @@
     <rtept lat="45.52345" lon="-122.67621">
       <time>2013-07-08T23:35:55.000Z</time>
       <name>Portland</name>
-      <cmt>Portland, OR</cmt>
-      <desc>Trip notes for first stop</desc>
+      <cmt>Portland, OR
+Trip notes for first stop</cmt>
+      <desc>Portland, OR
+Trip notes for first stop</desc>
       <extensions>
         <frkt:duration>0</frkt:duration>
         <frkt:address>Portland, OR</frkt:address>

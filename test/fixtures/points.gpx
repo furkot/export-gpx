@@ -13,8 +13,10 @@
   <wpt lat="42.35843" lon="-71.05977">
     <time>2013-04-23T13:00:00.000Z</time>
     <name>Boston, MA</name>
-    <cmt>Boston, MA</cmt>
-    <desc>Boston, MA</desc>
+    <cmt>Boston, MA
+Home of Boston Red Sox</cmt>
+    <desc>Boston, MA
+Home of Boston Red Sox</desc>
     <extensions>
       <frkt:duration>0</frkt:duration>
       <gpxx:WaypointExtension>
@@ -84,8 +86,10 @@
     <rtept lat="42.35843" lon="-71.05977">
       <time>2013-04-23T13:00:00.000Z</time>
       <name>Boston, MA</name>
-      <cmt>Boston, MA</cmt>
-      <desc>Boston, MA</desc>
+      <cmt>Boston, MA
+Home of Boston Red Sox</cmt>
+      <desc>Boston, MA
+Home of Boston Red Sox</desc>
       <extensions>
         <frkt:duration>0</frkt:duration>
         <frkt:address>Boston, MA</frkt:address>
