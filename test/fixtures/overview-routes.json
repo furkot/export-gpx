@@ -5217,7 +5217,9 @@
           "streetAddress": "736 Huse Road"
         }
       ],
-      "name": "Day 1 - Tue Apr 23 2013"
+      "name": "Day 1 - Tue Apr 23 2013",
+      "day": 1,
+      "arrival_time": 1366722000000
     },
     {
       "points": [
@@ -9277,7 +9279,9 @@
           "symbol": "Lodging"
         }
       ],
-      "name": "Day 2 - Wed Apr 24 2013"
+      "name": "Day 2 - Wed Apr 24 2013",
+      "day": 2,
+      "arrival_time": 1366808400000
     },
     {
       "points": [
@@ -9950,8 +9954,6 @@
               -71.48135
             ],
             [
-              43.01361000000001,
-              -71.47938
             ],
             [
               43.01296000000001,
@@ -11761,7 +11763,9 @@
           "streetAddress": ""
         }
       ],
-      "name": "Day 3 - Thu Apr 25 2013"
+      "name": "Day 3 - Thu Apr 25 2013",
+      "day": 3,
+      "arrival_time": 1366902000000
     }
   ]
 }

@@ -79,6 +79,14 @@ mixin rte_ext(route)
       //- The <trp:TransportationMode> extension tells the devices Trip Planner algorithm what calculation type to use:
       //- Automotive, Motorcycling, Walking, Bicycling.
       trp:TransportationMode= getMode(route.mode, metadata && metadata.mode)
+    if (metadata && metadata.name) || route.arrival_time || route.day
+      tmd:TripMetaData
+        if metadata && metadata.name
+          tmd:TripName= metadata.name
+        if route.arrival_time
+          tmd:Date= getTimestamp(route)
+        if route.day
+          tmd:DayNumber= route.day
 
 mixin rtept_ext(step, index, next)
   if garmin
