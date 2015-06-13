@@ -93,6 +93,14 @@ mixin rtept_ext(step, index, next)
     if isStop(step) || index % 124 === 0 || !next
       //- The <trp:ViaPoint> is equivalent to a Furkot Stop.
       trp:ViaPoint
+        if step.departure_time && next
+          trp:DepartureTime= getDeparture(step)
+        if index && next
+          - var dur = formatDuration(step);
+          if dur
+            trp:StopDuration= dur
+        if step.arrival_time && index > 0
+          trp:ArrivalTime= getTimestamp(step)
         trp:CalculationMode FasterTime
         trp:ElevationMode Standard
     else
