@@ -50,25 +50,20 @@ mixin trk(track)
       block
 
 mixin wpt_ext(step)
-  if step.visit_duration !== undefined
-    frkt:duration= getDuration(step)
-  if step.address || step.phone
-    gpxx:WaypointExtension
-      if step.address
-        gpxx:Address
-          if streetAddress(step)
-            gpxx:StreetAddress= streetAddress(step)
-          if step.locality
-            if step.locality.town
-              gpxx:City= step.locality.town
-            if step.locality.province
-              gpxx:State= step.locality.province
-            if step.locality.country_long
-              gpxx:Country= step.locality.country_long
-      if step.phone
-        gpxx:PhoneNumber= step.phone
-  if step.pin !== undefined
-    frkt:pin= step.pin
+  gpxx:WaypointExtension
+    if step.address
+      gpxx:Address
+        if streetAddress(step)
+          gpxx:StreetAddress= streetAddress(step)
+        if step.locality
+          if step.locality.town
+            gpxx:City= step.locality.town
+          if step.locality.province
+            gpxx:State= step.locality.province
+          if step.locality.country_long
+            gpxx:Country= step.locality.country_long
+    if step.phone
+      gpxx:PhoneNumber= step.phone
 
 mixin rte_ext(route)
   gpxx:RouteExtension
@@ -89,51 +84,44 @@ mixin rte_ext(route)
           tmd:DayNumber= route.day
 
 mixin rtept_ext(step, index, next)
-  if garmin
-    if isStop(step) || index % 124 === 0 || !next
-      //- The <trp:ViaPoint> is equivalent to a Furkot Stop.
-      trp:ViaPoint
-        if step.departure_time && next
-          trp:DepartureTime= getDeparture(step)
-        if index && next
-          - var dur = formatDuration(step);
-          if dur
-            trp:StopDuration= dur
-        if step.arrival_time && index > 0
-          trp:ArrivalTime= getTimestamp(step)
-        trp:CalculationMode FasterTime
-        trp:ElevationMode Standard
-    else
-      //- The <trp:ShapingPoint> is equivalent to Furkot Pass-through Points.
-      //- These points are displayed in the Route point list on the GPS but are not announced during navigation.
-      //- There can be up to 124 ShapingPoints between each ViaPoint.
-      trp:ShapingPoint
-    gpxx:RoutePointExtension
-      //- The <gpxx:Subclass> is a special Garmin code for older Garmin devices that do not use
-      //- the Trip Planner algorithm. This specific code says to use the above RoutePoint as a waypoint.
-      //- Older Garmin devices don't use the Trip Planner algorithm.
-      gpxx:Subclass 000000000000FFFFFFFFFFFFFFFFFFFFFFFF
-      - var expanded = next && next.track;
-      if expanded && expanded.length
-        for p in expanded
-          //- All of the <gpxx:rpt> are equivalent to Furkot Track Points generated between Stops.
-          //- These points are not displayed on the GPS or announced during navigation.
-          gpxx:rpt(
-              lat=p[0].toFixed(5)
-              lon=p[1].toFixed(5)
-            )
-        - var p = expanded[expanded.length - 1];
+  if isStop(step) || index % 124 === 0 || !next
+    //- The <trp:ViaPoint> is equivalent to a Furkot Stop.
+    trp:ViaPoint
+      if step.departure_time && next
+        trp:DepartureTime= getDeparture(step)
+      if index && next
+        - var dur = formatDuration(step);
+        if dur
+          trp:StopDuration= dur
+      if step.arrival_time && index > 0
+        trp:ArrivalTime= getTimestamp(step)
+      trp:CalculationMode FasterTime
+      trp:ElevationMode Standard
+  else
+    //- The <trp:ShapingPoint> is equivalent to Furkot Pass-through Points.
+    //- These points are displayed in the Route point list on the GPS but are not announced during navigation.
+    //- There can be up to 124 ShapingPoints between each ViaPoint.
+    trp:ShapingPoint
+  gpxx:RoutePointExtension
+    //- The <gpxx:Subclass> is a special Garmin code for older Garmin devices that do not use
+    //- the Trip Planner algorithm. This specific code says to use the above RoutePoint as a waypoint.
+    //- Older Garmin devices don't use the Trip Planner algorithm.
+    gpxx:Subclass 000000000000FFFFFFFFFFFFFFFFFFFFFFFF
+    - var expanded = next && next.track;
+    if expanded && expanded.length
+      for p in expanded
+        //- All of the <gpxx:rpt> are equivalent to Furkot Track Points generated between Stops.
+        //- These points are not displayed on the GPS or announced during navigation.
         gpxx:rpt(
             lat=p[0].toFixed(5)
             lon=p[1].toFixed(5)
           )
-          gpxx:Subclass 000000000000FFFFFFFFFFFFFFFFFFFFFFFF
-  if step.visit_duration !== undefined
-    frkt:duration= getDuration(step)
-  if step.address
-    frkt:address= step.address
-  if step.pin !== undefined
-    frkt:pin= step.pin
+      - var p = expanded[expanded.length - 1];
+      gpxx:rpt(
+          lat=p[0].toFixed(5)
+          lon=p[1].toFixed(5)
+        )
+        gpxx:Subclass 000000000000FFFFFFFFFFFFFFFFFFFFFFFF
 
 +gpx(
       xmlns="http://www.topografix.com/GPX/1/1"
@@ -165,7 +153,7 @@ mixin rtept_ext(step, index, next)
             lon=step.coordinates.lon.toFixed(5)
           )
           +waypoint(step)
-            if step.address || step.visit_duration !== undefined || step.pin !== undefined || step.phone
+            if step.address || step.phone
               extensions
                 +wpt_ext(step)
           
@@ -183,7 +171,7 @@ mixin rtept_ext(step, index, next)
                   lon=step.coordinates.lon.toFixed(5)
                 )
                 +waypoint(step)
-                  if step.address || step.visit_duration !== undefined || step.pin !== undefined || garmin
+                  if garmin
                     extensions
                       +rtept_ext(step, index, route.points[index + 1])
   if tracks
