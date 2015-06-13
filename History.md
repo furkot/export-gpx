@@ -1,4 +1,11 @@
 
+1.2.0 / 2015-06-12
+==================
+
+ * remove Furkot-specific extensions
+ * more Garmin-specific extensions
+ * different content of waypoint cmt and desc elements for Garmin-specific vs. standard GPX 1.1 files
+
 1.1.0 / 2015-05-20
 ==================
 
