@@ -11,7 +11,7 @@
     </author>
   </metadata>
   <wpt lat="40.38902" lon="-105.56205">
-    <time>2014-11-04T14:00:00.000Z</time>
+    <time>2014-11-04T16:00:00.000Z</time>
     <name>begin</name>
     <cmt>1050 Fall River Court, Estes Park, CO 80517, USA</cmt>
     <desc>1050 Fall River Court, Estes Park, CO 80517, USA</desc>
@@ -27,7 +27,7 @@
     </extensions>
   </wpt>
   <wpt lat="40.39450" lon="-105.56532">
-    <time>2014-11-04T15:01:20.000Z</time>
+    <time>2014-11-04T17:01:20.000Z</time>
     <name>nocleg</name>
     <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
     <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
@@ -44,7 +44,7 @@
     </extensions>
   </wpt>
   <wpt lat="40.39443" lon="-105.56444">
-    <time>2014-11-07T14:00:18.000Z</time>
+    <time>2014-11-07T16:00:18.000Z</time>
     <name>stop</name>
     <cmt>1301-1317 David Drive, Estes Park, CO 80517, USA</cmt>
     <desc>1301-1317 David Drive, Estes Park, CO 80517, USA</desc>
@@ -60,7 +60,7 @@
     </extensions>
   </wpt>
   <wpt lat="40.39663" lon="-105.56648">
-    <time>2014-11-08T14:01:23.000Z</time>
+    <time>2014-11-08T16:01:23.000Z</time>
     <name>end</name>
     <cmt>1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA</cmt>
     <desc>1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA</desc>
@@ -97,7 +97,7 @@
   <rte>
     <name>Day 1 - Tue Nov 04 2014</name>
     <rtept lat="40.38902" lon="-105.56205">
-      <time>2014-11-04T14:00:00.000Z</time>
+      <time>2014-11-04T16:00:00.000Z</time>
       <name>begin</name>
       <cmt>1050 Fall River Court, Estes Park, CO 80517, USA</cmt>
       <desc>1050 Fall River Court, Estes Park, CO 80517, USA</desc>
@@ -109,7 +109,7 @@
     <rtept lat="40.39355" lon="-105.56401">
     </rtept>
     <rtept lat="40.39450" lon="-105.56532">
-      <time>2014-11-04T15:01:20.000Z</time>
+      <time>2014-11-04T17:01:20.000Z</time>
       <name>nocleg</name>
       <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
       <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
@@ -119,7 +119,7 @@
   <rte>
     <name>Day 2 - Wed Nov 05 2014</name>
     <rtept lat="40.39450" lon="-105.56532">
-      <time>2014-11-05T14:00:00.000Z</time>
+      <time>2014-11-05T16:00:00.000Z</time>
       <name>nocleg</name>
       <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
       <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
@@ -128,7 +128,7 @@
     <rtept lat="40.39450" lon="-105.56533">
     </rtept>
     <rtept lat="40.39421" lon="-105.56494">
-      <time>2014-11-05T14:00:07.000Z</time>
+      <time>2014-11-05T16:00:07.000Z</time>
       <name>pass-thru</name>
       <cmt>1177-1399 Fall River Drive, Estes Park, CO 80517, USA</cmt>
       <desc>1177-1399 Fall River Drive, Estes Park, CO 80517, USA</desc>
@@ -136,7 +136,7 @@
     <rtept lat="40.39423" lon="-105.56492">
     </rtept>
     <rtept lat="40.39450" lon="-105.56532">
-      <time>2014-11-05T14:00:13.000Z</time>
+      <time>2014-11-05T16:00:13.000Z</time>
       <name>nocleg</name>
       <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
       <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
@@ -146,7 +146,7 @@
   <rte>
     <name>Day 4 - Fri Nov 07 2014</name>
     <rtept lat="40.39450" lon="-105.56532">
-      <time>2014-11-07T14:00:00.000Z</time>
+      <time>2014-11-07T16:00:00.000Z</time>
       <name>nocleg</name>
       <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
       <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
@@ -157,13 +157,13 @@
     <rtept lat="40.39444" lon="-105.56444">
     </rtept>
     <rtept lat="40.39443" lon="-105.56444">
-      <time>2014-11-07T14:00:18.000Z</time>
+      <time>2014-11-07T16:00:18.000Z</time>
       <name>stop</name>
       <cmt>1301-1317 David Drive, Estes Park, CO 80517, USA</cmt>
       <desc>1301-1317 David Drive, Estes Park, CO 80517, USA</desc>
     </rtept>
     <rtept lat="40.39450" lon="-105.56532">
-      <time>2014-11-07T15:00:36.000Z</time>
+      <time>2014-11-07T17:00:36.000Z</time>
       <name>nocleg</name>
       <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
       <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
@@ -173,7 +173,7 @@
   <rte>
     <name>Day 5 - Sat Nov 08 2014</name>
     <rtept lat="40.39450" lon="-105.56532">
-      <time>2014-11-08T14:00:00.000Z</time>
+      <time>2014-11-08T16:00:00.000Z</time>
       <name>nocleg</name>
       <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
       <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
@@ -186,7 +186,7 @@
     <rtept lat="40.39645" lon="-105.56927">
     </rtept>
     <rtept lat="40.39663" lon="-105.56648">
-      <time>2014-11-08T14:01:23.000Z</time>
+      <time>2014-11-08T16:01:23.000Z</time>
       <name>end</name>
       <cmt>1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA</cmt>
       <desc>1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA</desc>
