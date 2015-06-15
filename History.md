@@ -1,4 +1,9 @@
 
+1.2.1 / 2015-06-15
+==================
+
+ * account for timezone when generating timestamps
+
 1.2.0 / 2015-06-12
 ==================
 
