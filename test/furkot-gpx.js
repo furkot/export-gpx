@@ -9,6 +9,19 @@ function readFileSync(name) {
   return fs.readFileSync(path.join(__dirname, name), 'utf8');
 }
 
+function copy(t) {
+  if (typeof t !== 'object') {
+    return t;
+  }
+  if (Array.isArray(t)) {
+    return t.slice(0);
+  }
+  return Object.keys(t).reduce(function (result, key) {
+    result[key] = copy(t[key]);
+    return result;
+  }, {});
+}
+
 describe('furkot-gpx node module', function () {
 
   it('simple trip', function() {
@@ -49,9 +62,20 @@ describe('furkot-gpx node module', function () {
   });
 
   it('garmin routes', function() {
-    var t = require('./fixtures/overview-routes.json'),
+    var t = copy(require('./fixtures/overview-routes.json')),
       expected = readFileSync('./fixtures/garmin.gpx'),
       generated;
+    t.options = 'garmin';
+    generated = gpx(t);
+    should.exist(generated);
+    generated.should.eql(expected);
+  });
+  
+  it('garmin no name', function() {
+    var t = copy(require('./fixtures/overview-routes.json')),
+      expected = readFileSync('./fixtures/garmin-no-name.gpx'),
+      generated;
+    delete t.metadata.name;
     t.options = 'garmin';
     generated = gpx(t);
     should.exist(generated);

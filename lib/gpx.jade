@@ -76,8 +76,7 @@ mixin rte_ext(route)
       trp:TransportationMode= getMode(route.mode, metadata && metadata.mode)
     if (metadata && metadata.name) || route.arrival_time || route.day
       tmd:TripMetaData
-        if metadata && metadata.name
-          tmd:TripName= metadata.name
+        tmd:TripName= (metadata && metadata.name) || ''
         if route.arrival_time
           tmd:Date= getTimestamp(route)
         if route.day

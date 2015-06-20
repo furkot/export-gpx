@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://furkot.com/" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd">
+  <metadata>
+    <name>Ski trip</name>
+    <author>
+      <name>Furkot - road trip planner</name>
+      <email id="trips" domain="furkot.com"></email>
+      <link href="https://trips.furkot.com">
+        <text>Furkot</text>
+      </link>
+    </author>
+  </metadata>
+  <wpt lat="42.35843" lon="-71.05977">
+    <time>2013-04-23T13:00:00.000Z</time>
+    <name>Boston, MA</name>
+    <cmt>Home of Boston Red Sox</cmt>
+    <desc>Home of Boston Red Sox</desc>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:City>Boston</gpxx:City>
+          <gpxx:State>MA</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <wpt lat="42.94989" lon="-71.43241">
+    <time>2013-04-23T13:55:19.000Z</time>
+    <name>Courtyard by Marriott</name>
+    <link href="http://www.easytobook.com/en/united-states-of-america/new-hampshire/manchester/courtyard-by-marriott-manchester/?affid=280826683"></link>
+    <sym>Lodging</sym>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:StreetAddress>736 Huse Road</gpxx:StreetAddress>
+          <gpxx:City>Manchester</gpxx:City>
+          <gpxx:State>NH</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <wpt lat="43.20518" lon="-71.53198">
+    <time>2013-04-24T13:24:33.000Z</time>
+    <name>Concord, NH, USA</name>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:StreetAddress>Frederick E. Everett Turnpike</gpxx:StreetAddress>
+          <gpxx:City>Concord</gpxx:City>
+          <gpxx:State>NH</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <wpt lat="43.66472" lon="-72.79333">
+    <time>2013-04-25T17:01:49.000Z</time>
+    <name>Killington, VT</name>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:City>Killington</gpxx:City>
+          <gpxx:State>VT</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+        <gpxx:PhoneNumber>(508) 872-6101</gpxx:PhoneNumber>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <rte>
+    <name>Day 1 - Tue Apr 23 2013</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Blue</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <trp:Trip>
+        <trp:TransportationMode>Motorcycling</trp:TransportationMode>
+      </trp:Trip>
+      <tmd:TripMetaData>
+        <tmd:TripName>Ski trip</tmd:TripName>
+        <tmd:Date>2013-04-23T13:00:00.000Z</tmd:Date>
+        <tmd:DayNumber>1</tmd:DayNumber>
+      </tmd:TripMetaData>
+    </extensions>
+    <rtept lat="42.35843" lon="-71.05977">
+      <time>2013-04-23T13:00:00.000Z</time>
+      <name>Boston, MA</name>
+      <cmt>Home of Boston Red Sox</cmt>
+      <desc>Home of Boston Red Sox</desc>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:DepartureTime>2013-04-23T13:00:00.000Z</trp:DepartureTime>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="42.35849" lon="-71.06010">
+      <extensions>
+        <trp:ShapingPoint></trp:ShapingPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="42.94989" lon="-71.43241">
+      <time>2013-04-23T13:55:19.000Z</time>
+      <name>Courtyard by Marriott</name>
+      <link href="http://www.easytobook.com/en/united-states-of-america/new-hampshire/manchester/courtyard-by-marriott-manchester/?affid=280826683"></link>
+      <sym>Lodging</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:ArrivalTime>2013-04-23T13:55:19.000Z</trp:ArrivalTime>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+      </extensions>
+    </rtept>
+  </rte>
+  <rte>
+    <name>Day 2 - Wed Apr 24 2013</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Blue</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <trp:Trip>
+        <trp:TransportationMode>Motorcycling</trp:TransportationMode>
+      </trp:Trip>
+      <tmd:TripMetaData>
+        <tmd:TripName>Ski trip</tmd:TripName>
+        <tmd:Date>2013-04-24T13:00:00.000Z</tmd:Date>
+        <tmd:DayNumber>2</tmd:DayNumber>
+      </tmd:TripMetaData>
+    </extensions>
+    <rtept lat="42.94989" lon="-71.43241">
+      <time>2013-04-24T13:00:00.000Z</time>
+      <name>Courtyard by Marriott</name>
+      <link href="http://www.easytobook.com/en/united-states-of-america/new-hampshire/manchester/courtyard-by-marriott-manchester/?affid=280826683"></link>
+      <sym>Lodging</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:DepartureTime>2013-04-24T13:00:00.000Z</trp:DepartureTime>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="43.20518" lon="-71.53198">
+      <time>2013-04-24T13:24:33.000Z</time>
+      <name>Concord, NH, USA</name>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:DepartureTime>2013-04-24T15:24:33.000Z</trp:DepartureTime>
+          <trp:StopDuration>PT2H</trp:StopDuration>
+          <trp:ArrivalTime>2013-04-24T13:24:33.000Z</trp:ArrivalTime>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="42.94989" lon="-71.43241">
+      <time>2013-04-24T15:48:07.000Z</time>
+      <name>Courtyard by Marriott</name>
+      <link href="http://www.easytobook.com/en/united-states-of-america/new-hampshire/manchester/courtyard-by-marriott-manchester/?affid=280826683"></link>
+      <sym>Lodging</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:ArrivalTime>2013-04-24T15:48:07.000Z</trp:ArrivalTime>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+      </extensions>
+    </rtept>
+  </rte>
+  <rte>
+    <name>Day 3 - Thu Apr 25 2013</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Blue</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+      <trp:Trip>
+        <trp:TransportationMode>Motorcycling</trp:TransportationMode>
+      </trp:Trip>
+      <tmd:TripMetaData>
+        <tmd:TripName>Ski trip</tmd:TripName>
+        <tmd:Date>2013-04-25T15:00:00.000Z</tmd:Date>
+        <tmd:DayNumber>3</tmd:DayNumber>
+      </tmd:TripMetaData>
+    </extensions>
+    <rtept lat="42.94989" lon="-71.43241">
+      <time>2013-04-25T15:00:00.000Z</time>
+      <name>Courtyard by Marriott</name>
+      <link href="http://www.easytobook.com/en/united-states-of-america/new-hampshire/manchester/courtyard-by-marriott-manchester/?affid=280826683"></link>
+      <sym>Lodging</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:DepartureTime>2013-04-25T15:00:00.000Z</trp:DepartureTime>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="42.94993" lon="-71.43244">
+      <extensions>
+        <trp:ShapingPoint></trp:ShapingPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="43.66472" lon="-72.79333">
+      <time>2013-04-25T17:01:49.000Z</time>
+      <name>Killington, VT</name>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:ArrivalTime>2013-04-25T17:01:49.000Z</trp:ArrivalTime>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+      </extensions>
+    </rtept>
+  </rte>
+</gpx>
