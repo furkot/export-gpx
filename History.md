@@ -1,4 +1,10 @@
 
+2.0.1 / 2015-06-20
+==================
+
+ * don't emit <gpxx:RoutePointExtension> elements until valid value of it's subelement <gpxx:Subclass> can be determined
+ * <tmd:TripName> is a mandatory element according to the schema
+
 2.0.0 / 2015-06-16
 ==================
 
