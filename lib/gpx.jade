@@ -101,26 +101,27 @@ mixin rtept_ext(step, index, next)
     //- These points are displayed in the Route point list on the GPS but are not announced during navigation.
     //- There can be up to 124 ShapingPoints between each ViaPoint.
     trp:ShapingPoint
-  gpxx:RoutePointExtension
-    //- The <gpxx:Subclass> is a special Garmin code for older Garmin devices that do not use
-    //- the Trip Planner algorithm. This specific code says to use the above RoutePoint as a waypoint.
-    //- Older Garmin devices don't use the Trip Planner algorithm.
-    gpxx:Subclass 000000000000FFFFFFFFFFFFFFFFFFFFFFFF
-    - var expanded = next && next.track;
-    if expanded && expanded.length
-      for p in expanded
-        //- All of the <gpxx:rpt> are equivalent to Furkot Track Points generated between Stops.
-        //- These points are not displayed on the GPS or announced during navigation.
+  if RoutePointExtension
+    gpxx:RoutePointExtension
+      //- The <gpxx:Subclass> is a special Garmin code for older Garmin devices that do not use
+      //- the Trip Planner algorithm. This specific code says to use the above RoutePoint as a waypoint.
+      //- Older Garmin devices don't use the Trip Planner algorithm.
+      gpxx:Subclass 000000000000FFFFFFFFFFFFFFFFFFFFFFFF
+      - var expanded = next && next.track;
+      if expanded && expanded.length
+        for p in expanded
+          //- All of the <gpxx:rpt> are equivalent to Furkot Track Points generated between Stops.
+          //- These points are not displayed on the GPS or announced during navigation.
+          gpxx:rpt(
+              lat=p[0].toFixed(5)
+              lon=p[1].toFixed(5)
+            )
+        - var p = expanded[expanded.length - 1];
         gpxx:rpt(
             lat=p[0].toFixed(5)
             lon=p[1].toFixed(5)
           )
-      - var p = expanded[expanded.length - 1];
-      gpxx:rpt(
-          lat=p[0].toFixed(5)
-          lon=p[1].toFixed(5)
-        )
-        gpxx:Subclass 000000000000FFFFFFFFFFFFFFFFFFFFFFFF
+          gpxx:Subclass 000000000000FFFFFFFFFFFFFFFFFFFFFFFF
 
 +gpx(
       xmlns="http://www.topografix.com/GPX/1/1"

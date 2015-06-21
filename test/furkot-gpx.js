@@ -66,6 +66,7 @@ describe('furkot-gpx node module', function () {
       expected = readFileSync('./fixtures/garmin.gpx'),
       generated;
     t.options = 'garmin';
+    t.RoutePointExtension = true;
     generated = gpx(t);
     should.exist(generated);
     generated.should.eql(expected);
@@ -77,8 +78,20 @@ describe('furkot-gpx node module', function () {
       generated;
     delete t.metadata.name;
     t.options = 'garmin';
+    t.RoutePointExtension = true;
     generated = gpx(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
+
+  it('garmin no RoutePointExtension', function() {
+    var t = copy(require('./fixtures/overview-routes.json')),
+      expected = readFileSync('./fixtures/garmin-no-rPtEx.gpx'),
+      generated;
+    t.options = 'garmin';
+    generated = gpx(t);
+    should.exist(generated);
+    generated.should.eql(expected);
+  });
+
 });
