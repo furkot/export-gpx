@@ -206,7 +206,7 @@
       },
       "name": "end",
       "address": "1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA",
-      "url": "/book/venere?id=513209",
+      "url": "https://trips.furkot.com/book/venere?id=513209",
       "visit_duration": 0,
       "notes": "",
       "locality": {
@@ -359,7 +359,7 @@
       },
       "name": "skip",
       "address": "2120 Fall River Road, Estes Park, CO 80517, USA",
-      "url": "/book/bookingdotcom?id=1087237&brand=%2Fhotel%2Fus%2Fbear-paw-suites.html",
+      "url": "https://trips.furkot.com/book/bookingdotcom?id=1087237&brand=%2Fhotel%2Fus%2Fbear-paw-suites.html",
       "visit_duration": 86400000,
       "notes": "",
       "locality": {
@@ -724,7 +724,7 @@
           },
           "name": "end",
           "address": "1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA",
-          "url": "/book/venere?id=513209",
+          "url": "https://trips.furkot.com/book/venere?id=513209",
           "visit_duration": 0,
           "notes": "",
           "locality": {
@@ -1476,7 +1476,7 @@
           },
           "name": "end",
           "address": "1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA",
-          "url": "/book/venere?id=513209",
+          "url": "https://trips.furkot.com/book/venere?id=513209",
           "visit_duration": 0,
           "notes": "",
           "locality": {

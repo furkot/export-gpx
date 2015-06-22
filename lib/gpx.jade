@@ -20,7 +20,7 @@ mixin waypoint(step)
       cmt= cmt
       desc= cmt
   if step.url
-    link(href=absUrl(step.url))
+    link(href=step.url)
   - var symbol = getSymbol(step);
   if symbol
     sym= symbol

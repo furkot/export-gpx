@@ -2,7 +2,6 @@ var should = require('should');
 var fs = require('fs');
 var path = require('path');
 
-process.env.FURKOT_HOST = 'https://trips.furkot.com';
 var gpx = require('../');
 
 function readFileSync(name) {
