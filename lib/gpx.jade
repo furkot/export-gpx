@@ -69,7 +69,7 @@ mixin rte_ext(route)
   gpxx:RouteExtension
     gpxx:IsAutoNamed false
     gpxx:DisplayColor Blue
-  if route.mode !== undefined || (metadata && metadata.mode !== undefined)
+  if (route.mode !== undefined || (metadata && metadata.mode !== undefined))
     trp:Trip
       //- The <trp:TransportationMode> extension tells the devices Trip Planner algorithm what calculation type to use:
       //- Automotive, Motorcycling, Walking, Bicycling.
@@ -122,6 +122,13 @@ mixin rtept_ext(step, index, next)
             lon=p[1].toFixed(5)
           )
           gpxx:Subclass 000000000000FFFFFFFFFFFFFFFFFFFFFFFF
+
+mixin trk_ext(track)
+  - var color = getColor(track);
+  if color
+    extensions
+      gpxx:TrackExtension
+        gpxx:DisplayColor= color
 
 +gpx(
       xmlns="http://www.topografix.com/GPX/1/1"
@@ -178,6 +185,7 @@ mixin rtept_ext(step, index, next)
     for track in tracks
       +trk(track)
         if track.points
+          +trk_ext(track)
           for step in track.points
             - var expanded = step.track;
             if expanded && expanded.length

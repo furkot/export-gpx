@@ -196,6 +196,11 @@
   </rte>
   <trk>
     <name>Day 1 - Tue Nov 04 2014</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="40.38902" lon="-105.56202"></trkpt>
       <trkpt lat="40.38909" lon="-105.56201"></trkpt>
@@ -221,6 +226,11 @@
   </trk>
   <trk>
     <name>Day 2 - Wed Nov 05 2014</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Green</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="40.39450" lon="-105.56533"></trkpt>
       <trkpt lat="40.39434" lon="-105.56511"></trkpt>
@@ -237,6 +247,11 @@
   </trk>
   <trk>
     <name>Day 4 - Fri Nov 07 2014</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Blue</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="40.39450" lon="-105.56533"></trkpt>
       <trkpt lat="40.39434" lon="-105.56511"></trkpt>
@@ -255,6 +270,11 @@
   </trk>
   <trk>
     <name>Day 5 - Sat Nov 08 2014</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Yellow</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
     <trkseg>
       <trkpt lat="40.39450" lon="-105.56533"></trkpt>
       <trkpt lat="40.39469" lon="-105.56547"></trkpt>

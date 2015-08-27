@@ -511,7 +511,8 @@
           "streetAddress": "1354-1400 David Drive"
         }
       ],
-      "name": "Day 1 - Tue Nov 04 2014"
+      "name": "Day 1 - Tue Nov 04 2014",
+      "color": 18
     },
     {
       "points": [
@@ -607,7 +608,8 @@
           "symbol": "Lodging"
         }
       ],
-      "name": "Day 2 - Wed Nov 05 2014"
+      "name": "Day 2 - Wed Nov 05 2014",
+      "color": 12
     },
     {
       "points": [
@@ -712,7 +714,8 @@
           "symbol": "Lodging"
         }
       ],
-      "name": "Day 4 - Fri Nov 07 2014"
+      "name": "Day 4 - Fri Nov 07 2014",
+      "color": 3
     },
     {
       "points": [
@@ -871,7 +874,8 @@
           "streetAddress": "1508-1514 Fish Hatchery Road"
         }
       ],
-      "name": "Day 5 - Sat Nov 08 2014"
+      "name": "Day 5 - Sat Nov 08 2014",
+      "color": 21
     }
   ],
   "routes": [
