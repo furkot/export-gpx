@@ -1,4 +1,10 @@
 
+2.0.2 / 2015-08-28
+==================
+
+ * export track color
+ * expect absolute urls to be provided on input
+
 2.0.1 / 2015-06-20
 ==================
 
