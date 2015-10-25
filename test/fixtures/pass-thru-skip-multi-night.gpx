@@ -34,6 +34,10 @@
     <sym>Lodging</sym>
     <extensions>
       <gpxx:WaypointExtension>
+        <gpxx:Categories>
+          <gpxx:Category>Hotel</gpxx:Category>
+          <gpxx:Category>Overnight lodging</gpxx:Category>
+        </gpxx:Categories>
         <gpxx:Address>
           <gpxx:StreetAddress>1354-1400 David Drive</gpxx:StreetAddress>
           <gpxx:City>Estes Park</gpxx:City>

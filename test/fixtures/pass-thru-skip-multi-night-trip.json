@@ -60,6 +60,7 @@
       "nights": 1,
       "arrival_time": 1415095280000,
       "departure_time": 1415178000000,
+      "tags": [ "Hotel", "Overnight lodging" ],
       "track": [
         [
           40.38902,

@@ -51,6 +51,10 @@ mixin trk(track)
 
 mixin wpt_ext(step)
   gpxx:WaypointExtension
+    if step.tags && step.tags.length
+      gpxx:Categories
+        for cat in step.tags
+          gpxx:Category= cat
     if step.address
       gpxx:Address
         if streetAddress(step)
