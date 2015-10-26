@@ -1,4 +1,9 @@
 
+2.0.3 / 2015-10-25
+==================
+
+ * emit waypoint field 'tags' as Garmin extension tag 'Categories'
+
 2.0.2 / 2015-08-28
 ==================
 
