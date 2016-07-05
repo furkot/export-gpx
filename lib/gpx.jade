@@ -76,7 +76,7 @@ mixin rte_ext(route)
   if (route.mode !== undefined || (metadata && metadata.mode !== undefined))
     trp:Trip
       //- The <trp:TransportationMode> extension tells the devices Trip Planner algorithm what calculation type to use:
-      //- Automotive, Motorcycling, Walking, Bicycling.
+      //- Automotive, Motorcycling, Walking, Bicycling, Direct.
       trp:TransportationMode= getMode(route.mode, metadata && metadata.mode)
     if (metadata && metadata.name) || route.arrival_time || route.day
       tmd:TripMetaData

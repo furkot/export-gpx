@@ -93,4 +93,16 @@ describe('furkot-gpx node module', function () {
     generated.should.eql(expected);
   });
 
+  it('garmin route transportation mode', function() {
+    var t = copy(require('./fixtures/overview-routes.json')),
+      expected = readFileSync('./fixtures/garmin-rtTrMd.gpx'),
+      generated;
+    t.options = 'garmin';
+    t.routes[0].mode = 3;
+    t.routes[t.routes.length - 1].mode = 0;
+    generated = gpx(t);
+    should.exist(generated);
+    generated.should.eql(expected);
+  });
+
 });
