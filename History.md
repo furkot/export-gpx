@@ -1,4 +1,10 @@
 
+2.0.6 / 2016-07-07
+==================
+
+ * support Garmin extension schema ViaPointTransportationMode
+ * fix Garmin transportation mode per route
+
 2.0.5 / 2016-03-23
 ==================
 
