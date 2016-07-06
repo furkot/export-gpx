@@ -77,7 +77,7 @@
         <gpxx:DisplayColor>Blue</gpxx:DisplayColor>
       </gpxx:RouteExtension>
       <trp:Trip>
-        <trp:TransportationMode>Direct</trp:TransportationMode>
+        <trp:TransportationMode>Motorcycling</trp:TransportationMode>
       </trp:Trip>
       <tmd:TripMetaData>
         <tmd:TripName>Ski trip</tmd:TripName>
@@ -101,6 +101,9 @@
     <rtept lat="42.35849" lon="-71.06010">
       <extensions>
         <trp:ShapingPoint></trp:ShapingPoint>
+        <vptm:ViaPointTransportationMode>
+          <vptm:TransportationMode>Walking</vptm:TransportationMode>
+        </vptm:ViaPointTransportationMode>
       </extensions>
     </rtept>
     <rtept lat="42.94989" lon="-71.43241">
@@ -205,6 +208,9 @@
     <rtept lat="42.94993" lon="-71.43244">
       <extensions>
         <trp:ShapingPoint></trp:ShapingPoint>
+        <vptm:ViaPointTransportationMode>
+          <vptm:TransportationMode>Direct</vptm:TransportationMode>
+        </vptm:ViaPointTransportationMode>
       </extensions>
     </rtept>
     <rtept lat="43.66472" lon="-72.79333">

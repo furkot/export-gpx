@@ -13,7 +13,7 @@ function copy(t) {
     return t;
   }
   if (Array.isArray(t)) {
-    return t.slice(0);
+    return t.map(copy);
   }
   return Object.keys(t).reduce(function (result, key) {
     result[key] = copy(t[key]);
@@ -104,5 +104,20 @@ describe('furkot-gpx node module', function () {
     should.exist(generated);
     generated.should.eql(expected);
   });
+
+  it('garmin via point transportation mode', function() {
+      var t = copy(require('./fixtures/overview-routes.json')),
+        expected = readFileSync('./fixtures/garmin-vpTrMd.gpx'),
+        generated, rt;
+      t.options = 'garmin';
+      rt = t.routes[0];
+      rt.points[rt.points.length - 1].mode = 2;
+      rt = t.routes[t.routes.length - 1];
+      rt.mode = 0;
+      rt.points[rt.points.length - 1].mode = 3;
+      generated = gpx(t);
+      should.exist(generated);
+      generated.should.eql(expected);
+    });
 
 });

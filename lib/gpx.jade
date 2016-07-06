@@ -86,7 +86,7 @@ mixin rte_ext(route)
         if route.day
           tmd:DayNumber= route.day
 
-mixin rtept_ext(step, index, next)
+mixin rtept_ext(route, step, index, next)
   if isStop(step) || index % 124 === 0 || !next
     //- The <trp:ViaPoint> is equivalent to a Furkot Stop.
     trp:ViaPoint
@@ -105,6 +105,12 @@ mixin rtept_ext(step, index, next)
     //- These points are displayed in the Route point list on the GPS but are not announced during navigation.
     //- There can be up to 124 ShapingPoints between each ViaPoint.
     trp:ShapingPoint
+  if next && isModeDifferent(next.mode, route.mode, metadata & metadata.mode)
+    //- The <vptm:ViaPointTransportationMode> extension tells the devices Trip Planner algorithm
+    //- what calculation type to use between this and next point:
+    //- Automotive, Motorcycling, Walking, Bicycling, Direct.
+    vptm:ViaPointTransportationMode
+      vptm:TransportationMode= getMode(next.mode)
   if RoutePointExtension
     gpxx:RoutePointExtension
       //- The <gpxx:Subclass> is a special Garmin code for older Garmin devices that do not use
@@ -184,7 +190,7 @@ mixin trk_ext(track)
                 +waypoint(step)
                   if garmin
                     extensions
-                      +rtept_ext(step, index, route.points[index + 1])
+                      +rtept_ext(route, step, index, route.points[index + 1])
   if tracks
     for track in tracks
       +trk(track)
