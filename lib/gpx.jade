@@ -105,7 +105,7 @@ mixin rtept_ext(route, step, index, next)
     //- These points are displayed in the Route point list on the GPS but are not announced during navigation.
     //- There can be up to 124 ShapingPoints between each ViaPoint.
     trp:ShapingPoint
-  if next && isModeDifferent(next.mode, route.mode, metadata & metadata.mode)
+  if next && next.mode !== undefined
     //- The <vptm:ViaPointTransportationMode> extension tells the devices Trip Planner algorithm
     //- what calculation type to use between this and next point:
     //- Automotive, Motorcycling, Walking, Bicycling, Direct.
