@@ -1,4 +1,9 @@
 
+2.0.7 / 2016-07-08
+==================
+
+ * always add ViaPointTransportationMode when stop mode is set
+
 2.0.6 / 2016-07-07
 ==================
 
