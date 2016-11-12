@@ -122,10 +122,20 @@ mixin rtept_ext(route, step, index, next)
         for p in expanded
           //- All of the <gpxx:rpt> are equivalent to Furkot Track Points generated between Stops.
           //- These points are not displayed on the GPS or announced during navigation.
-          gpxx:rpt(
-              lat=p[0].toFixed(5)
-              lon=p[1].toFixed(5)
-            )
+          if next.custom || next.mode === 3
+            gpxx:rpt(
+                lat=p[0].toFixed(5)
+                lon=p[1].toFixed(5)
+              )
+              //- This Subclass code denotes a route point that is not on a mapped road (off-road).
+              //- There are usually many of these in succession to define the route path
+              //- and each off-road point needs to have this Subclass.
+              gpxx:Subclass FFFF00000000FFFFFFFF2117000000000000
+          else
+            gpxx:rpt(
+                lat=p[0].toFixed(5)
+                lon=p[1].toFixed(5)
+              )
         - var p = expanded[expanded.length - 1];
         gpxx:rpt(
             lat=p[0].toFixed(5)

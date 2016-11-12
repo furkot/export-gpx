@@ -66,6 +66,7 @@ describe('furkot-gpx node module', function () {
       generated;
     t.options = 'garmin';
     t.RoutePointExtension = true;
+    t.routes[0].points[t.routes[0].points.length - 1].custom = true;
     generated = gpx(t);
     should.exist(generated);
     generated.should.eql(expected);
