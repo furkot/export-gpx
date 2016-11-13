@@ -1,4 +1,9 @@
 
+2.0.8 / 2016-11-12
+==================
+
+ * set RoutePointExtension Subclass entry for off-road points
+
 2.0.7 / 2016-07-08
 ==================
 
