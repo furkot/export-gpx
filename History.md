@@ -1,4 +1,9 @@
 
+2.0.9 / 2016-11-20
+==================
+
+ * emit only ViaPoints when RoutePointExtension is in effect
+
 2.0.8 / 2016-11-12
 ==================
 
