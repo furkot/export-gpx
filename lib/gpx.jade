@@ -87,7 +87,7 @@ mixin rte_ext(route)
           tmd:DayNumber= route.day
 
 mixin rtept_ext(route, step, index, next)
-  if isStop(step) || index % 124 === 0 || !next
+  if RoutePointExtension || isStop(step) || index % 124 === 0 || !next
     //- The <trp:ViaPoint> is equivalent to a Furkot Stop.
     trp:ViaPoint
       if step.departure_time && next
