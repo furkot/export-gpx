@@ -124,8 +124,8 @@ mixin rtept_ext(route, step, index, next)
           //- These points are not displayed on the GPS or announced during navigation.
           if next.custom || next.mode === 3
             gpxx:rpt(
-                lat=p[0].toFixed(5)
-                lon=p[1].toFixed(5)
+                lat=p[1].toFixed(5)
+                lon=p[0].toFixed(5)
               )
               //- This Subclass code denotes a route point that is not on a mapped road (off-road).
               //- There are usually many of these in succession to define the route path
@@ -133,13 +133,13 @@ mixin rtept_ext(route, step, index, next)
               gpxx:Subclass FFFF00000000FFFFFFFF2117000000000000
           else
             gpxx:rpt(
-                lat=p[0].toFixed(5)
-                lon=p[1].toFixed(5)
+                lat=p[1].toFixed(5)
+                lon=p[0].toFixed(5)
               )
         - var p = expanded[expanded.length - 1];
         gpxx:rpt(
-            lat=p[0].toFixed(5)
-            lon=p[1].toFixed(5)
+            lat=p[1].toFixed(5)
+            lon=p[0].toFixed(5)
           )
           gpxx:Subclass 000000000000FFFFFFFFFFFFFFFFFFFFFFFF
 
@@ -183,7 +183,7 @@ mixin trk_ext(track)
             if step.address || step.phone
               extensions
                 +wpt_ext(step)
-          
+
   if routes
     for route in routes
       +rte(route)
@@ -212,6 +212,6 @@ mixin trk_ext(track)
               trkseg
                 for p in expanded
                   trkpt(
-                      lat=p[0].toFixed(5)
-                      lon=p[1].toFixed(5)
+                      lat=p[1].toFixed(5)
+                      lon=p[0].toFixed(5)
                     )

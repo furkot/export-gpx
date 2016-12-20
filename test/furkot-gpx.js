@@ -71,7 +71,7 @@ describe('furkot-gpx node module', function () {
     should.exist(generated);
     generated.should.eql(expected);
   });
-  
+
   it('garmin no name', function() {
     var t = copy(require('./fixtures/overview-routes.json')),
       expected = readFileSync('./fixtures/garmin-no-name.gpx'),
