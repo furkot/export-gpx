@@ -1,4 +1,9 @@
 
+3.0.0 / 2016-12-19
+==================
+
+ * change coordinate order in track representation to longitude, latitude
+
 2.0.10 / 2016-12-01
 ===================
 
