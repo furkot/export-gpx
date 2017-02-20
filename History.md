@@ -1,4 +1,9 @@
 
+3.0.1 / 2017-02-19
+==================
+
+ * emit ShapingPoints when RoutePointExtension is in effect
+
 3.0.0 / 2016-12-19
 ==================
 
