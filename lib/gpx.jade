@@ -87,7 +87,7 @@ mixin rte_ext(route)
           tmd:DayNumber= route.day
 
 mixin rtept_ext(route, step, index, next)
-  if RoutePointExtension || isStop(step) || index % 124 === 0 || !next
+  if isStop(step) || index % 124 === 0 || !next
     //- The <trp:ViaPoint> is equivalent to a Furkot Stop.
     trp:ViaPoint
       if step.departure_time && next
@@ -101,6 +101,7 @@ mixin rtept_ext(route, step, index, next)
       trp:CalculationMode FasterTime
       trp:ElevationMode Standard
   else
+    - var shapingPoint = true;
     //- The <trp:ShapingPoint> is equivalent to Furkot Pass-through Points.
     //- These points are displayed in the Route point list on the GPS but are not announced during navigation.
     //- There can be up to 124 ShapingPoints between each ViaPoint.
@@ -131,6 +132,15 @@ mixin rtept_ext(route, step, index, next)
               //- There are usually many of these in succession to define the route path
               //- and each off-road point needs to have this Subclass.
               gpxx:Subclass FFFF00000000FFFFFFFF2117000000000000
+          else if shapingPoint
+            - shapingPoint = false;
+            gpxx:rpt(
+                lat=p[1].toFixed(5)
+                lon=p[0].toFixed(5)
+              )
+              //- A Subclass other than 000000000000FFFFFFFFFFFFFFFFFFFFFFFF must be added after a ShapingPoint.
+              //- Any other ‘valid’ Subclass code works.
+              gpxx:Subclass 0300F2F7C403DD6E00002116000025490404
           else
             gpxx:rpt(
                 lat=p[1].toFixed(5)

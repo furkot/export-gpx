@@ -69,7 +69,7 @@ describe('furkot-gpx node module', function () {
     t.routes[0].points[t.routes[0].points.length - 1].custom = true;
     generated = gpx(t);
     should.exist(generated);
-    generated.should.eql(expected);
+    generated.should.equal(expected);
   });
 
   it('garmin no name', function() {

@@ -102,13 +102,12 @@
     </rtept>
     <rtept lat="42.35849" lon="-71.06010">
       <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>FasterTime</trp:CalculationMode>
-          <trp:ElevationMode>Standard</trp:ElevationMode>
-        </trp:ViaPoint>
+        <trp:ShapingPoint></trp:ShapingPoint>
         <gpxx:RoutePointExtension>
           <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-          <gpxx:rpt lat="42.35849" lon="-71.06010"></gpxx:rpt>
+          <gpxx:rpt lat="42.35849" lon="-71.06010">
+            <gpxx:Subclass>0300F2F7C403DD6E00002116000025490404</gpxx:Subclass>
+          </gpxx:rpt>
           <gpxx:rpt lat="42.35833" lon="-71.06019"></gpxx:rpt>
           <gpxx:rpt lat="42.35801" lon="-71.06046"></gpxx:rpt>
           <gpxx:rpt lat="42.35796" lon="-71.06031"></gpxx:rpt>
@@ -1229,13 +1228,12 @@
     </rtept>
     <rtept lat="42.94993" lon="-71.43244">
       <extensions>
-        <trp:ViaPoint>
-          <trp:CalculationMode>FasterTime</trp:CalculationMode>
-          <trp:ElevationMode>Standard</trp:ElevationMode>
-        </trp:ViaPoint>
+        <trp:ShapingPoint></trp:ShapingPoint>
         <gpxx:RoutePointExtension>
           <gpxx:Subclass>000000000000FFFFFFFFFFFFFFFFFFFFFFFF</gpxx:Subclass>
-          <gpxx:rpt lat="42.94993" lon="-71.43244"></gpxx:rpt>
+          <gpxx:rpt lat="42.94993" lon="-71.43244">
+            <gpxx:Subclass>0300F2F7C403DD6E00002116000025490404</gpxx:Subclass>
+          </gpxx:rpt>
           <gpxx:rpt lat="42.94976" lon="-71.43369"></gpxx:rpt>
           <gpxx:rpt lat="42.95071" lon="-71.43493"></gpxx:rpt>
           <gpxx:rpt lat="42.95319" lon="-71.43627"></gpxx:rpt>
