@@ -1,4 +1,9 @@
 
+4.0.0 / 2017-07-18
+==================
+
+ * generate GPX using gexode streaming mode, stop using Jade
+
 3.0.1 / 2017-02-19
 ==================
 
