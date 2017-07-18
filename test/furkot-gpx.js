@@ -1,6 +1,7 @@
 var should = require('should');
 var fs = require('fs');
 var path = require('path');
+var WritableStreamBuffer = require('stream-buffers').WritableStreamBuffer;
 
 var gpx = require('../');
 
@@ -21,12 +22,19 @@ function copy(t) {
   }, {});
 }
 
+function generateGPX(t) {
+  var ostream = new WritableStreamBuffer();
+  gpx(ostream, t);
+  return ostream.getContentsAsString('utf8');
+}
+
+
 describe('furkot-gpx node module', function () {
 
   it('simple trip', function() {
     var t = require('./fixtures/simple-trip.json'),
       expected = readFileSync('./fixtures/simple.gpx'),
-      generated = gpx(t);
+      generated = generateGPX(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
@@ -34,20 +42,20 @@ describe('furkot-gpx node module', function () {
   it('multi trip', function() {
     var t = require('./fixtures/multi-trip.json'),
       expected = readFileSync('./fixtures/multi.gpx'),
-      generated = gpx(t);
+      generated = generateGPX(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
 
   it('empty polyline', function () {
     var t = require('./fixtures/empty-polyline.json');
-    should.exist(gpx(t));
+    should.exist(generateGPX(t));
   });
 
   it('overview routes', function() {
     var t = require('./fixtures/overview-routes.json'),
       expected = readFileSync('./fixtures/points.gpx'),
-      generated = gpx(t);
+      generated = generateGPX(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
@@ -55,7 +63,7 @@ describe('furkot-gpx node module', function () {
   it('pass-thru/skip trip', function() {
     var t = require('./fixtures/pass-thru-skip-multi-night-trip.json'),
       expected = readFileSync('./fixtures/pass-thru-skip-multi-night.gpx'),
-      generated = gpx(t);
+      generated = generateGPX(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
@@ -67,7 +75,7 @@ describe('furkot-gpx node module', function () {
     t.options = 'garmin';
     t.RoutePointExtension = true;
     t.routes[0].points[t.routes[0].points.length - 1].custom = true;
-    generated = gpx(t);
+    generated = generateGPX(t);
     should.exist(generated);
     generated.should.equal(expected);
   });
@@ -79,7 +87,7 @@ describe('furkot-gpx node module', function () {
     delete t.metadata.name;
     t.options = 'garmin';
     t.RoutePointExtension = true;
-    generated = gpx(t);
+    generated = generateGPX(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
@@ -89,7 +97,7 @@ describe('furkot-gpx node module', function () {
       expected = readFileSync('./fixtures/garmin-no-rPtEx.gpx'),
       generated;
     t.options = 'garmin';
-    generated = gpx(t);
+    generated = generateGPX(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
@@ -101,7 +109,7 @@ describe('furkot-gpx node module', function () {
     t.options = 'garmin';
     t.routes[0].mode = 3;
     t.routes[t.routes.length - 1].mode = 0;
-    generated = gpx(t);
+    generated = generateGPX(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
@@ -116,7 +124,7 @@ describe('furkot-gpx node module', function () {
       rt = t.routes[t.routes.length - 1];
       rt.mode = 0;
       rt.points[rt.points.length - 1].mode = 3;
-      generated = gpx(t);
+      generated = generateGPX(t);
       should.exist(generated);
       generated.should.eql(expected);
     });
