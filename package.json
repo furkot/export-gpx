@@ -19,7 +19,8 @@
     "export"
   ],
   "dependencies": {
-    "furkot-garmin-data": "^1.0.0"
+    "furkot-garmin-data": "^1.0.0",
+    "gexode": "^1.0.0"
   },
   "devDependencies": {
     "jshint": "^2.7.0",
