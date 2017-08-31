@@ -1,4 +1,10 @@
 
+4.0.2 / 2017-08-30
+==================
+
+ * fix out-of-memory error when generating large GPX
+ * allow using ES6 syntax
+
 4.0.1 / 2017-07-24
 ==================
 
