@@ -11,26 +11,26 @@
     <link href="https://scenicbyways.com"></link>
   </metadata>
   <rte>
-    <rtept lat="37.77493" lon="-122.41942">
+    <rtept lat="37.774929" lon="-122.419416">
       <time>2013-07-08T13:00:00.000Z</time>
       <name>San Francisco</name>
       <cmt>San Francisco, CA</cmt>
       <desc>San Francisco, CA</desc>
     </rtept>
-    <rtept lat="40.54720" lon="-122.34375">
+    <rtept lat="40.547200" lon="-122.343750">
       <time>2013-07-08T16:13:00.000Z</time>
       <name>Redding</name>
       <cmt>1510 Gordon Lane, Redding, CA 96002, USA</cmt>
       <desc>1510 Gordon Lane, Redding, CA 96002, USA</desc>
     </rtept>
-    <rtept lat="44.04812" lon="-123.04688">
+    <rtept lat="44.048116" lon="-123.046875">
       <time>2013-07-08T21:31:00.000Z</time>
       <name>Lane</name>
       <cmt>51-559 Walnut Place, Springfield, OR 97477, USA</cmt>
       <desc>51-559 Walnut Place, Springfield, OR 97477, USA</desc>
       <sym>Gas Station</sym>
     </rtept>
-    <rtept lat="45.52345" lon="-122.67621">
+    <rtept lat="45.523452" lon="-122.676207">
       <time>2013-07-08T23:35:55.000Z</time>
       <name>Portland</name>
       <cmt>Portland, OR

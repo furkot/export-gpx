@@ -10,7 +10,7 @@
       </link>
     </author>
   </metadata>
-  <wpt lat="40.38902" lon="-105.56205">
+  <wpt lat="40.389018" lon="-105.562048">
     <time>2014-11-04T16:00:00.000Z</time>
     <name>begin</name>
     <cmt>1050 Fall River Court, Estes Park, CO 80517, USA</cmt>
@@ -26,7 +26,7 @@
       </gpxx:WaypointExtension>
     </extensions>
   </wpt>
-  <wpt lat="40.39450" lon="-105.56532">
+  <wpt lat="40.394501" lon="-105.565320">
     <time>2014-11-04T17:01:20.000Z</time>
     <name>nocleg</name>
     <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
@@ -47,7 +47,7 @@
       </gpxx:WaypointExtension>
     </extensions>
   </wpt>
-  <wpt lat="40.39443" lon="-105.56444">
+  <wpt lat="40.394434" lon="-105.564440">
     <time>2014-11-07T16:00:18.000Z</time>
     <name>stop</name>
     <cmt>1301-1317 David Drive, Estes Park, CO 80517, USA</cmt>
@@ -63,7 +63,7 @@
       </gpxx:WaypointExtension>
     </extensions>
   </wpt>
-  <wpt lat="40.39663" lon="-105.56648">
+  <wpt lat="40.396630" lon="-105.566480">
     <time>2014-11-08T16:01:23.000Z</time>
     <name>end</name>
     <cmt>1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA</cmt>
@@ -81,7 +81,7 @@
       </gpxx:WaypointExtension>
     </extensions>
   </wpt>
-  <wpt lat="40.39110" lon="-105.56274">
+  <wpt lat="40.391096" lon="-105.562738">
     <name>skip</name>
     <cmt>2120 Fall River Road, Estes Park, CO 80517, USA</cmt>
     <desc>2120 Fall River Road, Estes Park, CO 80517, USA</desc>
@@ -100,19 +100,19 @@
   </wpt>
   <rte>
     <name>Day 1 - Tue Nov 04 2014</name>
-    <rtept lat="40.38902" lon="-105.56205">
+    <rtept lat="40.389018" lon="-105.562048">
       <time>2014-11-04T16:00:00.000Z</time>
       <name>begin</name>
       <cmt>1050 Fall River Court, Estes Park, CO 80517, USA</cmt>
       <desc>1050 Fall River Court, Estes Park, CO 80517, USA</desc>
     </rtept>
-    <rtept lat="40.38902" lon="-105.56202">
+    <rtept lat="40.389020" lon="-105.562020">
     </rtept>
-    <rtept lat="40.39056" lon="-105.56258">
+    <rtept lat="40.390560" lon="-105.562580">
     </rtept>
-    <rtept lat="40.39355" lon="-105.56401">
+    <rtept lat="40.393550" lon="-105.564010">
     </rtept>
-    <rtept lat="40.39450" lon="-105.56532">
+    <rtept lat="40.394501" lon="-105.565320">
       <time>2014-11-04T17:01:20.000Z</time>
       <name>nocleg</name>
       <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
@@ -122,24 +122,24 @@
   </rte>
   <rte>
     <name>Day 2 - Wed Nov 05 2014</name>
-    <rtept lat="40.39450" lon="-105.56532">
+    <rtept lat="40.394501" lon="-105.565320">
       <time>2014-11-05T16:00:00.000Z</time>
       <name>nocleg</name>
       <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
       <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
       <sym>Lodging</sym>
     </rtept>
-    <rtept lat="40.39450" lon="-105.56533">
+    <rtept lat="40.394500" lon="-105.565330">
     </rtept>
-    <rtept lat="40.39421" lon="-105.56494">
+    <rtept lat="40.394215" lon="-105.564945">
       <time>2014-11-05T16:00:07.000Z</time>
       <name>pass-thru</name>
       <cmt>1177-1399 Fall River Drive, Estes Park, CO 80517, USA</cmt>
       <desc>1177-1399 Fall River Drive, Estes Park, CO 80517, USA</desc>
     </rtept>
-    <rtept lat="40.39423" lon="-105.56492">
+    <rtept lat="40.394230" lon="-105.564920">
     </rtept>
-    <rtept lat="40.39450" lon="-105.56532">
+    <rtept lat="40.394501" lon="-105.565320">
       <time>2014-11-05T16:00:13.000Z</time>
       <name>nocleg</name>
       <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
@@ -149,24 +149,24 @@
   </rte>
   <rte>
     <name>Day 4 - Fri Nov 07 2014</name>
-    <rtept lat="40.39450" lon="-105.56532">
+    <rtept lat="40.394501" lon="-105.565320">
       <time>2014-11-07T16:00:00.000Z</time>
       <name>nocleg</name>
       <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
       <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
       <sym>Lodging</sym>
     </rtept>
-    <rtept lat="40.39450" lon="-105.56533">
+    <rtept lat="40.394500" lon="-105.565330">
     </rtept>
-    <rtept lat="40.39444" lon="-105.56444">
+    <rtept lat="40.394440" lon="-105.564440">
     </rtept>
-    <rtept lat="40.39443" lon="-105.56444">
+    <rtept lat="40.394434" lon="-105.564440">
       <time>2014-11-07T16:00:18.000Z</time>
       <name>stop</name>
       <cmt>1301-1317 David Drive, Estes Park, CO 80517, USA</cmt>
       <desc>1301-1317 David Drive, Estes Park, CO 80517, USA</desc>
     </rtept>
-    <rtept lat="40.39450" lon="-105.56532">
+    <rtept lat="40.394501" lon="-105.565320">
       <time>2014-11-07T17:00:36.000Z</time>
       <name>nocleg</name>
       <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
@@ -176,20 +176,20 @@
   </rte>
   <rte>
     <name>Day 5 - Sat Nov 08 2014</name>
-    <rtept lat="40.39450" lon="-105.56532">
+    <rtept lat="40.394501" lon="-105.565320">
       <time>2014-11-08T16:00:00.000Z</time>
       <name>nocleg</name>
       <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
       <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
       <sym>Lodging</sym>
     </rtept>
-    <rtept lat="40.39450" lon="-105.56533">
+    <rtept lat="40.394500" lon="-105.565330">
     </rtept>
-    <rtept lat="40.39574" lon="-105.56690">
+    <rtept lat="40.395740" lon="-105.566900">
     </rtept>
-    <rtept lat="40.39645" lon="-105.56927">
+    <rtept lat="40.396450" lon="-105.569270">
     </rtept>
-    <rtept lat="40.39663" lon="-105.56648">
+    <rtept lat="40.396630" lon="-105.566480">
       <time>2014-11-08T16:01:23.000Z</time>
       <name>end</name>
       <cmt>1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA</cmt>
@@ -206,26 +206,26 @@
       </gpxx:TrackExtension>
     </extensions>
     <trkseg>
-      <trkpt lat="40.38902" lon="-105.56202"></trkpt>
-      <trkpt lat="40.38909" lon="-105.56201"></trkpt>
-      <trkpt lat="40.38940" lon="-105.56181"></trkpt>
-      <trkpt lat="40.38950" lon="-105.56211"></trkpt>
-      <trkpt lat="40.38969" lon="-105.56231"></trkpt>
-      <trkpt lat="40.39034" lon="-105.56259"></trkpt>
-      <trkpt lat="40.39056" lon="-105.56258"></trkpt>
-      <trkpt lat="40.39126" lon="-105.56300"></trkpt>
-      <trkpt lat="40.39168" lon="-105.56328"></trkpt>
-      <trkpt lat="40.39223" lon="-105.56331"></trkpt>
-      <trkpt lat="40.39286" lon="-105.56339"></trkpt>
-      <trkpt lat="40.39322" lon="-105.56361"></trkpt>
-      <trkpt lat="40.39347" lon="-105.56389"></trkpt>
-      <trkpt lat="40.39355" lon="-105.56401"></trkpt>
-      <trkpt lat="40.39389" lon="-105.56453"></trkpt>
-      <trkpt lat="40.39400" lon="-105.56469"></trkpt>
-      <trkpt lat="40.39432" lon="-105.56501"></trkpt>
-      <trkpt lat="40.39433" lon="-105.56506"></trkpt>
-      <trkpt lat="40.39448" lon="-105.56531"></trkpt>
-      <trkpt lat="40.39450" lon="-105.56533"></trkpt>
+      <trkpt lat="40.389020" lon="-105.562020"></trkpt>
+      <trkpt lat="40.389090" lon="-105.562010"></trkpt>
+      <trkpt lat="40.389400" lon="-105.561810"></trkpt>
+      <trkpt lat="40.389500" lon="-105.562110"></trkpt>
+      <trkpt lat="40.389690" lon="-105.562310"></trkpt>
+      <trkpt lat="40.390340" lon="-105.562590"></trkpt>
+      <trkpt lat="40.390560" lon="-105.562580"></trkpt>
+      <trkpt lat="40.391260" lon="-105.563000"></trkpt>
+      <trkpt lat="40.391680" lon="-105.563280"></trkpt>
+      <trkpt lat="40.392230" lon="-105.563310"></trkpt>
+      <trkpt lat="40.392860" lon="-105.563390"></trkpt>
+      <trkpt lat="40.393220" lon="-105.563610"></trkpt>
+      <trkpt lat="40.393470" lon="-105.563890"></trkpt>
+      <trkpt lat="40.393550" lon="-105.564010"></trkpt>
+      <trkpt lat="40.393890" lon="-105.564530"></trkpt>
+      <trkpt lat="40.394000" lon="-105.564690"></trkpt>
+      <trkpt lat="40.394320" lon="-105.565010"></trkpt>
+      <trkpt lat="40.394330" lon="-105.565060"></trkpt>
+      <trkpt lat="40.394480" lon="-105.565310"></trkpt>
+      <trkpt lat="40.394500" lon="-105.565330"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -236,17 +236,17 @@
       </gpxx:TrackExtension>
     </extensions>
     <trkseg>
-      <trkpt lat="40.39450" lon="-105.56533"></trkpt>
-      <trkpt lat="40.39434" lon="-105.56511"></trkpt>
-      <trkpt lat="40.39432" lon="-105.56501"></trkpt>
-      <trkpt lat="40.39423" lon="-105.56492"></trkpt>
+      <trkpt lat="40.394500" lon="-105.565330"></trkpt>
+      <trkpt lat="40.394340" lon="-105.565110"></trkpt>
+      <trkpt lat="40.394320" lon="-105.565010"></trkpt>
+      <trkpt lat="40.394230" lon="-105.564920"></trkpt>
     </trkseg>
     <trkseg>
-      <trkpt lat="40.39423" lon="-105.56492"></trkpt>
-      <trkpt lat="40.39432" lon="-105.56501"></trkpt>
-      <trkpt lat="40.39433" lon="-105.56506"></trkpt>
-      <trkpt lat="40.39448" lon="-105.56531"></trkpt>
-      <trkpt lat="40.39450" lon="-105.56533"></trkpt>
+      <trkpt lat="40.394230" lon="-105.564920"></trkpt>
+      <trkpt lat="40.394320" lon="-105.565010"></trkpt>
+      <trkpt lat="40.394330" lon="-105.565060"></trkpt>
+      <trkpt lat="40.394480" lon="-105.565310"></trkpt>
+      <trkpt lat="40.394500" lon="-105.565330"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -257,19 +257,19 @@
       </gpxx:TrackExtension>
     </extensions>
     <trkseg>
-      <trkpt lat="40.39450" lon="-105.56533"></trkpt>
-      <trkpt lat="40.39434" lon="-105.56511"></trkpt>
-      <trkpt lat="40.39432" lon="-105.56501"></trkpt>
-      <trkpt lat="40.39437" lon="-105.56471"></trkpt>
-      <trkpt lat="40.39441" lon="-105.56457"></trkpt>
-      <trkpt lat="40.39444" lon="-105.56444"></trkpt>
+      <trkpt lat="40.394500" lon="-105.565330"></trkpt>
+      <trkpt lat="40.394340" lon="-105.565110"></trkpt>
+      <trkpt lat="40.394320" lon="-105.565010"></trkpt>
+      <trkpt lat="40.394370" lon="-105.564710"></trkpt>
+      <trkpt lat="40.394410" lon="-105.564570"></trkpt>
+      <trkpt lat="40.394440" lon="-105.564440"></trkpt>
     </trkseg>
     <trkseg>
-      <trkpt lat="40.39444" lon="-105.56444"></trkpt>
-      <trkpt lat="40.39437" lon="-105.56471"></trkpt>
-      <trkpt lat="40.39432" lon="-105.56501"></trkpt>
-      <trkpt lat="40.39434" lon="-105.56511"></trkpt>
-      <trkpt lat="40.39450" lon="-105.56533"></trkpt>
+      <trkpt lat="40.394440" lon="-105.564440"></trkpt>
+      <trkpt lat="40.394370" lon="-105.564710"></trkpt>
+      <trkpt lat="40.394320" lon="-105.565010"></trkpt>
+      <trkpt lat="40.394340" lon="-105.565110"></trkpt>
+      <trkpt lat="40.394500" lon="-105.565330"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -280,37 +280,37 @@
       </gpxx:TrackExtension>
     </extensions>
     <trkseg>
-      <trkpt lat="40.39450" lon="-105.56533"></trkpt>
-      <trkpt lat="40.39469" lon="-105.56547"></trkpt>
-      <trkpt lat="40.39483" lon="-105.56552"></trkpt>
-      <trkpt lat="40.39491" lon="-105.56556"></trkpt>
-      <trkpt lat="40.39510" lon="-105.56563"></trkpt>
-      <trkpt lat="40.39522" lon="-105.56571"></trkpt>
-      <trkpt lat="40.39534" lon="-105.56593"></trkpt>
-      <trkpt lat="40.39546" lon="-105.56628"></trkpt>
-      <trkpt lat="40.39558" lon="-105.56651"></trkpt>
-      <trkpt lat="40.39564" lon="-105.56666"></trkpt>
-      <trkpt lat="40.39574" lon="-105.56690"></trkpt>
-      <trkpt lat="40.39581" lon="-105.56732"></trkpt>
-      <trkpt lat="40.39581" lon="-105.56739"></trkpt>
-      <trkpt lat="40.39583" lon="-105.56745"></trkpt>
-      <trkpt lat="40.39588" lon="-105.56780"></trkpt>
-      <trkpt lat="40.39599" lon="-105.56825"></trkpt>
-      <trkpt lat="40.39610" lon="-105.56857"></trkpt>
-      <trkpt lat="40.39618" lon="-105.56885"></trkpt>
-      <trkpt lat="40.39625" lon="-105.56899"></trkpt>
-      <trkpt lat="40.39633" lon="-105.56912"></trkpt>
-      <trkpt lat="40.39645" lon="-105.56927"></trkpt>
-      <trkpt lat="40.39658" lon="-105.56957"></trkpt>
-      <trkpt lat="40.39687" lon="-105.56970"></trkpt>
-      <trkpt lat="40.39710" lon="-105.56975"></trkpt>
-      <trkpt lat="40.39719" lon="-105.56975"></trkpt>
-      <trkpt lat="40.39729" lon="-105.56970"></trkpt>
-      <trkpt lat="40.39722" lon="-105.56906"></trkpt>
-      <trkpt lat="40.39714" lon="-105.56836"></trkpt>
-      <trkpt lat="40.39693" lon="-105.56726"></trkpt>
-      <trkpt lat="40.39685" lon="-105.56693"></trkpt>
-      <trkpt lat="40.39665" lon="-105.56647"></trkpt>
+      <trkpt lat="40.394500" lon="-105.565330"></trkpt>
+      <trkpt lat="40.394690" lon="-105.565470"></trkpt>
+      <trkpt lat="40.394830" lon="-105.565520"></trkpt>
+      <trkpt lat="40.394910" lon="-105.565560"></trkpt>
+      <trkpt lat="40.395100" lon="-105.565630"></trkpt>
+      <trkpt lat="40.395220" lon="-105.565710"></trkpt>
+      <trkpt lat="40.395340" lon="-105.565930"></trkpt>
+      <trkpt lat="40.395460" lon="-105.566280"></trkpt>
+      <trkpt lat="40.395580" lon="-105.566510"></trkpt>
+      <trkpt lat="40.395640" lon="-105.566660"></trkpt>
+      <trkpt lat="40.395740" lon="-105.566900"></trkpt>
+      <trkpt lat="40.395810" lon="-105.567320"></trkpt>
+      <trkpt lat="40.395810" lon="-105.567390"></trkpt>
+      <trkpt lat="40.395830" lon="-105.567450"></trkpt>
+      <trkpt lat="40.395880" lon="-105.567800"></trkpt>
+      <trkpt lat="40.395990" lon="-105.568250"></trkpt>
+      <trkpt lat="40.396100" lon="-105.568570"></trkpt>
+      <trkpt lat="40.396180" lon="-105.568850"></trkpt>
+      <trkpt lat="40.396250" lon="-105.568990"></trkpt>
+      <trkpt lat="40.396330" lon="-105.569120"></trkpt>
+      <trkpt lat="40.396450" lon="-105.569270"></trkpt>
+      <trkpt lat="40.396580" lon="-105.569570"></trkpt>
+      <trkpt lat="40.396870" lon="-105.569700"></trkpt>
+      <trkpt lat="40.397100" lon="-105.569750"></trkpt>
+      <trkpt lat="40.397190" lon="-105.569750"></trkpt>
+      <trkpt lat="40.397290" lon="-105.569700"></trkpt>
+      <trkpt lat="40.397220" lon="-105.569060"></trkpt>
+      <trkpt lat="40.397140" lon="-105.568360"></trkpt>
+      <trkpt lat="40.396930" lon="-105.567260"></trkpt>
+      <trkpt lat="40.396850" lon="-105.566930"></trkpt>
+      <trkpt lat="40.396650" lon="-105.566470"></trkpt>
     </trkseg>
   </trk>
 </gpx>
