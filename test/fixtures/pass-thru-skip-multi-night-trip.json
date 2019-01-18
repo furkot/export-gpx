@@ -147,7 +147,7 @@
         ]
       ],
       "keep": true,
-      "symbol": "Lodging",
+      "sym": 0,
       "streetAddress": "1354-1400 David Drive"
     },
     {
@@ -353,7 +353,7 @@
         ]
       ],
       "keep": true,
-      "symbol": "Lodging",
+      "sym": 0,
       "streetAddress": "1508-1514 Fish Hatchery Road"
     },
     {
@@ -374,7 +374,7 @@
         "country_long": "United States"
       },
       "tzoffset": -420,
-      "symbol": "Lodging",
+      "sym": 0,
       "streetAddress": "2120 Fall River Road"
     }
   ],
@@ -511,7 +511,7 @@
             ]
           ],
           "keep": true,
-          "symbol": "Lodging",
+          "sym": 0,
           "streetAddress": "1354-1400 David Drive"
         }
       ],
@@ -609,7 +609,7 @@
             ]
           ],
           "keep": true,
-          "symbol": "Lodging"
+          "sym": 0
         }
       ],
       "name": "Day 2 - Wed Nov 05 2014",
@@ -715,7 +715,7 @@
             ]
           ],
           "keep": true,
-          "symbol": "Lodging"
+          "sym": 0
         }
       ],
       "name": "Day 4 - Fri Nov 07 2014",
@@ -874,7 +874,7 @@
             ]
           ],
           "keep": true,
-          "symbol": "Lodging",
+          "sym": 0,
           "streetAddress": "1508-1514 Fish Hatchery Road"
         }
       ],
@@ -914,21 +914,21 @@
             "lat": 40.38902,
             "lon": -105.56202
           },
-          "symbol": ""
+          "sym": ""
         },
         {
           "coordinates": {
             "lat": 40.39056,
             "lon": -105.56258000000001
           },
-          "symbol": ""
+          "sym": ""
         },
         {
           "coordinates": {
             "lat": 40.393550000000005,
             "lon": -105.56401000000001
           },
-          "symbol": ""
+          "sym": ""
         },
         {
           "day": 0,
@@ -1036,7 +1036,7 @@
             ]
           ],
           "keep": true,
-          "symbol": "Lodging",
+          "sym": 0,
           "streetAddress": "1354-1400 David Drive"
         }
       ],
@@ -1150,14 +1150,14 @@
             ]
           ],
           "keep": true,
-          "symbol": "Lodging"
+          "sym": 0
         },
         {
           "coordinates": {
             "lat": 40.3945,
             "lon": -105.56533
           },
-          "symbol": ""
+          "sym": ""
         },
         {
           "day": 0,
@@ -1207,7 +1207,7 @@
             "lat": 40.39423,
             "lon": -105.56492000000001
           },
-          "symbol": ""
+          "sym": ""
         },
         {
           "day": 1,
@@ -1255,7 +1255,7 @@
             ]
           ],
           "keep": true,
-          "symbol": "Lodging"
+          "sym": 0
         }
       ],
       "name": "Day 2 - Wed Nov 05 2014"
@@ -1286,21 +1286,21 @@
           "nights": 1,
           "departure_time": 1415350800000,
           "keep": true,
-          "symbol": "Lodging"
+          "sym": 0
         },
         {
           "coordinates": {
             "lat": 40.3945,
             "lon": -105.56533
           },
-          "symbol": ""
+          "sym": ""
         },
         {
           "coordinates": {
             "lat": 40.39444,
             "lon": -105.56444
           },
-          "symbol": ""
+          "sym": ""
         },
         {
           "day": 0,
@@ -1400,7 +1400,7 @@
             ]
           ],
           "keep": true,
-          "symbol": "Lodging"
+          "sym": 0
         }
       ],
       "name": "Day 4 - Fri Nov 07 2014"
@@ -1453,28 +1453,28 @@
             ]
           ],
           "keep": true,
-          "symbol": "Lodging"
+          "sym": 0
         },
         {
           "coordinates": {
             "lat": 40.3945,
             "lon": -105.56533
           },
-          "symbol": ""
+          "sym": ""
         },
         {
           "coordinates": {
             "lat": 40.39574,
             "lon": -105.5669
           },
-          "symbol": ""
+          "sym": ""
         },
         {
           "coordinates": {
             "lat": 40.39645,
             "lon": -105.56927
           },
-          "symbol": ""
+          "sym": ""
         },
         {
           "day": 0,
@@ -1627,7 +1627,7 @@
             ]
           ],
           "keep": true,
-          "symbol": "Lodging",
+          "sym": 0,
           "streetAddress": "1508-1514 Fish Hatchery Road"
         }
       ],
