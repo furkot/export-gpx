@@ -1,4 +1,11 @@
 
+4.2.0 / 2019-01-17
+==================
+
+ * add support for Galileo symbols and colors
+ * furkot-galileo-data 1.0.0
+ * refactor mapping waypoint symbols and track colors
+
 4.1.0 / 2018-07-25
 ==================
 
