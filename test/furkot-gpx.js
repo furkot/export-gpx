@@ -76,9 +76,21 @@ describe('furkot-gpx node module', function () {
   });
 
   it('pass-thru/skip trip', function(done) {
-    var t = require('./fixtures/pass-thru-skip-multi-night-trip.json'),
+    var t = copy(require('./fixtures/pass-thru-skip-multi-night-trip.json')),
       expected = readFileSync('./fixtures/pass-thru-skip-multi-night.gpx');
 
+    generateGPX(t, function(err, generated) {
+      should.exist(generated);
+      generated.should.eql(expected);
+      done(err);
+    });
+  });
+
+  it('galileo pass-thru/skip trip', function(done) {
+    var t = copy(require('./fixtures/pass-thru-skip-multi-night-trip.json')),
+      expected = readFileSync('./fixtures/galileo.gpx');
+
+    t.options = 'galileo';
     generateGPX(t, function(err, generated) {
       should.exist(generated);
       generated.should.eql(expected);
