@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://furkot.com/" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd">
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://furkot.com/" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>sample</name>
     <author>
@@ -15,16 +15,6 @@
     <name>begin</name>
     <cmt>1050 Fall River Court, Estes Park, CO 80517, USA</cmt>
     <desc>1050 Fall River Court, Estes Park, CO 80517, USA</desc>
-    <extensions>
-      <gpxx:WaypointExtension>
-        <gpxx:Address>
-          <gpxx:StreetAddress>1050 Fall River Court</gpxx:StreetAddress>
-          <gpxx:City>Estes Park</gpxx:City>
-          <gpxx:State>CO</gpxx:State>
-          <gpxx:Country>United States</gpxx:Country>
-        </gpxx:Address>
-      </gpxx:WaypointExtension>
-    </extensions>
   </wpt>
   <wpt lat="40.394501" lon="-105.565320">
     <time>2014-11-04T17:01:20.000Z</time>
@@ -32,36 +22,12 @@
     <cmt>1354-1400 David Drive, Estes Park, CO 80517, USA</cmt>
     <desc>1354-1400 David Drive, Estes Park, CO 80517, USA</desc>
     <type>19</type>
-    <extensions>
-      <gpxx:WaypointExtension>
-        <gpxx:Categories>
-          <gpxx:Category>Hotel</gpxx:Category>
-          <gpxx:Category>Overnight lodging</gpxx:Category>
-        </gpxx:Categories>
-        <gpxx:Address>
-          <gpxx:StreetAddress>1354-1400 David Drive</gpxx:StreetAddress>
-          <gpxx:City>Estes Park</gpxx:City>
-          <gpxx:State>CO</gpxx:State>
-          <gpxx:Country>United States</gpxx:Country>
-        </gpxx:Address>
-      </gpxx:WaypointExtension>
-    </extensions>
   </wpt>
   <wpt lat="40.394434" lon="-105.564440">
     <time>2014-11-07T16:00:18.000Z</time>
     <name>stop</name>
     <cmt>1301-1317 David Drive, Estes Park, CO 80517, USA</cmt>
     <desc>1301-1317 David Drive, Estes Park, CO 80517, USA</desc>
-    <extensions>
-      <gpxx:WaypointExtension>
-        <gpxx:Address>
-          <gpxx:StreetAddress>1301-1317 David Drive</gpxx:StreetAddress>
-          <gpxx:City>Estes Park</gpxx:City>
-          <gpxx:State>CO</gpxx:State>
-          <gpxx:Country>United States</gpxx:Country>
-        </gpxx:Address>
-      </gpxx:WaypointExtension>
-    </extensions>
   </wpt>
   <wpt lat="40.396630" lon="-105.566480">
     <time>2014-11-08T16:01:23.000Z</time>
@@ -70,16 +36,6 @@
     <desc>1508-1514 Fish Hatchery Road, Estes Park, CO 80517, USA</desc>
     <link href="https://trips.furkot.com/book/venere?id=513209"></link>
     <type>19</type>
-    <extensions>
-      <gpxx:WaypointExtension>
-        <gpxx:Address>
-          <gpxx:StreetAddress>1508-1514 Fish Hatchery Road</gpxx:StreetAddress>
-          <gpxx:City>Estes Park</gpxx:City>
-          <gpxx:State>CO</gpxx:State>
-          <gpxx:Country>United States</gpxx:Country>
-        </gpxx:Address>
-      </gpxx:WaypointExtension>
-    </extensions>
   </wpt>
   <wpt lat="40.391096" lon="-105.562738">
     <name>skip</name>
@@ -87,16 +43,6 @@
     <desc>2120 Fall River Road, Estes Park, CO 80517, USA</desc>
     <link href="https://trips.furkot.com/book/bookingdotcom?id=1087237&amp;brand=%2Fhotel%2Fus%2Fbear-paw-suites.html"></link>
     <type>19</type>
-    <extensions>
-      <gpxx:WaypointExtension>
-        <gpxx:Address>
-          <gpxx:StreetAddress>2120 Fall River Road</gpxx:StreetAddress>
-          <gpxx:City>Estes Park</gpxx:City>
-          <gpxx:State>CO</gpxx:State>
-          <gpxx:Country>United States</gpxx:Country>
-        </gpxx:Address>
-      </gpxx:WaypointExtension>
-    </extensions>
   </wpt>
   <rte>
     <name>Day 1 - Tue Nov 04 2014</name>

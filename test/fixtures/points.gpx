@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://furkot.com/" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd">
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://furkot.com/" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
     <name>Ski trip</name>
     <author>
@@ -17,15 +17,6 @@
 Home of Boston Red Sox</cmt>
     <desc>Boston, MA
 Home of Boston Red Sox</desc>
-    <extensions>
-      <gpxx:WaypointExtension>
-        <gpxx:Address>
-          <gpxx:City>Boston</gpxx:City>
-          <gpxx:State>MA</gpxx:State>
-          <gpxx:Country>United States</gpxx:Country>
-        </gpxx:Address>
-      </gpxx:WaypointExtension>
-    </extensions>
   </wpt>
   <wpt lat="42.949890" lon="-71.432410">
     <time>2013-04-23T13:55:19.000Z</time>
@@ -34,48 +25,18 @@ Home of Boston Red Sox</desc>
     <desc>736 Huse Road, Manchester, NH 03103, USA</desc>
     <link href="http://www.easytobook.com/en/united-states-of-america/new-hampshire/manchester/courtyard-by-marriott-manchester/?affid=280826683"></link>
     <sym>Lodging</sym>
-    <extensions>
-      <gpxx:WaypointExtension>
-        <gpxx:Address>
-          <gpxx:StreetAddress>736 Huse Road</gpxx:StreetAddress>
-          <gpxx:City>Manchester</gpxx:City>
-          <gpxx:State>NH</gpxx:State>
-          <gpxx:Country>United States</gpxx:Country>
-        </gpxx:Address>
-      </gpxx:WaypointExtension>
-    </extensions>
   </wpt>
   <wpt lat="43.205176" lon="-71.531982">
     <time>2013-04-24T13:24:33.000Z</time>
     <name>Concord, NH, USA</name>
     <cmt>Frederick E. Everett Turnpike, Concord, NH 03301, USA</cmt>
     <desc>Frederick E. Everett Turnpike, Concord, NH 03301, USA</desc>
-    <extensions>
-      <gpxx:WaypointExtension>
-        <gpxx:Address>
-          <gpxx:StreetAddress>Frederick E. Everett Turnpike</gpxx:StreetAddress>
-          <gpxx:City>Concord</gpxx:City>
-          <gpxx:State>NH</gpxx:State>
-          <gpxx:Country>United States</gpxx:Country>
-        </gpxx:Address>
-      </gpxx:WaypointExtension>
-    </extensions>
   </wpt>
   <wpt lat="43.664722" lon="-72.793333">
     <time>2013-04-25T17:01:49.000Z</time>
     <name>Killington, VT</name>
     <cmt>Killington, VT</cmt>
     <desc>Killington, VT</desc>
-    <extensions>
-      <gpxx:WaypointExtension>
-        <gpxx:Address>
-          <gpxx:City>Killington</gpxx:City>
-          <gpxx:State>VT</gpxx:State>
-          <gpxx:Country>United States</gpxx:Country>
-        </gpxx:Address>
-        <gpxx:PhoneNumber>(508) 872-6101</gpxx:PhoneNumber>
-      </gpxx:WaypointExtension>
-    </extensions>
   </wpt>
   <rte>
     <name>Day 1 - Tue Apr 23 2013</name>
