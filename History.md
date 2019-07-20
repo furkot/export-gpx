@@ -1,4 +1,10 @@
 
+4.2.1 / 2019-07-19
+==================
+
+ * furkot-galileo-data 1.0.0 -> 1.0.1
+ * remove all Garmin extensions from standard GPX files
+
 4.2.0 / 2019-01-17
 ==================
 
