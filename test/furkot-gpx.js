@@ -1,6 +1,7 @@
 var should = require('should');
 var fs = require('fs');
 var path = require('path');
+var streamify = require('stream-generators');
 var WritableStreamBuffer = require('stream-buffers').WritableStreamBuffer;
 
 var gpx = require('../');
@@ -24,7 +25,8 @@ function copy(t) {
 
 function generateGPX(t, fn) {
   var ostream = new WritableStreamBuffer();
-  gpx(ostream, t);
+  var generate = gpx(t);
+  streamify(generate).pipe(ostream);
   ostream
   .on('error', fn)
   .on('finish', function() {
