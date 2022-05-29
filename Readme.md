@@ -1,6 +1,6 @@
 [![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Dependency Status][gemnasium-image]][gemnasium-url]
+[![Build Status][build-image]][build-url]
+[![Dependency Status][deps-image]][deps-url]
 
 # furkot-gpx
 
@@ -24,11 +24,11 @@ MIT © [code42day](https://code42day.com)
 
 [Furkot]: https://trips.furkot.com
 
-[npm-image]: https://img.shields.io/npm/v/furkot-gpx.svg
+[npm-image]: https://img.shields.io/npm/v/furkot-gpx
 [npm-url]: https://npmjs.org/package/furkot-gpx
 
-[travis-url]: https://travis-ci.org/furkot/furkot-gpx
-[travis-image]: https://img.shields.io/travis/furkot/furkot-gpx.svg
+[build-image]: https://img.shields.io/github/workflow/status/furkot/furkot-gpx/check
+[build-url]: https://github.com/furkot/furkot-gpx/actions/workflows/check.yaml
 
-[gemnasium-image]: https://img.shields.io/gemnasium/furkot/furkot-gpx.svg
-[gemnasium-url]: https://gemnasium.com/furkot/furkot-gpx
+[deps-image]: https://img.shields.io/librariesio/github/furkot/furkot-gpx
+[deps-url]: https://libraries.io/npm/furkot-gpx
