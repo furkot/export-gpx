@@ -21,14 +21,12 @@
   "dependencies": {
     "furkot-galileo-data": "^1.0.1",
     "furkot-garmin-data": "^1.0.0",
-    "gexode": "^1.0.0",
-    "stream-generators": "^0.1.1"
+    "gexode": "^1.0.0"
   },
   "devDependencies": {
     "jshint": "~2",
     "mocha": "~10",
-    "should": "~13",
-    "stream-buffers": "^3.0.1"
+    "should": "~13"
   },
   "scripts": {
     "test": "make check"
