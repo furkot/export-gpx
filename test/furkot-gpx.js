@@ -1,8 +1,8 @@
-var should = require('should');
-var fs = require('fs');
-var path = require('path');
+const should = require('should');
+const fs = require('fs');
+const path = require('path');
 
-var gpx = require('../');
+const gpx = require('../');
 
 function readFileSync(name) {
   return fs.readFileSync(path.join(__dirname, name), 'utf8');
@@ -29,106 +29,106 @@ function generateGPX(t) {
 describe('furkot-gpx node module', function () {
 
   it('simple trip', function () {
-    var t = require('./fixtures/simple-trip.json'),
-      expected = readFileSync('./fixtures/simple.gpx');
-    var generated = generateGPX(t);
+    const t = require('./fixtures/simple-trip.json');
+    const expected = readFileSync('./fixtures/simple.gpx');
+    const generated = generateGPX(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
 
   it('multi trip', function () {
-    var t = require('./fixtures/multi-trip.json'),
-      expected = readFileSync('./fixtures/multi.gpx');
-    var generated = generateGPX(t);
+    const t = require('./fixtures/multi-trip.json');
+    const expected = readFileSync('./fixtures/multi.gpx');
+    const generated = generateGPX(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
 
   it('empty polyline', function () {
-    var t = require('./fixtures/empty-polyline.json');
+    const t = require('./fixtures/empty-polyline.json');
 
-    var generated = generateGPX(t);
+    const generated = generateGPX(t);
     should.exist(generated);
   });
 
   it('overview routes', function () {
-    var t = require('./fixtures/overview-routes.json'),
-      expected = readFileSync('./fixtures/points.gpx');
+    const t = require('./fixtures/overview-routes.json');
+    const expected = readFileSync('./fixtures/points.gpx');
 
-    var generated = generateGPX(t);
+    const generated = generateGPX(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
 
   it('pass-thru/skip trip', function () {
-    var t = copy(require('./fixtures/pass-thru-skip-multi-night-trip.json')),
-      expected = readFileSync('./fixtures/pass-thru-skip-multi-night.gpx');
+    const t = copy(require('./fixtures/pass-thru-skip-multi-night-trip.json'));
+    const expected = readFileSync('./fixtures/pass-thru-skip-multi-night.gpx');
 
-    var generated = generateGPX(t);
+    const generated = generateGPX(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
 
   it('galileo pass-thru/skip trip', function () {
-    var t = copy(require('./fixtures/pass-thru-skip-multi-night-trip.json')),
-      expected = readFileSync('./fixtures/galileo.gpx');
+    const t = copy(require('./fixtures/pass-thru-skip-multi-night-trip.json'));
+    const expected = readFileSync('./fixtures/galileo.gpx');
 
     t.options = 'galileo';
-    var generated = generateGPX(t);
+    const generated = generateGPX(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
 
   it('garmin routes', function () {
-    var t = copy(require('./fixtures/overview-routes.json')),
-      expected = readFileSync('./fixtures/garmin.gpx');
+    const t = copy(require('./fixtures/overview-routes.json'));
+    const expected = readFileSync('./fixtures/garmin.gpx');
 
     t.options = 'garmin';
     t.RoutePointExtension = true;
     t.routes[0].points[t.routes[0].points.length - 1].custom = true;
-    var generated = generateGPX(t);
+    const generated = generateGPX(t);
     should.exist(generated);
     generated.should.equal(expected);
   });
 
   it('garmin no name', function () {
-    var t = copy(require('./fixtures/overview-routes.json')),
-      expected = readFileSync('./fixtures/garmin-no-name.gpx');
+    const t = copy(require('./fixtures/overview-routes.json'));
+    const expected = readFileSync('./fixtures/garmin-no-name.gpx');
 
     delete t.metadata.name;
     t.options = 'garmin';
     t.RoutePointExtension = true;
-    var generated = generateGPX(t);
+    const generated = generateGPX(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
 
   it('garmin no RoutePointExtension', function () {
-    var t = copy(require('./fixtures/overview-routes.json')),
-      expected = readFileSync('./fixtures/garmin-no-rPtEx.gpx');
+    const t = copy(require('./fixtures/overview-routes.json'));
+    const expected = readFileSync('./fixtures/garmin-no-rPtEx.gpx');
 
     t.options = 'garmin';
-    var generated = generateGPX(t);
+    const generated = generateGPX(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
 
   it('garmin route transportation mode', function () {
-    var t = copy(require('./fixtures/overview-routes.json')),
-      expected = readFileSync('./fixtures/garmin-rtTrMd.gpx');
+    const t = copy(require('./fixtures/overview-routes.json'));
+    const expected = readFileSync('./fixtures/garmin-rtTrMd.gpx');
 
     t.options = 'garmin';
     t.routes[0].mode = 3;
     t.routes[t.routes.length - 1].mode = 0;
-    var generated = generateGPX(t);
+    const generated = generateGPX(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
 
   it('garmin via point transportation mode', function () {
-    var t = copy(require('./fixtures/overview-routes.json')),
-      expected = readFileSync('./fixtures/garmin-vpTrMd.gpx'),
-      rt;
+    const t = copy(require('./fixtures/overview-routes.json'));
+    const expected = readFileSync('./fixtures/garmin-vpTrMd.gpx');
+    let rt;
 
     t.options = 'garmin';
     rt = t.routes[0];
@@ -136,7 +136,7 @@ describe('furkot-gpx node module', function () {
     rt = t.routes[t.routes.length - 1];
     rt.mode = 0;
     rt.points[rt.points.length - 1].mode = 3;
-    var generated = generateGPX(t);
+    const generated = generateGPX(t);
     should.exist(generated);
     generated.should.eql(expected);
   });
