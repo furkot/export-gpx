@@ -1,4 +1,11 @@
 
+5.0.0 / 2022-06-02
+==================
+
+ * rename project to @furkot/gpx
+ * mark exporter encoding
+ * rewrite as a generator
+
 4.2.1 / 2019-07-19
 ==================
 
