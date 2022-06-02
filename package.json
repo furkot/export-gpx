@@ -1,5 +1,5 @@
 {
-  "name": "furkot-gpx",
+  "name": "@furkot/export-gpx",
   "version": "4.2.1",
   "description": "Generate GPX files from Furkot trip data.",
   "homepage": "https://trips.furkot.com",
@@ -8,7 +8,7 @@
     "email": "pirxpilot@code42day.com",
     "url": "https://code42day.com"
   },
-  "repository": "furkot/furkot-gpx",
+  "repository": "furkot/export-gpx",
   "license": "MIT",
   "keywords": [
     "furkot-gpx",
