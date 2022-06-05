@@ -19,8 +19,8 @@
     "export"
   ],
   "dependencies": {
-    "furkot-galileo-data": "^1.0.1",
-    "furkot-garmin-data": "^1.0.0",
+    "@furkot/garmin-data": "^1.0.1",
+    "@furkot/guru-data": "^1.1.0",
     "gexode": "^1.0.0"
   },
   "devDependencies": {
