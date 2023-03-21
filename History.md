@@ -1,4 +1,10 @@
 
+5.0.3 / 2023-03-21
+==================
+
+ * @furkot/garmin-data 1.0.1 -> 1.0.2
+ * export route color as Garmin extension
+
 5.0.2 / 2022-07-21
 ==================
 
