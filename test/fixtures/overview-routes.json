@@ -1307,7 +1307,7 @@
         ]
       ],
       "keep": true,
-      "symbol": "Lodging",
+      "sym": 0,
       "streetAddress": "736 Huse Road"
     },
     {
@@ -3940,8 +3940,7 @@
           "coordinates": {
             "lat": 42.35849,
             "lon": -71.0601
-          },
-          "symbol": ""
+          }
         },
         {
           "day": 0,
@@ -5213,7 +5212,7 @@
             ]
           ],
           "keep": true,
-          "symbol": "Lodging",
+          "sym": 0,
           "streetAddress": "736 Huse Road"
         }
       ],
@@ -6493,7 +6492,7 @@
             ]
           ],
           "keep": true,
-          "symbol": "Lodging"
+          "sym": 0
         },
         {
           "day": 0,
@@ -9276,7 +9275,7 @@
             ]
           ],
           "keep": true,
-          "symbol": "Lodging"
+          "sym": 0
         }
       ],
       "name": "Day 2 - Wed Apr 24 2013",
@@ -10607,14 +10606,13 @@
             ]
           ],
           "keep": true,
-          "symbol": "Lodging"
+          "sym": 0
         },
         {
           "coordinates": {
             "lat": 42.94993,
             "lon": -71.43244
-          },
-          "symbol": ""
+          }
         },
         {
           "day": 0,

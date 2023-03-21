@@ -94,6 +94,16 @@ describe('furkot-gpx node module', function () {
     generated.should.eql(expected);
   });
 
+  it('garmin pass-thru/skip trip', function () {
+    const t = copy(require('./fixtures/pass-thru-skip-multi-night-trip.json'));
+    const expected = readFileSync('./fixtures/garmin-pass-thru-skip-multi-night.gpx');
+
+    t.options = 'garmin';
+    const generated = generateGPX(t);
+    should.exist(generated);
+    generated.should.eql(expected);
+  });
+
   it('garmin routes', function () {
     const t = copy(require('./fixtures/overview-routes.json'));
     const expected = readFileSync('./fixtures/garmin.gpx');
