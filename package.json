@@ -19,7 +19,7 @@
     "export"
   ],
   "dependencies": {
-    "@furkot/garmin-data": "^1.0.1",
+    "@furkot/garmin-data": "^1.0.2",
     "@furkot/guru-data": "^1.1.0",
     "gexode": "^1.0.0"
   },
