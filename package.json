@@ -21,6 +21,7 @@
   "dependencies": {
     "@furkot/garmin-data": "^2.0.1",
     "@furkot/guru-data": "^2.0.0",
+    "@furkot/osmand-data": "^1.0.1",
     "gexode": "~2"
   },
   "devDependencies": {

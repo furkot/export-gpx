@@ -104,6 +104,18 @@ describe('furkot-gpx node module', function () {
     generated.should.eql(expected);
   });
 
+  it('osmand pass-thru/skip trip', function () {
+    const t = copy(require('./fixtures/pass-thru-skip-multi-night-trip.json'));
+    delete t.routes;
+    const expected = readFileSync('./fixtures/osmand-pass-thru-skip-multi-night.gpx');
+
+    t.options = 'osmand';
+    const generated = generateGPX(t);
+    //fs.writeFileSync(path.join(__dirname, './fixtures/osmand-pass-thru-skip-multi-night.gpx'), generated);
+    should.exist(generated);
+    generated.should.eql(expected);
+  });
+
   it('garmin routes', function () {
     const t = copy(require('./fixtures/overview-routes.json'));
     const expected = readFileSync('./fixtures/garmin.gpx');
@@ -172,6 +184,16 @@ describe('furkot-gpx node module', function () {
     t.options = 'garmin';
     const generated = generateGPX(t);
     //fs.writeFileSync(path.join(__dirname, './fixtures/garmin-icons.gpx'), generated);
+    should.exist(generated);
+    generated.should.eql(expected);
+  });
+
+  it('osmand all icons', function () {
+    const t = iconsToWaypoints();
+    const expected = readFileSync('./fixtures/osmand-icons.gpx');
+    t.options = 'osmand';
+    const generated = generateGPX(t);
+    //fs.writeFileSync(path.join(__dirname, './fixtures/osmand-icons.gpx'), generated);
     should.exist(generated);
     generated.should.eql(expected);
   });

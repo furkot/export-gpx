@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://furkot.com/" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:osmand="https://osmand.net" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd https://osmand.net ">
+  <metadata>
+  </metadata>
+  <wpt lat="10.000000" lon="170.000000">
+    <name>hotel</name>
+    <extensions>
+      <osmand:icon>tourism_hotel</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.000000" lon="170.010000">
+    <name>stop</name>
+  </wpt>
+  <wpt lat="10.000000" lon="170.020000">
+    <name>hiking</name>
+    <extensions>
+      <osmand:icon>piste_hike</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.000000" lon="170.030000">
+    <name>guide</name>
+    <extensions>
+      <osmand:icon>piste_hike</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.000000" lon="170.040000">
+    <name>snowshoeing</name>
+    <extensions>
+      <osmand:icon>special_ski_touring</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.000000" lon="170.050000">
+    <name>book</name>
+    <extensions>
+      <osmand:icon>shop_books</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.000000" lon="170.060000">
+    <name>deal</name>
+    <extensions>
+      <osmand:icon>amenity_bank</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.000000" lon="170.070000">
+    <name>pin</name>
+    <extensions>
+      <osmand:icon>special_marker</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.000000" lon="170.080000">
+    <name>biking</name>
+    <extensions>
+      <osmand:icon>special_bicycle</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.000000" lon="170.090000">
+    <name>picnic</name>
+    <extensions>
+      <osmand:icon>tourism_picnic_site</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.000000" lon="170.100000">
+    <name>charging</name>
+    <extensions>
+      <osmand:icon>charging_station</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.000000" lon="170.110000">
+    <name>tent</name>
+    <extensions>
+      <osmand:icon>tourism_camp_site</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.010000" lon="170.000000">
+    <name>house</name>
+    <extensions>
+      <osmand:icon>tourism_apartment</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.010000" lon="170.010000">
+    <name>climbing</name>
+    <extensions>
+      <osmand:icon>sport_climbing</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.010000" lon="170.020000">
+    <name>skiing</name>
+    <extensions>
+      <osmand:icon>special_skiing</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.010000" lon="170.030000">
+    <name>hostel</name>
+    <extensions>
+      <osmand:icon>tourism_hostel</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.010000" lon="170.040000">
+    <name>chain</name>
+    <extensions>
+      <osmand:icon>tourism_hotel</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.010000" lon="170.050000">
+    <name>car</name>
+    <extensions>
+      <osmand:icon>shop_car</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.010000" lon="170.060000">
+    <name>first</name>
+    <extensions>
+      <osmand:icon>special_point_start</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.010000" lon="170.070000">
+    <name>last</name>
+    <extensions>
+      <osmand:icon>special_point_finish</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.010000" lon="170.080000">
+    <name>multinight</name>
+    <extensions>
+      <osmand:icon>tourism_hotel</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.010000" lon="170.090000">
+    <name>diving</name>
+    <extensions>
+      <osmand:icon>sport_diving</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.010000" lon="170.100000">
+    <name>firstlast</name>
+    <extensions>
+      <osmand:icon>special_point_start_finish</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.010000" lon="170.110000">
+    <name>airplane</name>
+    <extensions>
+      <osmand:icon>aeroway_aerodrome</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.020000" lon="170.000000">
+    <name>restaurant</name>
+    <extensions>
+      <osmand:icon>restaurants</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.020000" lon="170.010000">
+    <name>fillingstation</name>
+    <extensions>
+      <osmand:icon>fuel</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.020000" lon="170.020000">
+    <name>motorcycle</name>
+    <extensions>
+      <osmand:icon>special_enduro_motorcycle</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.020000" lon="170.030000">
+    <name>farmstand</name>
+    <extensions>
+      <osmand:icon>amenity_marketplace</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.020000" lon="170.040000">
+    <name>brewery</name>
+    <extensions>
+      <osmand:icon>craft_brewery</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.020000" lon="170.050000">
+    <name>amusementpark</name>
+    <extensions>
+      <osmand:icon>attraction_carousel</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.020000" lon="170.060000">
+    <name>wine</name>
+    <extensions>
+      <osmand:icon>craft_winery</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.020000" lon="170.070000">
+    <name>bar</name>
+    <extensions>
+      <osmand:icon>amenity_bar</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.020000" lon="170.080000">
+    <name>grocery</name>
+    <extensions>
+      <osmand:icon>shop_food</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.020000" lon="170.090000">
+    <name>museum</name>
+    <extensions>
+      <osmand:icon>tourism_museum</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.020000" lon="170.100000">
+    <name>church</name>
+    <extensions>
+      <osmand:icon>building_type_church</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.020000" lon="170.110000">
+    <name>synagogue</name>
+    <extensions>
+      <osmand:icon>building_type_synagogue</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.030000" lon="170.000000">
+    <name>ruins</name>
+    <extensions>
+      <osmand:icon>historic_ruins</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.030000" lon="170.010000">
+    <name>villa</name>
+    <extensions>
+      <osmand:icon>special_house</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.030000" lon="170.020000">
+    <name>palace</name>
+    <extensions>
+      <osmand:icon>historic_castle</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.030000" lon="170.030000">
+    <name>artmuseum</name>
+    <extensions>
+      <osmand:icon>tourism_museum</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.030000" lon="170.040000">
+    <name>worldheritagesite</name>
+    <extensions>
+      <osmand:icon>special_poi_sagrada_familia</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.030000" lon="170.050000">
+    <name>officebuilding</name>
+    <extensions>
+      <osmand:icon>office</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.030000" lon="170.060000">
+    <name>shrine</name>
+    <extensions>
+      <osmand:icon>building_type_chapel</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.030000" lon="170.070000">
+    <name>tower</name>
+    <extensions>
+      <osmand:icon>man_made_tower</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.030000" lon="170.080000">
+    <name>temple</name>
+    <extensions>
+      <osmand:icon>special_poi_taj_mahal</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.030000" lon="170.090000">
+    <name>sciencemuseum</name>
+    <extensions>
+      <osmand:icon>tourism_museum</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.030000" lon="170.100000">
+    <name>landmark</name>
+    <extensions>
+      <osmand:icon>special_poi_eiffel_tower</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.030000" lon="170.110000">
+    <name>historymuseum</name>
+    <extensions>
+      <osmand:icon>tourism_museum</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.040000" lon="170.000000">
+    <name>forest</name>
+    <extensions>
+      <osmand:icon>forest</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.040000" lon="170.010000">
+    <name>surfing</name>
+    <extensions>
+      <osmand:icon>sport_surfing</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.040000" lon="170.020000">
+    <name>park</name>
+    <extensions>
+      <osmand:icon>park</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.040000" lon="170.030000">
+    <name>structure</name>
+    <extensions>
+      <osmand:icon>construction</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.040000" lon="170.040000">
+    <name>naturalfeature</name>
+    <extensions>
+      <osmand:icon>natural_peak_big</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.040000" lon="170.050000">
+    <name>outdoors</name>
+    <extensions>
+      <osmand:icon>park</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.040000" lon="170.060000">
+    <name>watersport</name>
+    <extensions>
+      <osmand:icon>leisure_water_park</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.040000" lon="170.070000">
+    <name>scenicroad</name>
+    <extensions>
+      <osmand:icon>information_guidepost</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.040000" lon="170.080000">
+    <name>beach</name>
+    <extensions>
+      <osmand:icon>beach</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.040000" lon="170.090000">
+    <name>hotspring</name>
+    <extensions>
+      <osmand:icon>natural_hot_spring</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.040000" lon="170.100000">
+    <name>water</name>
+    <extensions>
+      <osmand:icon>water_transport</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.040000" lon="170.110000">
+    <name>mountains</name>
+    <extensions>
+      <osmand:icon>natural_peak_big</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.050000" lon="170.000000">
+    <name>volcano</name>
+    <extensions>
+      <osmand:icon>volcano</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.050000" lon="170.010000">
+    <name>lookout</name>
+    <extensions>
+      <osmand:icon>tourism_viewpoint</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.050000" lon="170.020000">
+    <name>lake</name>
+    <extensions>
+      <osmand:icon>water</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.050000" lon="170.030000">
+    <name>river</name>
+    <extensions>
+      <osmand:icon>stream</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.050000" lon="170.040000">
+    <name>jeep</name>
+    <extensions>
+      <osmand:icon>special_offroad</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.050000" lon="170.050000">
+    <name>cemetery</name>
+    <extensions>
+      <osmand:icon>grave_yard</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.050000" lon="170.060000">
+    <name>library</name>
+    <extensions>
+      <osmand:icon>amenity_library</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.050000" lon="170.070000">
+    <name>zoo</name>
+    <extensions>
+      <osmand:icon>zoo</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.050000" lon="170.080000">
+    <name>stadium</name>
+    <extensions>
+      <osmand:icon>sport_stadium</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.050000" lon="170.090000">
+    <name>windmill</name>
+    <extensions>
+      <osmand:icon>man_made_windmill</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.050000" lon="170.100000">
+    <name>square</name>
+    <extensions>
+      <osmand:icon>square</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.050000" lon="170.110000">
+    <name>town</name>
+    <extensions>
+      <osmand:icon>place_town</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.060000" lon="170.000000">
+    <name>statue</name>
+    <extensions>
+      <osmand:icon>memorial_statue</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.060000" lon="170.010000">
+    <name>information</name>
+    <extensions>
+      <osmand:icon>tourism_information</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.060000" lon="170.020000">
+    <name>amphitheater</name>
+    <extensions>
+      <osmand:icon>special_poi_colosseum</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.060000" lon="170.030000">
+    <name>observatory</name>
+    <extensions>
+      <osmand:icon>observation_tower</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.060000" lon="170.040000">
+    <name>passthru</name>
+  </wpt>
+  <wpt lat="10.060000" lon="170.050000">
+    <name>tap</name>
+    <extensions>
+      <osmand:icon>amenity_drinking_water</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.060000" lon="170.060000">
+    <name>minimarket</name>
+    <extensions>
+      <osmand:icon>shop_convenience</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.060000" lon="170.070000">
+    <name>anchor</name>
+    <extensions>
+      <osmand:icon>leisure_marina</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.060000" lon="170.080000">
+    <name>tollbooth</name>
+    <extensions>
+      <osmand:icon>toll_booth</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.060000" lon="170.090000">
+    <name>hospital</name>
+    <extensions>
+      <osmand:icon>amenity_hospital</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.060000" lon="170.100000">
+    <name>toilets</name>
+    <extensions>
+      <osmand:icon>amenity_toilets</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.060000" lon="170.110000">
+    <name>truck</name>
+    <extensions>
+      <osmand:icon>special_truck</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.070000" lon="170.000000">
+    <name>rvpark</name>
+    <extensions>
+      <osmand:icon>special_campervan</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.070000" lon="170.010000">
+    <name>bridge</name>
+    <extensions>
+      <osmand:icon>bridge_structure_arch</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.070000" lon="170.020000">
+    <name>star</name>
+    <extensions>
+      <osmand:icon>special_star</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.070000" lon="170.030000">
+    <name>treasure</name>
+    <extensions>
+      <osmand:icon>geocache</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.070000" lon="170.040000">
+    <name>teleport</name>
+    <extensions>
+      <osmand:icon>special_sail_boat</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.070000" lon="170.050000">
+    <name>railroadcrossing</name>
+    <extensions>
+      <osmand:icon>level_crossing</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.070000" lon="170.060000">
+    <name>coffee</name>
+    <extensions>
+      <osmand:icon>amenity_cafe</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.070000" lon="170.070000">
+    <name>atv</name>
+    <extensions>
+      <osmand:icon>special_utv</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.070000" lon="170.080000">
+    <name>pets</name>
+    <extensions>
+      <osmand:icon>shop_pet</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.070000" lon="170.090000">
+    <name>fire</name>
+    <extensions>
+      <osmand:icon>firepit</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.070000" lon="170.100000">
+    <name>pier</name>
+    <extensions>
+      <osmand:icon>leisure_fishing</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.070000" lon="170.110000">
+    <name>ferry</name>
+    <extensions>
+      <osmand:icon>amenity_ferry_terminal</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.080000" lon="170.000000">
+    <name>theater</name>
+    <extensions>
+      <osmand:icon>amenity_theatre</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.080000" lon="170.010000">
+    <name>train</name>
+    <extensions>
+      <osmand:icon>railway_station</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.080000" lon="170.020000">
+    <name>parking</name>
+    <extensions>
+      <osmand:icon>amenity_parking</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.080000" lon="170.030000">
+    <name>cart</name>
+    <extensions>
+      <osmand:icon>shop_supermarket</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.080000" lon="170.040000">
+    <name>boatramp</name>
+    <extensions>
+      <osmand:icon>leisure_slipway</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.080000" lon="170.050000">
+    <name>bird</name>
+    <extensions>
+      <osmand:icon>leisure_bird_hide</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.080000" lon="170.060000">
+    <name>clock</name>
+    <extensions>
+      <osmand:icon>special_time_span</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.080000" lon="170.070000">
+    <name>film</name>
+    <extensions>
+      <osmand:icon>amenity_cinema</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.080000" lon="170.080000">
+    <name>music</name>
+    <extensions>
+      <osmand:icon>music</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.080000" lon="170.090000">
+    <name>entertain</name>
+    <extensions>
+      <osmand:icon>entertainment</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.080000" lon="170.100000">
+    <name>bus</name>
+    <extensions>
+      <osmand:icon>special_shuttle_bus</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.080000" lon="170.110000">
+    <name>taxi</name>
+    <extensions>
+      <osmand:icon>special_taxi</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.090000" lon="170.000000">
+    <name>off-road</name>
+    <extensions>
+      <osmand:icon>special_offroad</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.090000" lon="170.010000">
+    <name>dam</name>
+    <extensions>
+      <osmand:icon>dam</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.090000" lon="170.020000">
+    <name>danger</name>
+    <extensions>
+      <osmand:icon>military_danger_area</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.090000" lon="170.030000">
+    <name>enter</name>
+    <extensions>
+      <osmand:icon>building_entrance</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.090000" lon="170.040000">
+    <name>gift</name>
+    <extensions>
+      <osmand:icon>shop_gift</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.090000" lon="170.050000">
+    <name>hairdresser</name>
+    <extensions>
+      <osmand:icon>shop_hairdresser</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.090000" lon="170.060000">
+    <name>heart</name>
+    <extensions>
+      <osmand:icon>special_heart</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.090000" lon="170.070000">
+    <name>industry</name>
+    <extensions>
+      <osmand:icon>generator_source_coal</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.090000" lon="170.080000">
+    <name>laundry</name>
+    <extensions>
+      <osmand:icon>shop_laundry</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.090000" lon="170.090000">
+    <name>lighthouse</name>
+    <extensions>
+      <osmand:icon>man_made_lighthouse</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.090000" lon="170.100000">
+    <name>one-way</name>
+    <extensions>
+      <osmand:icon>oneway_gray_big</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.090000" lon="170.110000">
+    <name>playground</name>
+    <extensions>
+      <osmand:icon>leisure_playground</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.100000" lon="170.000000">
+    <name>police</name>
+    <extensions>
+      <osmand:icon>amenity_police</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.100000" lon="170.010000">
+    <name>prison</name>
+    <extensions>
+      <osmand:icon>amenity_prison</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.100000" lon="170.020000">
+    <name>roadblock</name>
+    <extensions>
+      <osmand:icon>barrier_block</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.100000" lon="170.030000">
+    <name>rocket</name>
+    <extensions>
+      <osmand:icon>spaceport</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.100000" lon="170.040000">
+    <name>school</name>
+    <extensions>
+      <osmand:icon>amenity_school</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.100000" lon="170.050000">
+    <name>shelter</name>
+    <extensions>
+      <osmand:icon>amenity_shelter</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.100000" lon="170.060000">
+    <name>suitcase</name>
+    <extensions>
+      <osmand:icon>travel_agent</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.100000" lon="170.070000">
+    <name>veterinary</name>
+    <extensions>
+      <osmand:icon>amenity_veterinary</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.100000" lon="170.080000">
+    <name>remove</name>
+    <extensions>
+      <osmand:icon>trash_disposal</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.100000" lon="170.090000">
+    <name>wetland</name>
+    <extensions>
+      <osmand:icon>wetland</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.100000" lon="170.100000">
+    <name>wheelchair</name>
+    <extensions>
+      <osmand:icon>wheelchair_designated</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.100000" lon="170.110000">
+    <name>golf</name>
+    <extensions>
+      <osmand:icon>sport_golf</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.110000" lon="170.000000">
+    <name>envelope</name>
+    <extensions>
+      <osmand:icon>amenity_post_box</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.110000" lon="170.010000">
+    <name>aerialway</name>
+    <extensions>
+      <osmand:icon>aerialway_transport</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.110000" lon="170.020000">
+    <name>airfield</name>
+    <extensions>
+      <osmand:icon>aeroway_aerodrome</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.110000" lon="170.030000">
+    <name>alcohol_shop</name>
+    <extensions>
+      <osmand:icon>shop_alcohol</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.110000" lon="170.040000">
+    <name>american_football</name>
+    <extensions>
+      <osmand:icon>american_football</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.110000" lon="170.050000">
+    <name>aquarium</name>
+    <extensions>
+      <osmand:icon>tourism_aquarium</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.110000" lon="170.060000">
+    <name>attraction</name>
+    <extensions>
+      <osmand:icon>tourism_viewpoint</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.110000" lon="170.070000">
+    <name>bakery</name>
+    <extensions>
+      <osmand:icon>shop_bakery</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.110000" lon="170.080000">
+    <name>baseball</name>
+    <extensions>
+      <osmand:icon>sport_baseball</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.110000" lon="170.090000">
+    <name>basketball</name>
+    <extensions>
+      <osmand:icon>sport_basketball</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.110000" lon="170.100000">
+    <name>building</name>
+    <extensions>
+      <osmand:icon>building</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.110000" lon="170.110000">
+    <name>butcher</name>
+    <extensions>
+      <osmand:icon>shop_butcher</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.120000" lon="170.000000">
+    <name>castle</name>
+    <extensions>
+      <osmand:icon>historic_castle</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.120000" lon="170.010000">
+    <name>radio-unchecked</name>
+    <extensions>
+      <osmand:icon>turning_circle</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.120000" lon="170.020000">
+    <name>circle</name>
+    <extensions>
+      <osmand:icon>playground_roundabout</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.120000" lon="170.030000">
+    <name>clothing_store</name>
+    <extensions>
+      <osmand:icon>shop_department_store</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.120000" lon="170.040000">
+    <name>college</name>
+    <extensions>
+      <osmand:icon>amenity_college</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.120000" lon="170.050000">
+    <name>commercial</name>
+    <extensions>
+      <osmand:icon>commercial</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.120000" lon="170.060000">
+    <name>cricket</name>
+    <extensions>
+      <osmand:icon>sport_cricket</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.120000" lon="170.070000">
+    <name>cross</name>
+    <extensions>
+      <osmand:icon>cross</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.120000" lon="170.080000">
+    <name>dentist</name>
+    <extensions>
+      <osmand:icon>amenity_dentist</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.120000" lon="170.090000">
+    <name>doctor</name>
+    <extensions>
+      <osmand:icon>amenity_doctors</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.120000" lon="170.100000">
+    <name>embassy</name>
+    <extensions>
+      <osmand:icon>amenity_embassy</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.120000" lon="170.110000">
+    <name>entrance</name>
+    <extensions>
+      <osmand:icon>entrance_exit</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.130000" lon="170.000000">
+    <name>fast_food</name>
+    <extensions>
+      <osmand:icon>amenity_fast_food</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.130000" lon="170.010000">
+    <name>heliport</name>
+    <extensions>
+      <osmand:icon>special_helicopter</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.130000" lon="170.020000">
+    <name>ice_cream</name>
+    <extensions>
+      <osmand:icon>ice_cream</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.130000" lon="170.030000">
+    <name>marker</name>
+    <extensions>
+      <osmand:icon>special_marker</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.130000" lon="170.040000">
+    <name>mountain</name>
+    <extensions>
+      <osmand:icon>natural_peak_big</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.130000" lon="170.050000">
+    <name>parking_garage</name>
+    <extensions>
+      <osmand:icon>parking_underground</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.130000" lon="170.060000">
+    <name>pharmacy</name>
+    <extensions>
+      <osmand:icon>amenity_pharmacy</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.130000" lon="170.070000">
+    <name>phone</name>
+    <extensions>
+      <osmand:icon>amenity_telephone</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.130000" lon="170.080000">
+    <name>pitch</name>
+    <extensions>
+      <osmand:icon>pitch</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.130000" lon="170.090000">
+    <name>place_of_worship</name>
+    <extensions>
+      <osmand:icon>building_type_cathedral</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.130000" lon="170.100000">
+    <name>rail_light</name>
+    <extensions>
+      <osmand:icon>route_light_rail_ref</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.130000" lon="170.110000">
+    <name>rail_metro</name>
+    <extensions>
+      <osmand:icon>subway_station</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.140000" lon="170.000000">
+    <name>soccer</name>
+    <extensions>
+      <osmand:icon>sport_soccer</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.140000" lon="170.010000">
+    <name>square-stroke</name>
+    <extensions>
+      <osmand:icon>square</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.140000" lon="170.020000">
+    <name>square-fill</name>
+    <extensions>
+      <osmand:icon>square</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.140000" lon="170.030000">
+    <name>star-stroke</name>
+    <extensions>
+      <osmand:icon>special_star_stroked</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.140000" lon="170.040000">
+    <name>sushi</name>
+    <extensions>
+      <osmand:icon>restaurants</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.140000" lon="170.050000">
+    <name>tennis</name>
+    <extensions>
+      <osmand:icon>sport_tennis</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.140000" lon="170.060000">
+    <name>triangle</name>
+  </wpt>
+  <wpt lat="10.140000" lon="170.070000">
+    <name>triangle_stroked</name>
+  </wpt>
+  <wpt lat="10.140000" lon="170.080000">
+    <name>warehouse</name>
+    <extensions>
+      <osmand:icon>crane</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.140000" lon="170.090000">
+    <name>garden</name>
+    <extensions>
+      <osmand:icon>garden</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.140000" lon="170.100000">
+    <name>diesel</name>
+    <extensions>
+      <osmand:icon>fuel</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.140000" lon="170.110000">
+    <name>ethanol-free</name>
+    <extensions>
+      <osmand:icon>fuel</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.150000" lon="170.000000">
+    <name>swimming</name>
+    <extensions>
+      <osmand:icon>sport_swimming</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+  <wpt lat="10.150000" lon="170.010000">
+    <name>question</name>
+    <extensions>
+      <osmand:icon>special_symbol_question_mark</osmand:icon>
+      <osmand:displaycolor>Blue</osmand:displaycolor>
+    </extensions>
+  </wpt>
+</gpx>
