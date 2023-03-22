@@ -25,6 +25,21 @@ function generateGPX(t) {
   return Array.from(gpx(t)).join('');
 }
 
+function iconsToWaypoints() {
+  return {
+    metadata: {},
+    waypoints: require('./fixtures/icons.json').map((name, i) => {
+      return {
+        name,
+        sym: i,
+        coordinates: {
+          lat: 10 + Math.floor(i / 12) / 100,
+          lon: 170 + (i % 12) / 100
+        }
+      };
+    })
+  };
+}
 
 describe('furkot-gpx node module', function () {
 
@@ -137,6 +152,16 @@ describe('furkot-gpx node module', function () {
     rt.mode = 0;
     rt.points[rt.points.length - 1].mode = 3;
     const generated = generateGPX(t);
+    should.exist(generated);
+    generated.should.eql(expected);
+  });
+
+  it('garmin all icons', function () {
+    const t = iconsToWaypoints();
+    const expected = readFileSync('./fixtures/garmin-icons.gpx');
+    t.options = 'garmin';
+    const generated = generateGPX(t);
+    //fs.writeFileSync(path.join(__dirname, './fixtures/garmin-icons.gpx'), generated);
     should.exist(generated);
     generated.should.eql(expected);
   });
