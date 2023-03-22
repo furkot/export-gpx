@@ -1,4 +1,11 @@
 
+5.1.0 / 2023-03-22
+==================
+
+ * export OsmAnd extensions
+ * move handling proprietary extensions to separate projects
+ * update gexode to ~2
+
 5.0.3 / 2023-03-21
 ==================
 
