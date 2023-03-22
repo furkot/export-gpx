@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://furkot.com/" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd">
+  <metadata>
+    <name>sample</name>
+    <author>
+      <name>Furkot - road trip planner</name>
+      <email id="trips" domain="furkot.com"></email>
+      <link href="https://trips.furkot.com">
+        <text>Furkot</text>
+      </link>
+    </author>
+  </metadata>
+  <wpt lat="40.389018" lon="-105.562048">
+    <time>2014-11-04T16:00:00.000Z</time>
+    <name>begin</name>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:StreetAddress>1050 Fall River Court</gpxx:StreetAddress>
+          <gpxx:City>Estes Park</gpxx:City>
+          <gpxx:State>CO</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <wpt lat="40.394501" lon="-105.565320">
+    <time>2014-11-04T17:01:20.000Z</time>
+    <name>nocleg</name>
+    <sym>Lodging</sym>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Categories>
+          <gpxx:Category>Hotel</gpxx:Category>
+          <gpxx:Category>Overnight lodging</gpxx:Category>
+        </gpxx:Categories>
+        <gpxx:Address>
+          <gpxx:StreetAddress>1354-1400 David Drive</gpxx:StreetAddress>
+          <gpxx:City>Estes Park</gpxx:City>
+          <gpxx:State>CO</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <wpt lat="40.394434" lon="-105.564440">
+    <time>2014-11-07T16:00:18.000Z</time>
+    <name>stop</name>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:StreetAddress>1301-1317 David Drive</gpxx:StreetAddress>
+          <gpxx:City>Estes Park</gpxx:City>
+          <gpxx:State>CO</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <wpt lat="40.396630" lon="-105.566480">
+    <time>2014-11-08T16:01:23.000Z</time>
+    <name>end</name>
+    <link href="https://trips.furkot.com/book/venere?id=513209"></link>
+    <sym>Lodging</sym>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:StreetAddress>1508-1514 Fish Hatchery Road</gpxx:StreetAddress>
+          <gpxx:City>Estes Park</gpxx:City>
+          <gpxx:State>CO</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <wpt lat="40.391096" lon="-105.562738">
+    <name>skip</name>
+    <link href="https://trips.furkot.com/book/bookingdotcom?id=1087237&amp;brand=%2Fhotel%2Fus%2Fbear-paw-suites.html"></link>
+    <sym>Lodging</sym>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:Address>
+          <gpxx:StreetAddress>2120 Fall River Road</gpxx:StreetAddress>
+          <gpxx:City>Estes Park</gpxx:City>
+          <gpxx:State>CO</gpxx:State>
+          <gpxx:Country>United States</gpxx:Country>
+        </gpxx:Address>
+      </gpxx:WaypointExtension>
+    </extensions>
+  </wpt>
+  <rte>
+    <name>Day 1 - Tue Nov 04 2014</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="40.389018" lon="-105.562048">
+      <time>2014-11-04T16:00:00.000Z</time>
+      <name>begin</name>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:DepartureTime>2014-11-04T17:00:00.000Z</trp:DepartureTime>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="40.389020" lon="-105.562020">
+      <extensions>
+        <trp:ShapingPoint></trp:ShapingPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="40.390560" lon="-105.562580">
+      <extensions>
+        <trp:ShapingPoint></trp:ShapingPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="40.393550" lon="-105.564010">
+      <extensions>
+        <trp:ShapingPoint></trp:ShapingPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="40.394501" lon="-105.565320">
+      <time>2014-11-04T17:01:20.000Z</time>
+      <name>nocleg</name>
+      <sym>Lodging</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:ArrivalTime>2014-11-04T17:01:20.000Z</trp:ArrivalTime>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+      </extensions>
+    </rtept>
+  </rte>
+  <rte>
+    <name>Day 2 - Wed Nov 05 2014</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Blue</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="40.394501" lon="-105.565320">
+      <time>2014-11-05T16:00:00.000Z</time>
+      <name>nocleg</name>
+      <sym>Lodging</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:DepartureTime>2014-11-05T16:00:00.000Z</trp:DepartureTime>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="40.394500" lon="-105.565330">
+      <extensions>
+        <trp:ShapingPoint></trp:ShapingPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="40.394215" lon="-105.564945">
+      <time>2014-11-05T16:00:07.000Z</time>
+      <name>pass-thru</name>
+      <extensions>
+        <trp:ShapingPoint></trp:ShapingPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="40.394230" lon="-105.564920">
+      <extensions>
+        <trp:ShapingPoint></trp:ShapingPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="40.394501" lon="-105.565320">
+      <time>2014-11-05T16:00:13.000Z</time>
+      <name>nocleg</name>
+      <sym>Lodging</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:ArrivalTime>2014-11-05T16:00:13.000Z</trp:ArrivalTime>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+      </extensions>
+    </rtept>
+  </rte>
+  <rte>
+    <name>Day 4 - Fri Nov 07 2014</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Blue</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="40.394501" lon="-105.565320">
+      <time>2014-11-07T16:00:00.000Z</time>
+      <name>nocleg</name>
+      <sym>Lodging</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:DepartureTime>2014-11-07T16:00:00.000Z</trp:DepartureTime>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="40.394500" lon="-105.565330">
+      <extensions>
+        <trp:ShapingPoint></trp:ShapingPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="40.394440" lon="-105.564440">
+      <extensions>
+        <trp:ShapingPoint></trp:ShapingPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="40.394434" lon="-105.564440">
+      <time>2014-11-07T16:00:18.000Z</time>
+      <name>stop</name>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:DepartureTime>2014-11-07T17:00:18.000Z</trp:DepartureTime>
+          <trp:StopDuration>PT1H</trp:StopDuration>
+          <trp:ArrivalTime>2014-11-07T16:00:18.000Z</trp:ArrivalTime>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="40.394501" lon="-105.565320">
+      <time>2014-11-07T17:00:36.000Z</time>
+      <name>nocleg</name>
+      <sym>Lodging</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:ArrivalTime>2014-11-07T17:00:36.000Z</trp:ArrivalTime>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+      </extensions>
+    </rtept>
+  </rte>
+  <rte>
+    <name>Day 5 - Sat Nov 08 2014</name>
+    <extensions>
+      <gpxx:RouteExtension>
+        <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+        <gpxx:DisplayColor>Yellow</gpxx:DisplayColor>
+      </gpxx:RouteExtension>
+    </extensions>
+    <rtept lat="40.394501" lon="-105.565320">
+      <time>2014-11-08T16:00:00.000Z</time>
+      <name>nocleg</name>
+      <sym>Lodging</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:DepartureTime>2014-11-08T16:00:00.000Z</trp:DepartureTime>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="40.394500" lon="-105.565330">
+      <extensions>
+        <trp:ShapingPoint></trp:ShapingPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="40.395740" lon="-105.566900">
+      <extensions>
+        <trp:ShapingPoint></trp:ShapingPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="40.396450" lon="-105.569270">
+      <extensions>
+        <trp:ShapingPoint></trp:ShapingPoint>
+      </extensions>
+    </rtept>
+    <rtept lat="40.396630" lon="-105.566480">
+      <time>2014-11-08T16:01:23.000Z</time>
+      <name>end</name>
+      <link href="https://trips.furkot.com/book/venere?id=513209"></link>
+      <sym>Lodging</sym>
+      <extensions>
+        <trp:ViaPoint>
+          <trp:ArrivalTime>2014-11-08T16:01:23.000Z</trp:ArrivalTime>
+          <trp:CalculationMode>FasterTime</trp:CalculationMode>
+          <trp:ElevationMode>Standard</trp:ElevationMode>
+        </trp:ViaPoint>
+      </extensions>
+    </rtept>
+  </rte>
+  <trk>
+    <name>Day 1 - Tue Nov 04 2014</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="40.389020" lon="-105.562020"></trkpt>
+      <trkpt lat="40.389090" lon="-105.562010"></trkpt>
+      <trkpt lat="40.389400" lon="-105.561810"></trkpt>
+      <trkpt lat="40.389500" lon="-105.562110"></trkpt>
+      <trkpt lat="40.389690" lon="-105.562310"></trkpt>
+      <trkpt lat="40.390340" lon="-105.562590"></trkpt>
+      <trkpt lat="40.390560" lon="-105.562580"></trkpt>
+      <trkpt lat="40.391260" lon="-105.563000"></trkpt>
+      <trkpt lat="40.391680" lon="-105.563280"></trkpt>
+      <trkpt lat="40.392230" lon="-105.563310"></trkpt>
+      <trkpt lat="40.392860" lon="-105.563390"></trkpt>
+      <trkpt lat="40.393220" lon="-105.563610"></trkpt>
+      <trkpt lat="40.393470" lon="-105.563890"></trkpt>
+      <trkpt lat="40.393550" lon="-105.564010"></trkpt>
+      <trkpt lat="40.393890" lon="-105.564530"></trkpt>
+      <trkpt lat="40.394000" lon="-105.564690"></trkpt>
+      <trkpt lat="40.394320" lon="-105.565010"></trkpt>
+      <trkpt lat="40.394330" lon="-105.565060"></trkpt>
+      <trkpt lat="40.394480" lon="-105.565310"></trkpt>
+      <trkpt lat="40.394500" lon="-105.565330"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 2 - Wed Nov 05 2014</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Green</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="40.394500" lon="-105.565330"></trkpt>
+      <trkpt lat="40.394340" lon="-105.565110"></trkpt>
+      <trkpt lat="40.394320" lon="-105.565010"></trkpt>
+      <trkpt lat="40.394230" lon="-105.564920"></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="40.394230" lon="-105.564920"></trkpt>
+      <trkpt lat="40.394320" lon="-105.565010"></trkpt>
+      <trkpt lat="40.394330" lon="-105.565060"></trkpt>
+      <trkpt lat="40.394480" lon="-105.565310"></trkpt>
+      <trkpt lat="40.394500" lon="-105.565330"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 4 - Fri Nov 07 2014</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Blue</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="40.394500" lon="-105.565330"></trkpt>
+      <trkpt lat="40.394340" lon="-105.565110"></trkpt>
+      <trkpt lat="40.394320" lon="-105.565010"></trkpt>
+      <trkpt lat="40.394370" lon="-105.564710"></trkpt>
+      <trkpt lat="40.394410" lon="-105.564570"></trkpt>
+      <trkpt lat="40.394440" lon="-105.564440"></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="40.394440" lon="-105.564440"></trkpt>
+      <trkpt lat="40.394370" lon="-105.564710"></trkpt>
+      <trkpt lat="40.394320" lon="-105.565010"></trkpt>
+      <trkpt lat="40.394340" lon="-105.565110"></trkpt>
+      <trkpt lat="40.394500" lon="-105.565330"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Day 5 - Sat Nov 08 2014</name>
+    <extensions>
+      <gpxx:TrackExtension>
+        <gpxx:DisplayColor>Yellow</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="40.394500" lon="-105.565330"></trkpt>
+      <trkpt lat="40.394690" lon="-105.565470"></trkpt>
+      <trkpt lat="40.394830" lon="-105.565520"></trkpt>
+      <trkpt lat="40.394910" lon="-105.565560"></trkpt>
+      <trkpt lat="40.395100" lon="-105.565630"></trkpt>
+      <trkpt lat="40.395220" lon="-105.565710"></trkpt>
+      <trkpt lat="40.395340" lon="-105.565930"></trkpt>
+      <trkpt lat="40.395460" lon="-105.566280"></trkpt>
+      <trkpt lat="40.395580" lon="-105.566510"></trkpt>
+      <trkpt lat="40.395640" lon="-105.566660"></trkpt>
+      <trkpt lat="40.395740" lon="-105.566900"></trkpt>
+      <trkpt lat="40.395810" lon="-105.567320"></trkpt>
+      <trkpt lat="40.395810" lon="-105.567390"></trkpt>
+      <trkpt lat="40.395830" lon="-105.567450"></trkpt>
+      <trkpt lat="40.395880" lon="-105.567800"></trkpt>
+      <trkpt lat="40.395990" lon="-105.568250"></trkpt>
+      <trkpt lat="40.396100" lon="-105.568570"></trkpt>
+      <trkpt lat="40.396180" lon="-105.568850"></trkpt>
+      <trkpt lat="40.396250" lon="-105.568990"></trkpt>
+      <trkpt lat="40.396330" lon="-105.569120"></trkpt>
+      <trkpt lat="40.396450" lon="-105.569270"></trkpt>
+      <trkpt lat="40.396580" lon="-105.569570"></trkpt>
+      <trkpt lat="40.396870" lon="-105.569700"></trkpt>
+      <trkpt lat="40.397100" lon="-105.569750"></trkpt>
+      <trkpt lat="40.397190" lon="-105.569750"></trkpt>
+      <trkpt lat="40.397290" lon="-105.569700"></trkpt>
+      <trkpt lat="40.397220" lon="-105.569060"></trkpt>
+      <trkpt lat="40.397140" lon="-105.568360"></trkpt>
+      <trkpt lat="40.396930" lon="-105.567260"></trkpt>
+      <trkpt lat="40.396850" lon="-105.566930"></trkpt>
+      <trkpt lat="40.396650" lon="-105.566470"></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

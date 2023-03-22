@@ -82,7 +82,7 @@
           "nights": 0,
           "arrival_time": 1373319060000,
           "departure_time": 1373319960000,
-          "symbol": "Gas Station"
+          "sym": 25
         },
         {
           "day": 0,

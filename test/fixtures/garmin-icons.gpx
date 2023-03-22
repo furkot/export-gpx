@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://furkot.com/" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd">
+  <metadata>
+  </metadata>
+  <wpt lat="10.000000" lon="170.000000">
+    <name>hotel</name>
+    <sym>Lodging</sym>
+  </wpt>
+  <wpt lat="10.000000" lon="170.010000">
+    <name>stop</name>
+  </wpt>
+  <wpt lat="10.000000" lon="170.020000">
+    <name>hiking</name>
+    <sym>Trail Head</sym>
+  </wpt>
+  <wpt lat="10.000000" lon="170.030000">
+    <name>guide</name>
+    <sym>Trail Head</sym>
+  </wpt>
+  <wpt lat="10.000000" lon="170.040000">
+    <name>snowshoeing</name>
+    <sym>Trail Head</sym>
+  </wpt>
+  <wpt lat="10.000000" lon="170.050000">
+    <name>book</name>
+    <sym>Library</sym>
+  </wpt>
+  <wpt lat="10.000000" lon="170.060000">
+    <name>deal</name>
+    <sym>Bank</sym>
+  </wpt>
+  <wpt lat="10.000000" lon="170.070000">
+    <name>pin</name>
+    <sym>Pin, Blue</sym>
+  </wpt>
+  <wpt lat="10.000000" lon="170.080000">
+    <name>biking</name>
+    <sym>Bike Trail</sym>
+  </wpt>
+  <wpt lat="10.000000" lon="170.090000">
+    <name>picnic</name>
+    <sym>Picnic Area</sym>
+  </wpt>
+  <wpt lat="10.000000" lon="170.100000">
+    <name>charging</name>
+    <sym>Gas Station</sym>
+  </wpt>
+  <wpt lat="10.000000" lon="170.110000">
+    <name>tent</name>
+    <sym>Campground</sym>
+  </wpt>
+  <wpt lat="10.010000" lon="170.000000">
+    <name>house</name>
+    <sym>Residence</sym>
+  </wpt>
+  <wpt lat="10.010000" lon="170.010000">
+    <name>climbing</name>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="10.010000" lon="170.020000">
+    <name>skiing</name>
+    <sym>Ski Resort</sym>
+  </wpt>
+  <wpt lat="10.010000" lon="170.030000">
+    <name>hostel</name>
+    <sym>Lodging</sym>
+  </wpt>
+  <wpt lat="10.010000" lon="170.040000">
+    <name>chain</name>
+    <sym>Lodging</sym>
+  </wpt>
+  <wpt lat="10.010000" lon="170.050000">
+    <name>car</name>
+    <sym>Car</sym>
+  </wpt>
+  <wpt lat="10.010000" lon="170.060000">
+    <name>first</name>
+  </wpt>
+  <wpt lat="10.010000" lon="170.070000">
+    <name>last</name>
+  </wpt>
+  <wpt lat="10.010000" lon="170.080000">
+    <name>multinight</name>
+    <sym>Lodging</sym>
+  </wpt>
+  <wpt lat="10.010000" lon="170.090000">
+    <name>diving</name>
+    <sym>Diver Down Flag 1</sym>
+  </wpt>
+  <wpt lat="10.010000" lon="170.100000">
+    <name>firstlast</name>
+  </wpt>
+  <wpt lat="10.010000" lon="170.110000">
+    <name>airplane</name>
+    <sym>Airport</sym>
+  </wpt>
+  <wpt lat="10.020000" lon="170.000000">
+    <name>restaurant</name>
+    <sym>Restaurant</sym>
+  </wpt>
+  <wpt lat="10.020000" lon="170.010000">
+    <name>fillingstation</name>
+    <sym>Gas Station</sym>
+  </wpt>
+  <wpt lat="10.020000" lon="170.020000">
+    <name>motorcycle</name>
+    <sym>Bike Trail</sym>
+  </wpt>
+  <wpt lat="10.020000" lon="170.030000">
+    <name>farmstand</name>
+    <sym>Food Source</sym>
+  </wpt>
+  <wpt lat="10.020000" lon="170.040000">
+    <name>brewery</name>
+    <sym>Bar</sym>
+  </wpt>
+  <wpt lat="10.020000" lon="170.050000">
+    <name>amusementpark</name>
+    <sym>Amusement Park</sym>
+  </wpt>
+  <wpt lat="10.020000" lon="170.060000">
+    <name>wine</name>
+    <sym>Winery</sym>
+  </wpt>
+  <wpt lat="10.020000" lon="170.070000">
+    <name>bar</name>
+    <sym>Bar</sym>
+  </wpt>
+  <wpt lat="10.020000" lon="170.080000">
+    <name>grocery</name>
+    <sym>Shopping Center</sym>
+  </wpt>
+  <wpt lat="10.020000" lon="170.090000">
+    <name>museum</name>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="10.020000" lon="170.100000">
+    <name>church</name>
+    <sym>Church</sym>
+  </wpt>
+  <wpt lat="10.020000" lon="170.110000">
+    <name>synagogue</name>
+    <sym>Church</sym>
+  </wpt>
+  <wpt lat="10.030000" lon="170.000000">
+    <name>ruins</name>
+    <sym>Ghost Town</sym>
+  </wpt>
+  <wpt lat="10.030000" lon="170.010000">
+    <name>villa</name>
+    <sym>Residence</sym>
+  </wpt>
+  <wpt lat="10.030000" lon="170.020000">
+    <name>palace</name>
+    <sym>Building</sym>
+  </wpt>
+  <wpt lat="10.030000" lon="170.030000">
+    <name>artmuseum</name>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="10.030000" lon="170.040000">
+    <name>worldheritagesite</name>
+    <sym>Building</sym>
+  </wpt>
+  <wpt lat="10.030000" lon="170.050000">
+    <name>officebuilding</name>
+    <sym>City Hall</sym>
+  </wpt>
+  <wpt lat="10.030000" lon="170.060000">
+    <name>shrine</name>
+    <sym>Church</sym>
+  </wpt>
+  <wpt lat="10.030000" lon="170.070000">
+    <name>tower</name>
+    <sym>Tall Tower</sym>
+  </wpt>
+  <wpt lat="10.030000" lon="170.080000">
+    <name>temple</name>
+    <sym>Church</sym>
+  </wpt>
+  <wpt lat="10.030000" lon="170.090000">
+    <name>sciencemuseum</name>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="10.030000" lon="170.100000">
+    <name>landmark</name>
+    <sym>Building</sym>
+  </wpt>
+  <wpt lat="10.030000" lon="170.110000">
+    <name>historymuseum</name>
+    <sym>Museum</sym>
+  </wpt>
+  <wpt lat="10.040000" lon="170.000000">
+    <name>forest</name>
+    <sym>Forest</sym>
+  </wpt>
+  <wpt lat="10.040000" lon="170.010000">
+    <name>surfing</name>
+    <sym>Swimming Area</sym>
+  </wpt>
+  <wpt lat="10.040000" lon="170.020000">
+    <name>park</name>
+    <sym>Park</sym>
+  </wpt>
+  <wpt lat="10.040000" lon="170.030000">
+    <name>structure</name>
+    <sym>Building</sym>
+  </wpt>
+  <wpt lat="10.040000" lon="170.040000">
+    <name>naturalfeature</name>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="10.040000" lon="170.050000">
+    <name>outdoors</name>
+    <sym>Park</sym>
+  </wpt>
+  <wpt lat="10.040000" lon="170.060000">
+    <name>watersport</name>
+    <sym>Swimming Area</sym>
+  </wpt>
+  <wpt lat="10.040000" lon="170.070000">
+    <name>scenicroad</name>
+    <sym>Mile Marker</sym>
+  </wpt>
+  <wpt lat="10.040000" lon="170.080000">
+    <name>beach</name>
+    <sym>Beach</sym>
+  </wpt>
+  <wpt lat="10.040000" lon="170.090000">
+    <name>hotspring</name>
+    <sym>Water Source</sym>
+  </wpt>
+  <wpt lat="10.040000" lon="170.100000">
+    <name>water</name>
+    <sym>Dropoff</sym>
+  </wpt>
+  <wpt lat="10.040000" lon="170.110000">
+    <name>mountains</name>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="10.050000" lon="170.000000">
+    <name>volcano</name>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="10.050000" lon="170.010000">
+    <name>lookout</name>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="10.050000" lon="170.020000">
+    <name>lake</name>
+    <sym>Weed Bed</sym>
+  </wpt>
+  <wpt lat="10.050000" lon="170.030000">
+    <name>river</name>
+    <sym>Fishing Area</sym>
+  </wpt>
+  <wpt lat="10.050000" lon="170.040000">
+    <name>jeep</name>
+    <sym>ATV</sym>
+  </wpt>
+  <wpt lat="10.050000" lon="170.050000">
+    <name>cemetery</name>
+    <sym>Cemetery</sym>
+  </wpt>
+  <wpt lat="10.050000" lon="170.060000">
+    <name>library</name>
+    <sym>Library</sym>
+  </wpt>
+  <wpt lat="10.050000" lon="170.070000">
+    <name>zoo</name>
+    <sym>Zoo</sym>
+  </wpt>
+  <wpt lat="10.050000" lon="170.080000">
+    <name>stadium</name>
+    <sym>Stadium</sym>
+  </wpt>
+  <wpt lat="10.050000" lon="170.090000">
+    <name>windmill</name>
+    <sym>Short Tower</sym>
+  </wpt>
+  <wpt lat="10.050000" lon="170.100000">
+    <name>square</name>
+    <sym>Square, Green</sym>
+  </wpt>
+  <wpt lat="10.050000" lon="170.110000">
+    <name>town</name>
+    <sym>City (Medium)</sym>
+  </wpt>
+  <wpt lat="10.060000" lon="170.000000">
+    <name>statue</name>
+    <sym>Buoy, White</sym>
+  </wpt>
+  <wpt lat="10.060000" lon="170.010000">
+    <name>information</name>
+    <sym>Information</sym>
+  </wpt>
+  <wpt lat="10.060000" lon="170.020000">
+    <name>amphitheater</name>
+    <sym>Diamond, Green</sym>
+  </wpt>
+  <wpt lat="10.060000" lon="170.030000">
+    <name>observatory</name>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="10.060000" lon="170.040000">
+    <name>passthru</name>
+  </wpt>
+  <wpt lat="10.060000" lon="170.050000">
+    <name>tap</name>
+    <sym>Drinking Water</sym>
+  </wpt>
+  <wpt lat="10.060000" lon="170.060000">
+    <name>minimarket</name>
+    <sym>Convenience Store</sym>
+  </wpt>
+  <wpt lat="10.060000" lon="170.070000">
+    <name>anchor</name>
+    <sym>Anchor</sym>
+  </wpt>
+  <wpt lat="10.060000" lon="170.080000">
+    <name>tollbooth</name>
+    <sym>Toll Booth</sym>
+  </wpt>
+  <wpt lat="10.060000" lon="170.090000">
+    <name>hospital</name>
+    <sym>Medical Facility</sym>
+  </wpt>
+  <wpt lat="10.060000" lon="170.100000">
+    <name>toilets</name>
+    <sym>Restroom</sym>
+  </wpt>
+  <wpt lat="10.060000" lon="170.110000">
+    <name>truck</name>
+    <sym>Truck Stop</sym>
+  </wpt>
+  <wpt lat="10.070000" lon="170.000000">
+    <name>rvpark</name>
+    <sym>RV Park</sym>
+  </wpt>
+  <wpt lat="10.070000" lon="170.010000">
+    <name>bridge</name>
+    <sym>Bridge</sym>
+  </wpt>
+  <wpt lat="10.070000" lon="170.020000">
+    <name>star</name>
+    <sym>Favorite</sym>
+  </wpt>
+  <wpt lat="10.070000" lon="170.030000">
+    <name>treasure</name>
+    <sym>Geocache</sym>
+  </wpt>
+  <wpt lat="10.070000" lon="170.040000">
+    <name>teleport</name>
+    <sym>Parachute Area</sym>
+  </wpt>
+  <wpt lat="10.070000" lon="170.050000">
+    <name>railroadcrossing</name>
+    <sym>Crossing</sym>
+  </wpt>
+  <wpt lat="10.070000" lon="170.060000">
+    <name>coffee</name>
+    <sym>Restaurant</sym>
+  </wpt>
+  <wpt lat="10.070000" lon="170.070000">
+    <name>atv</name>
+    <sym>ATV</sym>
+  </wpt>
+  <wpt lat="10.070000" lon="170.080000">
+    <name>pets</name>
+    <sym>Dog Sitting</sym>
+  </wpt>
+  <wpt lat="10.070000" lon="170.090000">
+    <name>fire</name>
+    <sym>Triangle, Red</sym>
+  </wpt>
+  <wpt lat="10.070000" lon="170.100000">
+    <name>pier</name>
+    <sym>Bait and Tackle</sym>
+  </wpt>
+  <wpt lat="10.070000" lon="170.110000">
+    <name>ferry</name>
+    <sym>Ferry</sym>
+  </wpt>
+  <wpt lat="10.080000" lon="170.000000">
+    <name>theater</name>
+    <sym>Live Theater</sym>
+  </wpt>
+  <wpt lat="10.080000" lon="170.010000">
+    <name>train</name>
+    <sym>Railway</sym>
+  </wpt>
+  <wpt lat="10.080000" lon="170.020000">
+    <name>parking</name>
+    <sym>Parking Area</sym>
+  </wpt>
+  <wpt lat="10.080000" lon="170.030000">
+    <name>cart</name>
+    <sym>Shopping Center</sym>
+  </wpt>
+  <wpt lat="10.080000" lon="170.040000">
+    <name>boatramp</name>
+    <sym>Boat Ramp</sym>
+  </wpt>
+  <wpt lat="10.080000" lon="170.050000">
+    <name>bird</name>
+    <sym>Covey</sym>
+  </wpt>
+  <wpt lat="10.080000" lon="170.060000">
+    <name>clock</name>
+    <sym>Mile Marker</sym>
+  </wpt>
+  <wpt lat="10.080000" lon="170.070000">
+    <name>film</name>
+    <sym>Movie Theater</sym>
+  </wpt>
+  <wpt lat="10.080000" lon="170.080000">
+    <name>music</name>
+    <sym>Horn</sym>
+  </wpt>
+  <wpt lat="10.080000" lon="170.090000">
+    <name>entertain</name>
+    <sym>Contact, clown</sym>
+  </wpt>
+  <wpt lat="10.080000" lon="170.100000">
+    <name>bus</name>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="10.080000" lon="170.110000">
+    <name>taxi</name>
+    <sym>Ground Transportation</sym>
+  </wpt>
+  <wpt lat="10.090000" lon="170.000000">
+    <name>off-road</name>
+    <sym>ATV</sym>
+  </wpt>
+  <wpt lat="10.090000" lon="170.010000">
+    <name>dam</name>
+    <sym>Dam</sym>
+  </wpt>
+  <wpt lat="10.090000" lon="170.020000">
+    <name>danger</name>
+    <sym>Skull and Crossbones</sym>
+  </wpt>
+  <wpt lat="10.090000" lon="170.030000">
+    <name>enter</name>
+    <sym>Exit</sym>
+  </wpt>
+  <wpt lat="10.090000" lon="170.040000">
+    <name>gift</name>
+    <sym>Geocache Found</sym>
+  </wpt>
+  <wpt lat="10.090000" lon="170.050000">
+    <name>hairdresser</name>
+    <sym>Contact, Blonde</sym>
+  </wpt>
+  <wpt lat="10.090000" lon="170.060000">
+    <name>heart</name>
+    <sym>Favorite</sym>
+  </wpt>
+  <wpt lat="10.090000" lon="170.070000">
+    <name>industry</name>
+    <sym>Oil Field</sym>
+  </wpt>
+  <wpt lat="10.090000" lon="170.080000">
+    <name>laundry</name>
+    <sym>Contact, Smiley</sym>
+  </wpt>
+  <wpt lat="10.090000" lon="170.090000">
+    <name>lighthouse</name>
+    <sym>Beacon</sym>
+  </wpt>
+  <wpt lat="10.090000" lon="170.100000">
+    <name>one-way</name>
+    <sym>Controlled Area</sym>
+  </wpt>
+  <wpt lat="10.090000" lon="170.110000">
+    <name>playground</name>
+    <sym>Fitness Center</sym>
+  </wpt>
+  <wpt lat="10.100000" lon="170.000000">
+    <name>police</name>
+    <sym>Police Station</sym>
+  </wpt>
+  <wpt lat="10.100000" lon="170.010000">
+    <name>prison</name>
+    <sym>Police Station</sym>
+  </wpt>
+  <wpt lat="10.100000" lon="170.020000">
+    <name>roadblock</name>
+    <sym>Restricted Area</sym>
+  </wpt>
+  <wpt lat="10.100000" lon="170.030000">
+    <name>rocket</name>
+    <sym>Contact, Alien</sym>
+  </wpt>
+  <wpt lat="10.100000" lon="170.040000">
+    <name>school</name>
+    <sym>School</sym>
+  </wpt>
+  <wpt lat="10.100000" lon="170.050000">
+    <name>shelter</name>
+    <sym>Lodge</sym>
+  </wpt>
+  <wpt lat="10.100000" lon="170.060000">
+    <name>suitcase</name>
+    <sym>Shipwreck</sym>
+  </wpt>
+  <wpt lat="10.100000" lon="170.070000">
+    <name>veterinary</name>
+    <sym>Dog Running</sym>
+  </wpt>
+  <wpt lat="10.100000" lon="170.080000">
+    <name>remove</name>
+    <sym>Sad Face</sym>
+  </wpt>
+  <wpt lat="10.100000" lon="170.090000">
+    <name>wetland</name>
+    <sym>Levee</sym>
+  </wpt>
+  <wpt lat="10.100000" lon="170.100000">
+    <name>wheelchair</name>
+    <sym>Circle with X</sym>
+  </wpt>
+  <wpt lat="10.100000" lon="170.110000">
+    <name>golf</name>
+    <sym>Golf Course</sym>
+  </wpt>
+  <wpt lat="10.110000" lon="170.000000">
+    <name>envelope</name>
+    <sym>Post Office</sym>
+  </wpt>
+  <wpt lat="10.110000" lon="170.010000">
+    <name>aerialway</name>
+    <sym>Funicular</sym>
+  </wpt>
+  <wpt lat="10.110000" lon="170.020000">
+    <name>airfield</name>
+    <sym>Ultralight Area</sym>
+  </wpt>
+  <wpt lat="10.110000" lon="170.030000">
+    <name>alcohol_shop</name>
+    <sym>Bar</sym>
+  </wpt>
+  <wpt lat="10.110000" lon="170.040000">
+    <name>american_football</name>
+    <sym>Stadium</sym>
+  </wpt>
+  <wpt lat="10.110000" lon="170.050000">
+    <name>aquarium</name>
+    <sym>Reef</sym>
+  </wpt>
+  <wpt lat="10.110000" lon="170.060000">
+    <name>attraction</name>
+    <sym>Scenic Area</sym>
+  </wpt>
+  <wpt lat="10.110000" lon="170.070000">
+    <name>bakery</name>
+    <sym>Pizza</sym>
+  </wpt>
+  <wpt lat="10.110000" lon="170.080000">
+    <name>baseball</name>
+    <sym>Ball Park</sym>
+  </wpt>
+  <wpt lat="10.110000" lon="170.090000">
+    <name>basketball</name>
+    <sym>Stadium</sym>
+  </wpt>
+  <wpt lat="10.110000" lon="170.100000">
+    <name>building</name>
+    <sym>Building</sym>
+  </wpt>
+  <wpt lat="10.110000" lon="170.110000">
+    <name>butcher</name>
+    <sym>Contact, Pig</sym>
+  </wpt>
+  <wpt lat="10.120000" lon="170.000000">
+    <name>castle</name>
+    <sym>Building</sym>
+  </wpt>
+  <wpt lat="10.120000" lon="170.010000">
+    <name>radio-unchecked</name>
+    <sym>Navaid, White</sym>
+  </wpt>
+  <wpt lat="10.120000" lon="170.020000">
+    <name>circle</name>
+    <sym>Circle, Blue</sym>
+  </wpt>
+  <wpt lat="10.120000" lon="170.030000">
+    <name>clothing_store</name>
+    <sym>Department Store</sym>
+  </wpt>
+  <wpt lat="10.120000" lon="170.040000">
+    <name>college</name>
+    <sym>School</sym>
+  </wpt>
+  <wpt lat="10.120000" lon="170.050000">
+    <name>commercial</name>
+    <sym>Scales</sym>
+  </wpt>
+  <wpt lat="10.120000" lon="170.060000">
+    <name>cricket</name>
+    <sym>Stadium</sym>
+  </wpt>
+  <wpt lat="10.120000" lon="170.070000">
+    <name>cross</name>
+    <sym>Crossing</sym>
+  </wpt>
+  <wpt lat="10.120000" lon="170.080000">
+    <name>dentist</name>
+    <sym>Medical Facility</sym>
+  </wpt>
+  <wpt lat="10.120000" lon="170.090000">
+    <name>doctor</name>
+    <sym>Medical Facility</sym>
+  </wpt>
+  <wpt lat="10.120000" lon="170.100000">
+    <name>embassy</name>
+    <sym>City Hall</sym>
+  </wpt>
+  <wpt lat="10.120000" lon="170.110000">
+    <name>entrance</name>
+    <sym>Exit</sym>
+  </wpt>
+  <wpt lat="10.130000" lon="170.000000">
+    <name>fast_food</name>
+    <sym>Fast Food</sym>
+  </wpt>
+  <wpt lat="10.130000" lon="170.010000">
+    <name>heliport</name>
+    <sym>Heliport</sym>
+  </wpt>
+  <wpt lat="10.130000" lon="170.020000">
+    <name>ice_cream</name>
+    <sym>Fast Food</sym>
+  </wpt>
+  <wpt lat="10.130000" lon="170.030000">
+    <name>marker</name>
+    <sym>Pin, Green</sym>
+  </wpt>
+  <wpt lat="10.130000" lon="170.040000">
+    <name>mountain</name>
+    <sym>Summit</sym>
+  </wpt>
+  <wpt lat="10.130000" lon="170.050000">
+    <name>parking_garage</name>
+    <sym>Parking, Pay</sym>
+  </wpt>
+  <wpt lat="10.130000" lon="170.060000">
+    <name>pharmacy</name>
+    <sym>Pharmacy</sym>
+  </wpt>
+  <wpt lat="10.130000" lon="170.070000">
+    <name>phone</name>
+    <sym>Telephone</sym>
+  </wpt>
+  <wpt lat="10.130000" lon="170.080000">
+    <name>pitch</name>
+    <sym>Stadium</sym>
+  </wpt>
+  <wpt lat="10.130000" lon="170.090000">
+    <name>place_of_worship</name>
+    <sym>Church</sym>
+  </wpt>
+  <wpt lat="10.130000" lon="170.100000">
+    <name>rail_light</name>
+    <sym>Railway</sym>
+  </wpt>
+  <wpt lat="10.130000" lon="170.110000">
+    <name>rail_metro</name>
+    <sym>Railway</sym>
+  </wpt>
+  <wpt lat="10.140000" lon="170.000000">
+    <name>soccer</name>
+    <sym>Stadium</sym>
+  </wpt>
+  <wpt lat="10.140000" lon="170.010000">
+    <name>square-stroke</name>
+    <sym>Dot, White</sym>
+  </wpt>
+  <wpt lat="10.140000" lon="170.020000">
+    <name>square-fill</name>
+    <sym>Square, Blue</sym>
+  </wpt>
+  <wpt lat="10.140000" lon="170.030000">
+    <name>star-stroke</name>
+    <sym>City (Capitol)</sym>
+  </wpt>
+  <wpt lat="10.140000" lon="170.040000">
+    <name>sushi</name>
+    <sym>Restaurant</sym>
+  </wpt>
+  <wpt lat="10.140000" lon="170.050000">
+    <name>tennis</name>
+    <sym>Stadium</sym>
+  </wpt>
+  <wpt lat="10.140000" lon="170.060000">
+    <name>triangle</name>
+    <sym>Triangle, Blue</sym>
+  </wpt>
+  <wpt lat="10.140000" lon="170.070000">
+    <name>triangle_stroked</name>
+    <sym>Triangle, Green</sym>
+  </wpt>
+  <wpt lat="10.140000" lon="170.080000">
+    <name>warehouse</name>
+    <sym>Multi-Cache</sym>
+  </wpt>
+  <wpt lat="10.140000" lon="170.090000">
+    <name>garden</name>
+    <sym>Stump</sym>
+  </wpt>
+  <wpt lat="10.140000" lon="170.100000">
+    <name>diesel</name>
+    <sym>Gas Station</sym>
+  </wpt>
+  <wpt lat="10.140000" lon="170.110000">
+    <name>ethanol-free</name>
+    <sym>Gas Station</sym>
+  </wpt>
+  <wpt lat="10.150000" lon="170.000000">
+    <name>swimming</name>
+    <sym>Swimming Area</sym>
+  </wpt>
+  <wpt lat="10.150000" lon="170.010000">
+    <name>question</name>
+    <sym>Puzzle Cache</sym>
+  </wpt>
+</gpx>

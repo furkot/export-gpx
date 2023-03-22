@@ -59,7 +59,7 @@
           "nights": 1,
           "arrival_time": 1366725319000,
           "departure_time": 1366808400000,
-          "symbol": "Lodging"
+          "sym": 0
         },
         {
           "day": 0,
@@ -107,7 +107,7 @@
           "nights": 1,
           "arrival_time": 1366818487000,
           "departure_time": 1366902000000,
-          "symbol": "Lodging"
+          "sym": 0
         },
         {
           "day": 0,
