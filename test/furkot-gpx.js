@@ -29,7 +29,7 @@ function iconsToWaypoints() {
   return {
     metadata: {},
     waypoints: require('./fixtures/icons.json').map((name, i) => {
-      return {
+      return name && {
         name,
         sym: i,
         coordinates: {
@@ -37,7 +37,7 @@ function iconsToWaypoints() {
           lon: 170 + (i % 12) / 100
         }
       };
-    })
+    }).filter(wpt => wpt)
   };
 }
 
@@ -84,9 +84,9 @@ describe('furkot-gpx node module', function () {
     generated.should.eql(expected);
   });
 
-  it('galileo pass-thru/skip trip', function () {
+  it('guru pass-thru/skip trip', function () {
     const t = copy(require('./fixtures/pass-thru-skip-multi-night-trip.json'));
-    const expected = readFileSync('./fixtures/galileo.gpx');
+    const expected = readFileSync('./fixtures/guru.gpx');
 
     t.options = 'galileo';
     const generated = generateGPX(t);
@@ -184,6 +184,16 @@ describe('furkot-gpx node module', function () {
     t.options = 'garmin';
     const generated = generateGPX(t);
     //fs.writeFileSync(path.join(__dirname, './fixtures/garmin-icons.gpx'), generated);
+    should.exist(generated);
+    generated.should.eql(expected);
+  });
+
+  it('guru all icons', function () {
+    const t = iconsToWaypoints();
+    const expected = readFileSync('./fixtures/guru-icons.gpx');
+    t.options = 'galileo';
+    const generated = generateGPX(t);
+    //fs.writeFileSync(path.join(__dirname, './fixtures/guru-icons.gpx'), generated);
     should.exist(generated);
     generated.should.eql(expected);
   });

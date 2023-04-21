@@ -1,684 +1,679 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://furkot.com/" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd">
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://furkot.com/" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
   <metadata>
   </metadata>
   <wpt lat="10.000000" lon="170.000000">
     <name>hotel</name>
-    <sym>Lodging</sym>
+    <type>19</type>
   </wpt>
   <wpt lat="10.000000" lon="170.010000">
     <name>stop</name>
-    <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="10.000000" lon="170.020000">
     <name>hiking</name>
-    <sym>Trail Head</sym>
+    <type>85</type>
   </wpt>
   <wpt lat="10.000000" lon="170.030000">
     <name>guide</name>
-    <sym>Trail Head</sym>
+    <type>85</type>
   </wpt>
   <wpt lat="10.000000" lon="170.040000">
     <name>snowshoeing</name>
-    <sym>Trail Head</sym>
+    <type>85</type>
   </wpt>
   <wpt lat="10.000000" lon="170.050000">
     <name>book</name>
-    <sym>Library</sym>
+    <type>85</type>
   </wpt>
   <wpt lat="10.000000" lon="170.060000">
     <name>deal</name>
-    <sym>Bank</sym>
+    <type>1</type>
   </wpt>
   <wpt lat="10.000000" lon="170.070000">
     <name>pin</name>
-    <sym>Pin, Blue</sym>
+    <type>26</type>
   </wpt>
   <wpt lat="10.000000" lon="170.080000">
     <name>biking</name>
-    <sym>Bike Trail</sym>
+    <type>42</type>
   </wpt>
   <wpt lat="10.000000" lon="170.090000">
     <name>picnic</name>
-    <sym>Picnic Area</sym>
+    <type>54</type>
   </wpt>
   <wpt lat="10.000000" lon="170.100000">
     <name>charging</name>
-    <sym>Gas Station</sym>
+    <type>71</type>
   </wpt>
   <wpt lat="10.000000" lon="170.110000">
     <name>tent</name>
-    <sym>Campground</sym>
+    <type>15</type>
   </wpt>
   <wpt lat="10.010000" lon="170.000000">
     <name>house</name>
-    <sym>Residence</sym>
+    <type>9</type>
   </wpt>
   <wpt lat="10.010000" lon="170.010000">
     <name>climbing</name>
-    <sym>Summit</sym>
+    <type>85</type>
   </wpt>
   <wpt lat="10.010000" lon="170.020000">
     <name>skiing</name>
-    <sym>Ski Resort</sym>
+    <type>85</type>
   </wpt>
   <wpt lat="10.010000" lon="170.030000">
     <name>hostel</name>
-    <sym>Lodging</sym>
+    <type>19</type>
   </wpt>
   <wpt lat="10.010000" lon="170.040000">
     <name>chain</name>
-    <sym>Lodging</sym>
+    <type>19</type>
   </wpt>
   <wpt lat="10.010000" lon="170.050000">
     <name>car</name>
-    <sym>Car</sym>
+    <type>78</type>
   </wpt>
   <wpt lat="10.010000" lon="170.060000">
     <name>first</name>
-    <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="10.010000" lon="170.070000">
     <name>last</name>
-    <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="10.010000" lon="170.090000">
     <name>diving</name>
-    <sym>Diver Down Flag 1</sym>
+    <type>56</type>
   </wpt>
   <wpt lat="10.010000" lon="170.100000">
     <name>firstlast</name>
-    <sym>Flag, Blue</sym>
   </wpt>
   <wpt lat="10.010000" lon="170.110000">
     <name>airplane</name>
-    <sym>Airport</sym>
+    <type>12</type>
   </wpt>
   <wpt lat="10.020000" lon="170.000000">
     <name>restaurant</name>
-    <sym>Restaurant</sym>
+    <type>6</type>
   </wpt>
   <wpt lat="10.020000" lon="170.010000">
     <name>fillingstation</name>
-    <sym>Gas Station</sym>
+    <type>16</type>
   </wpt>
   <wpt lat="10.020000" lon="170.020000">
     <name>motorcycle</name>
-    <sym>Bike Trail</sym>
+    <type>42</type>
   </wpt>
   <wpt lat="10.020000" lon="170.030000">
     <name>farmstand</name>
-    <sym>Food Source</sym>
+    <type>62</type>
   </wpt>
   <wpt lat="10.020000" lon="170.040000">
     <name>brewery</name>
-    <sym>Bar</sym>
+    <type>23</type>
   </wpt>
   <wpt lat="10.020000" lon="170.050000">
     <name>amusementpark</name>
-    <sym>Amusement Park</sym>
+    <type>74</type>
   </wpt>
   <wpt lat="10.020000" lon="170.060000">
     <name>wine</name>
-    <sym>Winery</sym>
+    <type>45</type>
   </wpt>
   <wpt lat="10.020000" lon="170.070000">
     <name>bar</name>
-    <sym>Bar</sym>
+    <type>45</type>
   </wpt>
   <wpt lat="10.020000" lon="170.080000">
     <name>grocery</name>
-    <sym>Shopping Center</sym>
+    <type>68</type>
   </wpt>
   <wpt lat="10.020000" lon="170.090000">
     <name>museum</name>
-    <sym>Museum</sym>
+    <type>21</type>
   </wpt>
   <wpt lat="10.020000" lon="170.100000">
     <name>church</name>
-    <sym>Church</sym>
+    <type>53</type>
   </wpt>
   <wpt lat="10.020000" lon="170.110000">
     <name>synagogue</name>
-    <sym>Church</sym>
+    <type>53</type>
   </wpt>
   <wpt lat="10.030000" lon="170.000000">
     <name>ruins</name>
-    <sym>Ghost Town</sym>
+    <type>21</type>
   </wpt>
   <wpt lat="10.030000" lon="170.010000">
     <name>villa</name>
-    <sym>Residence</sym>
+    <type>9</type>
   </wpt>
   <wpt lat="10.030000" lon="170.020000">
     <name>palace</name>
-    <sym>Building</sym>
+    <type>53</type>
   </wpt>
   <wpt lat="10.030000" lon="170.030000">
     <name>artmuseum</name>
-    <sym>Museum</sym>
+    <type>21</type>
   </wpt>
   <wpt lat="10.030000" lon="170.040000">
     <name>worldheritagesite</name>
-    <sym>Building</sym>
+    <type>20</type>
   </wpt>
   <wpt lat="10.030000" lon="170.050000">
     <name>town_hall</name>
-    <sym>City Hall</sym>
+    <type>53</type>
   </wpt>
   <wpt lat="10.030000" lon="170.060000">
     <name>shrine</name>
-    <sym>Church</sym>
+    <type>53</type>
   </wpt>
   <wpt lat="10.030000" lon="170.070000">
     <name>tower</name>
-    <sym>Tall Tower</sym>
+    <type>83</type>
   </wpt>
   <wpt lat="10.030000" lon="170.080000">
     <name>temple</name>
-    <sym>Church</sym>
+    <type>53</type>
   </wpt>
   <wpt lat="10.030000" lon="170.090000">
     <name>sciencemuseum</name>
-    <sym>Museum</sym>
+    <type>21</type>
   </wpt>
   <wpt lat="10.030000" lon="170.100000">
     <name>landmark</name>
-    <sym>Building</sym>
+    <type>20</type>
   </wpt>
   <wpt lat="10.030000" lon="170.110000">
     <name>historymuseum</name>
-    <sym>Museum</sym>
+    <type>21</type>
   </wpt>
   <wpt lat="10.040000" lon="170.000000">
     <name>forest</name>
-    <sym>Forest</sym>
+    <type>86</type>
   </wpt>
   <wpt lat="10.040000" lon="170.010000">
     <name>surfing</name>
-    <sym>Swimming Area</sym>
+    <type>56</type>
   </wpt>
   <wpt lat="10.040000" lon="170.020000">
     <name>park</name>
-    <sym>Park</sym>
+    <type>86</type>
   </wpt>
   <wpt lat="10.040000" lon="170.030000">
     <name>structure</name>
-    <sym>Building</sym>
+    <type>53</type>
   </wpt>
   <wpt lat="10.040000" lon="170.040000">
     <name>naturalfeature</name>
-    <sym>Summit</sym>
+    <type>29</type>
   </wpt>
   <wpt lat="10.040000" lon="170.050000">
     <name>outdoors</name>
-    <sym>Park</sym>
+    <type>27</type>
   </wpt>
   <wpt lat="10.040000" lon="170.060000">
     <name>watersport</name>
-    <sym>Swimming Area</sym>
+    <type>56</type>
   </wpt>
   <wpt lat="10.040000" lon="170.070000">
     <name>scenicroad</name>
-    <sym>Mile Marker</sym>
+    <type>76</type>
   </wpt>
   <wpt lat="10.040000" lon="170.080000">
     <name>beach</name>
-    <sym>Beach</sym>
+    <type>56</type>
   </wpt>
   <wpt lat="10.040000" lon="170.090000">
     <name>hotspring</name>
-    <sym>Water Source</sym>
+    <type>58</type>
   </wpt>
   <wpt lat="10.040000" lon="170.100000">
     <name>water</name>
-    <sym>Dropoff</sym>
+    <type>88</type>
   </wpt>
   <wpt lat="10.040000" lon="170.110000">
     <name>mountains</name>
-    <sym>Summit</sym>
+    <type>29</type>
   </wpt>
   <wpt lat="10.050000" lon="170.000000">
     <name>volcano</name>
-    <sym>Summit</sym>
+    <type>72</type>
   </wpt>
   <wpt lat="10.050000" lon="170.010000">
     <name>lookout</name>
-    <sym>Scenic Area</sym>
+    <type>76</type>
   </wpt>
   <wpt lat="10.050000" lon="170.020000">
     <name>lake</name>
-    <sym>Weed Bed</sym>
+    <type>88</type>
   </wpt>
   <wpt lat="10.050000" lon="170.030000">
     <name>river</name>
-    <sym>Fishing Area</sym>
+    <type>88</type>
   </wpt>
   <wpt lat="10.050000" lon="170.040000">
     <name>jeep</name>
-    <sym>ATV</sym>
+    <type>73</type>
   </wpt>
   <wpt lat="10.050000" lon="170.050000">
     <name>cemetery</name>
-    <sym>Cemetery</sym>
+    <type>20</type>
   </wpt>
   <wpt lat="10.050000" lon="170.060000">
     <name>library</name>
-    <sym>Library</sym>
+    <type>51</type>
   </wpt>
   <wpt lat="10.050000" lon="170.070000">
     <name>zoo</name>
-    <sym>Zoo</sym>
+    <type>59</type>
   </wpt>
   <wpt lat="10.050000" lon="170.080000">
     <name>stadium</name>
-    <sym>Stadium</sym>
+    <type>11</type>
   </wpt>
   <wpt lat="10.050000" lon="170.090000">
     <name>windmill</name>
-    <sym>Short Tower</sym>
+    <type>27</type>
   </wpt>
   <wpt lat="10.050000" lon="170.100000">
     <name>plaza</name>
-    <sym>Square, Green</sym>
+    <type>20</type>
   </wpt>
   <wpt lat="10.050000" lon="170.110000">
     <name>town</name>
-    <sym>City (Medium)</sym>
+    <type>53</type>
   </wpt>
   <wpt lat="10.060000" lon="170.000000">
     <name>statue</name>
-    <sym>Block, Green</sym>
+    <type>20</type>
   </wpt>
   <wpt lat="10.060000" lon="170.010000">
     <name>info_pin</name>
-    <sym>Information</sym>
+    <type>49</type>
   </wpt>
   <wpt lat="10.060000" lon="170.020000">
     <name>amphitheater</name>
-    <sym>Diamond, Green</sym>
+    <type>76</type>
   </wpt>
   <wpt lat="10.060000" lon="170.030000">
     <name>observatory</name>
-    <sym>Scenic Area</sym>
+    <type>76</type>
   </wpt>
   <wpt lat="10.060000" lon="170.040000">
     <name>passthru</name>
   </wpt>
   <wpt lat="10.060000" lon="170.050000">
     <name>tap</name>
-    <sym>Drinking Water</sym>
+    <type>79</type>
   </wpt>
   <wpt lat="10.060000" lon="170.060000">
     <name>minimarket</name>
-    <sym>Convenience Store</sym>
+    <type>68</type>
   </wpt>
   <wpt lat="10.060000" lon="170.070000">
     <name>anchor</name>
-    <sym>Anchor</sym>
+    <type>88</type>
   </wpt>
   <wpt lat="10.060000" lon="170.080000">
     <name>tollbooth</name>
-    <sym>Toll Booth</sym>
+    <type>70</type>
   </wpt>
   <wpt lat="10.060000" lon="170.090000">
     <name>hospital</name>
-    <sym>Medical Facility</sym>
+    <type>7</type>
   </wpt>
   <wpt lat="10.060000" lon="170.100000">
     <name>toilets</name>
-    <sym>Restroom</sym>
+    <type>77</type>
   </wpt>
   <wpt lat="10.060000" lon="170.110000">
     <name>truck</name>
-    <sym>Truck Stop</sym>
+    <type>2</type>
   </wpt>
   <wpt lat="10.070000" lon="170.000000">
     <name>rvpark</name>
-    <sym>RV Park</sym>
+    <type>81</type>
   </wpt>
   <wpt lat="10.070000" lon="170.010000">
     <name>bridge</name>
-    <sym>Bridge</sym>
+    <type>28</type>
   </wpt>
   <wpt lat="10.070000" lon="170.020000">
     <name>star</name>
-    <sym>Favorite</sym>
+    <type>28</type>
   </wpt>
   <wpt lat="10.070000" lon="170.030000">
     <name>treasure</name>
-    <sym>Geocache</sym>
+    <type>44</type>
   </wpt>
   <wpt lat="10.070000" lon="170.040000">
     <name>teleport</name>
-    <sym>Parachute Area</sym>
+    <type>73</type>
   </wpt>
   <wpt lat="10.070000" lon="170.050000">
     <name>railroadcrossing</name>
-    <sym>Circle with X</sym>
+    <type>24</type>
   </wpt>
   <wpt lat="10.070000" lon="170.060000">
     <name>coffee</name>
-    <sym>Restaurant</sym>
+    <type>14</type>
   </wpt>
   <wpt lat="10.070000" lon="170.070000">
     <name>atv</name>
-    <sym>ATV</sym>
+    <type>73</type>
   </wpt>
   <wpt lat="10.070000" lon="170.080000">
     <name>pets</name>
-    <sym>Dog Running</sym>
+    <type>67</type>
   </wpt>
   <wpt lat="10.070000" lon="170.090000">
     <name>fire</name>
-    <sym>Triangle, Red</sym>
+    <type>72</type>
   </wpt>
   <wpt lat="10.070000" lon="170.100000">
     <name>pier</name>
-    <sym>Bait and Tackle</sym>
+    <type>56</type>
   </wpt>
   <wpt lat="10.070000" lon="170.110000">
     <name>ferry</name>
-    <sym>Ferry</sym>
+    <type>43</type>
   </wpt>
   <wpt lat="10.080000" lon="170.000000">
     <name>theater</name>
-    <sym>Live Theater</sym>
+    <type>3</type>
   </wpt>
   <wpt lat="10.080000" lon="170.010000">
     <name>train</name>
-    <sym>Railway</sym>
+    <type>24</type>
   </wpt>
   <wpt lat="10.080000" lon="170.020000">
     <name>parking</name>
-    <sym>Parking Area</sym>
+    <type>22</type>
   </wpt>
   <wpt lat="10.080000" lon="170.030000">
     <name>cart</name>
-    <sym>Shopping Center</sym>
+    <type>10</type>
   </wpt>
   <wpt lat="10.080000" lon="170.040000">
     <name>boatramp</name>
-    <sym>Boat Ramp</sym>
+    <type>88</type>
   </wpt>
   <wpt lat="10.080000" lon="170.050000">
     <name>bird</name>
-    <sym>Covey</sym>
+    <type>59</type>
   </wpt>
   <wpt lat="10.080000" lon="170.070000">
     <name>film</name>
-    <sym>Movie Theater</sym>
+    <type>5</type>
   </wpt>
   <wpt lat="10.080000" lon="170.080000">
     <name>music</name>
-    <sym>Horn</sym>
+    <type>52</type>
   </wpt>
   <wpt lat="10.080000" lon="170.090000">
     <name>entertain</name>
-    <sym>Contact, Clown</sym>
+    <type>47</type>
   </wpt>
   <wpt lat="10.080000" lon="170.100000">
     <name>bus</name>
-    <sym>Ground Transportation</sym>
+    <type>40</type>
   </wpt>
   <wpt lat="10.080000" lon="170.110000">
     <name>taxi</name>
-    <sym>Ground Transportation</sym>
+    <type>64</type>
   </wpt>
   <wpt lat="10.090000" lon="170.000000">
     <name>off-road</name>
-    <sym>ATV</sym>
+    <type>73</type>
   </wpt>
   <wpt lat="10.090000" lon="170.010000">
     <name>dam</name>
-    <sym>Dam</sym>
+    <type>27</type>
   </wpt>
   <wpt lat="10.090000" lon="170.020000">
     <name>danger</name>
-    <sym>Skull and Crossbones</sym>
+    <type>72</type>
   </wpt>
   <wpt lat="10.090000" lon="170.030000">
     <name>office</name>
-    <sym>City Hall</sym>
+    <type>53</type>
   </wpt>
   <wpt lat="10.090000" lon="170.040000">
     <name>gift</name>
-    <sym>Geocache Found</sym>
+    <type>66</type>
   </wpt>
   <wpt lat="10.090000" lon="170.050000">
     <name>hairdresser</name>
-    <sym>Contact, Blonde</sym>
+    <type>41</type>
   </wpt>
   <wpt lat="10.090000" lon="170.060000">
     <name>heart</name>
-    <sym>Favorite</sym>
+    <type>18</type>
   </wpt>
   <wpt lat="10.090000" lon="170.070000">
     <name>industry</name>
-    <sym>Oil Field</sym>
+    <type>2</type>
   </wpt>
   <wpt lat="10.090000" lon="170.080000">
     <name>laundry</name>
-    <sym>Contact, Smiley</sym>
+    <type>69</type>
   </wpt>
   <wpt lat="10.090000" lon="170.090000">
     <name>lighthouse</name>
-    <sym>Radio Beacon</sym>
   </wpt>
   <wpt lat="10.090000" lon="170.110000">
     <name>playground</name>
-    <sym>Fitness Center</sym>
+    <type>55</type>
   </wpt>
   <wpt lat="10.100000" lon="170.000000">
     <name>police</name>
-    <sym>Police Station</sym>
+    <type>8</type>
   </wpt>
   <wpt lat="10.100000" lon="170.010000">
     <name>prison</name>
-    <sym>Police Station</sym>
+    <type>8</type>
   </wpt>
   <wpt lat="10.100000" lon="170.020000">
     <name>roadblock</name>
-    <sym>Restricted Area</sym>
+    <type>72</type>
   </wpt>
   <wpt lat="10.100000" lon="170.030000">
     <name>rocket</name>
-    <sym>Contact, Alien</sym>
+    <type>73</type>
   </wpt>
   <wpt lat="10.100000" lon="170.040000">
     <name>school</name>
-    <sym>School</sym>
+    <type>4</type>
   </wpt>
   <wpt lat="10.100000" lon="170.050000">
     <name>shelter</name>
-    <sym>Lodge</sym>
+    <type>9</type>
   </wpt>
   <wpt lat="10.100000" lon="170.060000">
     <name>suitcase</name>
-    <sym>Rectangle, Blue</sym>
+    <type>65</type>
   </wpt>
   <wpt lat="10.100000" lon="170.070000">
     <name>veterinary</name>
-    <sym>Dog Sitting</sym>
+    <type>80</type>
   </wpt>
   <wpt lat="10.100000" lon="170.080000">
     <name>remove</name>
-    <sym>Sad Face</sym>
+    <type>72</type>
   </wpt>
   <wpt lat="10.100000" lon="170.090000">
     <name>wetland</name>
-    <sym>Levee</sym>
+    <type>88</type>
   </wpt>
   <wpt lat="10.100000" lon="170.100000">
     <name>wheelchair</name>
-    <sym>Circle, Green</sym>
+    <type>73</type>
   </wpt>
   <wpt lat="10.100000" lon="170.110000">
     <name>golf</name>
-    <sym>Golf Course</sym>
+    <type>17</type>
   </wpt>
   <wpt lat="10.110000" lon="170.000000">
     <name>envelope</name>
-    <sym>Post Office</sym>
+    <type>57</type>
   </wpt>
   <wpt lat="10.110000" lon="170.010000">
     <name>aerialway</name>
-    <sym>Funicular</sym>
+    <type>73</type>
   </wpt>
   <wpt lat="10.110000" lon="170.020000">
     <name>airfield</name>
-    <sym>Ultralight Area</sym>
+    <type>12</type>
   </wpt>
   <wpt lat="10.110000" lon="170.030000">
     <name>alcohol_shop</name>
-    <sym>Bar</sym>
+    <type>45</type>
   </wpt>
   <wpt lat="10.110000" lon="170.040000">
     <name>american_football</name>
-    <sym>Stadium</sym>
+    <type>11</type>
   </wpt>
   <wpt lat="10.110000" lon="170.050000">
     <name>aquarium</name>
-    <sym>Reef</sym>
+    <type>59</type>
   </wpt>
   <wpt lat="10.110000" lon="170.060000">
     <name>attraction</name>
-    <sym>Scenic Area</sym>
+    <type>28</type>
   </wpt>
   <wpt lat="10.110000" lon="170.070000">
     <name>bakery</name>
-    <sym>Pizza</sym>
+    <type>54</type>
   </wpt>
   <wpt lat="10.110000" lon="170.080000">
     <name>baseball</name>
-    <sym>Ball Park</sym>
+    <type>11</type>
   </wpt>
   <wpt lat="10.110000" lon="170.090000">
     <name>basketball</name>
-    <sym>Stadium</sym>
+    <type>11</type>
   </wpt>
   <wpt lat="10.110000" lon="170.100000">
     <name>building</name>
-    <sym>Building</sym>
+    <type>53</type>
   </wpt>
   <wpt lat="10.110000" lon="170.110000">
     <name>butcher</name>
-    <sym>Contact, Pig</sym>
+    <type>62</type>
   </wpt>
   <wpt lat="10.120000" lon="170.000000">
     <name>castle</name>
-    <sym>Building</sym>
+    <type>53</type>
   </wpt>
   <wpt lat="10.120000" lon="170.030000">
     <name>clothing_store</name>
-    <sym>Department Store</sym>
+    <type>65</type>
   </wpt>
   <wpt lat="10.120000" lon="170.040000">
     <name>college</name>
-    <sym>School</sym>
+    <type>4</type>
   </wpt>
   <wpt lat="10.120000" lon="170.050000">
     <name>commercial</name>
-    <sym>Scales</sym>
+    <type>62</type>
   </wpt>
   <wpt lat="10.120000" lon="170.060000">
     <name>cricket</name>
-    <sym>Stadium</sym>
+    <type>11</type>
   </wpt>
   <wpt lat="10.120000" lon="170.080000">
     <name>dentist</name>
-    <sym>Medical Facility</sym>
+    <type>46</type>
   </wpt>
   <wpt lat="10.120000" lon="170.090000">
     <name>doctor</name>
-    <sym>Medical Facility</sym>
+    <type>7</type>
   </wpt>
   <wpt lat="10.120000" lon="170.100000">
     <name>embassy</name>
-    <sym>City Hall</sym>
+    <type>53</type>
   </wpt>
   <wpt lat="10.120000" lon="170.110000">
     <name>entrance</name>
-    <sym>Exit</sym>
+    <type>73</type>
   </wpt>
   <wpt lat="10.130000" lon="170.000000">
     <name>fast_food</name>
-    <sym>Fast Food</sym>
+    <type>60</type>
   </wpt>
   <wpt lat="10.130000" lon="170.010000">
     <name>heliport</name>
-    <sym>Heliport</sym>
+    <type>82</type>
   </wpt>
   <wpt lat="10.130000" lon="170.020000">
     <name>ice_cream</name>
-    <sym>Fast Food</sym>
+    <type>60</type>
   </wpt>
   <wpt lat="10.130000" lon="170.030000">
     <name>food_shop</name>
-    <sym>Shopping Center</sym>
+    <type>68</type>
   </wpt>
   <wpt lat="10.130000" lon="170.040000">
     <name>mountain</name>
-    <sym>Summit</sym>
+    <type>29</type>
   </wpt>
   <wpt lat="10.130000" lon="170.050000">
     <name>parking_garage</name>
-    <sym>Parking, Pay</sym>
+    <type>22</type>
   </wpt>
   <wpt lat="10.130000" lon="170.060000">
     <name>pharmacy</name>
-    <sym>Pharmacy</sym>
+    <type>61</type>
   </wpt>
   <wpt lat="10.130000" lon="170.070000">
     <name>phone</name>
-    <sym>Telephone</sym>
+    <type>29</type>
   </wpt>
   <wpt lat="10.130000" lon="170.080000">
     <name>pitch</name>
-    <sym>Stadium</sym>
+    <type>11</type>
   </wpt>
   <wpt lat="10.130000" lon="170.090000">
     <name>place_of_worship</name>
-    <sym>Church</sym>
+    <type>53</type>
   </wpt>
   <wpt lat="10.130000" lon="170.100000">
     <name>rail_light</name>
-    <sym>Railway</sym>
+    <type>75</type>
   </wpt>
   <wpt lat="10.130000" lon="170.110000">
     <name>rail_metro</name>
-    <sym>Railway</sym>
+    <type>24</type>
   </wpt>
   <wpt lat="10.140000" lon="170.000000">
     <name>soccer</name>
-    <sym>Stadium</sym>
+    <type>11</type>
   </wpt>
   <wpt lat="10.140000" lon="170.040000">
     <name>sushi</name>
-    <sym>Restaurant</sym>
+    <type>6</type>
   </wpt>
   <wpt lat="10.140000" lon="170.050000">
     <name>tennis</name>
-    <sym>Stadium</sym>
+    <type>11</type>
   </wpt>
   <wpt lat="10.140000" lon="170.080000">
     <name>warehouse</name>
-    <sym>Multi-Cache</sym>
+    <type>26</type>
   </wpt>
   <wpt lat="10.140000" lon="170.090000">
     <name>garden</name>
-    <sym>Stump</sym>
+    <type>86</type>
   </wpt>
   <wpt lat="10.140000" lon="170.100000">
     <name>diesel</name>
-    <sym>Gas Station</sym>
+    <type>16</type>
   </wpt>
   <wpt lat="10.140000" lon="170.110000">
     <name>ethanol-free</name>
-    <sym>Gas Station</sym>
+    <type>16</type>
   </wpt>
   <wpt lat="10.150000" lon="170.000000">
     <name>swimming</name>
-    <sym>Swimming Area</sym>
+    <type>56</type>
   </wpt>
 </gpx>
