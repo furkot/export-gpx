@@ -1,4 +1,10 @@
 
+5.1.1 / 2023-04-22
+==================
+
+ * update garmin, guru and osmand data
+ * fix build badge
+
 5.1.0 / 2023-03-22
 ==================
 
