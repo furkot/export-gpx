@@ -1,4 +1,5 @@
-const should = require('should');
+const { describe, it } = require('node:test');
+const assert = require('node:assert');
 const fs = require('fs');
 const path = require('path');
 
@@ -47,23 +48,23 @@ describe('furkot-gpx node module', function () {
     const t = require('./fixtures/simple-trip.json');
     const expected = readFileSync('./fixtures/simple.gpx');
     const generated = generateGPX(t);
-    should.exist(generated);
-    generated.should.eql(expected);
+    assert(generated);
+    assert.equal(generated, expected);
   });
 
   it('multi trip', function () {
     const t = require('./fixtures/multi-trip.json');
     const expected = readFileSync('./fixtures/multi.gpx');
     const generated = generateGPX(t);
-    should.exist(generated);
-    generated.should.eql(expected);
+    assert(generated);
+    assert.equal(generated, expected);
   });
 
   it('empty polyline', function () {
     const t = require('./fixtures/empty-polyline.json');
 
     const generated = generateGPX(t);
-    should.exist(generated);
+    assert(generated);
   });
 
   it('overview routes', function () {
@@ -71,8 +72,8 @@ describe('furkot-gpx node module', function () {
     const expected = readFileSync('./fixtures/points.gpx');
 
     const generated = generateGPX(t);
-    should.exist(generated);
-    generated.should.eql(expected);
+    assert(generated);
+    assert.equal(generated, expected);
   });
 
   it('pass-thru/skip trip', function () {
@@ -80,8 +81,8 @@ describe('furkot-gpx node module', function () {
     const expected = readFileSync('./fixtures/pass-thru-skip-multi-night.gpx');
 
     const generated = generateGPX(t);
-    should.exist(generated);
-    generated.should.eql(expected);
+    assert(generated);
+    assert.equal(generated, expected);
   });
 
   it('guru pass-thru/skip trip', function () {
@@ -90,8 +91,8 @@ describe('furkot-gpx node module', function () {
 
     t.options = 'galileo';
     const generated = generateGPX(t);
-    should.exist(generated);
-    generated.should.eql(expected);
+    assert(generated);
+    assert.equal(generated, expected);
   });
 
   it('garmin pass-thru/skip trip', function () {
@@ -100,8 +101,8 @@ describe('furkot-gpx node module', function () {
 
     t.options = 'garmin';
     const generated = generateGPX(t);
-    should.exist(generated);
-    generated.should.eql(expected);
+    assert(generated);
+    assert.equal(generated, expected);
   });
 
   it('osmand pass-thru/skip trip', function () {
@@ -111,9 +112,9 @@ describe('furkot-gpx node module', function () {
 
     t.options = 'osmand';
     const generated = generateGPX(t);
-    //fs.writeFileSync(path.join(__dirname, './fixtures/osmand-pass-thru-skip-multi-night.gpx'), generated);
-    should.exist(generated);
-    generated.should.eql(expected);
+    // fs.writeFileSync(path.join(__dirname, './fixtures/osmand-pass-thru-skip-multi-night.gpx'), generated);
+    assert(generated);
+    assert.equal(generated, expected);
   });
 
   it('garmin routes', function () {
@@ -124,8 +125,8 @@ describe('furkot-gpx node module', function () {
     t.RoutePointExtension = true;
     t.routes[0].points[t.routes[0].points.length - 1].custom = true;
     const generated = generateGPX(t);
-    should.exist(generated);
-    generated.should.equal(expected);
+    assert(generated);
+    assert.equal(generated, expected);
   });
 
   it('garmin no name', function () {
@@ -136,8 +137,8 @@ describe('furkot-gpx node module', function () {
     t.options = 'garmin';
     t.RoutePointExtension = true;
     const generated = generateGPX(t);
-    should.exist(generated);
-    generated.should.eql(expected);
+    assert(generated);
+    assert.equal(generated, expected);
   });
 
   it('garmin no RoutePointExtension', function () {
@@ -146,8 +147,8 @@ describe('furkot-gpx node module', function () {
 
     t.options = 'garmin';
     const generated = generateGPX(t);
-    should.exist(generated);
-    generated.should.eql(expected);
+    assert(generated);
+    assert.equal(generated, expected);
   });
 
   it('garmin route transportation mode', function () {
@@ -158,8 +159,8 @@ describe('furkot-gpx node module', function () {
     t.routes[0].mode = 3;
     t.routes[t.routes.length - 1].mode = 0;
     const generated = generateGPX(t);
-    should.exist(generated);
-    generated.should.eql(expected);
+    assert(generated);
+    assert.equal(generated, expected);
   });
 
   it('garmin via point transportation mode', function () {
@@ -174,8 +175,8 @@ describe('furkot-gpx node module', function () {
     rt.mode = 0;
     rt.points[rt.points.length - 1].mode = 3;
     const generated = generateGPX(t);
-    should.exist(generated);
-    generated.should.eql(expected);
+    assert(generated);
+    assert.equal(generated, expected);
   });
 
   it('garmin all icons', function () {
@@ -183,9 +184,9 @@ describe('furkot-gpx node module', function () {
     const expected = readFileSync('./fixtures/garmin-icons.gpx');
     t.options = 'garmin';
     const generated = generateGPX(t);
-    //fs.writeFileSync(path.join(__dirname, './fixtures/garmin-icons.gpx'), generated);
-    should.exist(generated);
-    generated.should.eql(expected);
+    // fs.writeFileSync(path.join(__dirname, './fixtures/garmin-icons.gpx'), generated);
+    assert(generated);
+    assert.equal(generated, expected);
   });
 
   it('guru all icons', function () {
@@ -194,8 +195,8 @@ describe('furkot-gpx node module', function () {
     t.options = 'galileo';
     const generated = generateGPX(t);
     //fs.writeFileSync(path.join(__dirname, './fixtures/guru-icons.gpx'), generated);
-    should.exist(generated);
-    generated.should.eql(expected);
+    assert(generated);
+    assert.equal(generated, expected);
   });
 
   it('osmand all icons', function () {
@@ -203,8 +204,8 @@ describe('furkot-gpx node module', function () {
     const expected = readFileSync('./fixtures/osmand-icons.gpx');
     t.options = 'osmand';
     const generated = generateGPX(t);
-    //fs.writeFileSync(path.join(__dirname, './fixtures/osmand-icons.gpx'), generated);
-    should.exist(generated);
-    generated.should.eql(expected);
+    // fs.writeFileSync(path.join(__dirname, './fixtures/osmand-icons.gpx'), generated);
+    assert(generated);
+    assert.equal(generated, expected);
   });
 });
