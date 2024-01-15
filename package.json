@@ -25,9 +25,7 @@
     "gexode": "~2"
   },
   "devDependencies": {
-    "jshint": "~2",
-    "mocha": "~10",
-    "should": "~13"
+    "@pirxpilot/jshint": "~3"
   },
   "scripts": {
     "test": "make check"
