@@ -1,7 +1,7 @@
 const { describe, it } = require('node:test');
 const assert = require('node:assert');
-const fs = require('fs');
-const path = require('path');
+const fs = require('node:fs');
+const path = require('node:path');
 
 const gpx = require('../');
 
@@ -16,7 +16,7 @@ function copy(t) {
   if (Array.isArray(t)) {
     return t.map(copy);
   }
-  return Object.keys(t).reduce(function (result, key) {
+  return Object.keys(t).reduce((result, key) => {
     result[key] = copy(t[key]);
     return result;
   }, {});
@@ -29,21 +29,24 @@ function generateGPX(t) {
 function iconsToWaypoints() {
   return {
     metadata: {},
-    waypoints: require('./fixtures/icons.json').map((name, i) => {
-      return name && {
-        name,
-        sym: i,
-        coordinates: {
-          lat: 10 + Math.floor(i / 12) / 100,
-          lon: 170 + (i % 12) / 100
-        }
-      };
-    }).filter(wpt => wpt)
+    waypoints: require('./fixtures/icons.json')
+      .map((name, i) => {
+        return (
+          name && {
+            name,
+            sym: i,
+            coordinates: {
+              lat: 10 + Math.floor(i / 12) / 100,
+              lon: 170 + (i % 12) / 100
+            }
+          }
+        );
+      })
+      .filter(wpt => wpt)
   };
 }
 
 describe('furkot-gpx node module', function () {
-
   it('simple trip', function () {
     const t = require('./fixtures/simple-trip.json');
     const expected = readFileSync('./fixtures/simple.gpx');

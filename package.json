@@ -25,7 +25,7 @@
     "gexode": "~2"
   },
   "devDependencies": {
-    "@pirxpilot/jshint": "~3"
+    "@biomejs/biome": "^1.9.4"
   },
   "scripts": {
     "test": "make check"
