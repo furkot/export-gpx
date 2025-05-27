@@ -27,7 +27,7 @@
     "@furkot/garmin-data": "^2.1.0",
     "@furkot/guru-data": "^2.1.0",
     "@furkot/osmand-data": "^1.1.0",
-    "gexode": "~2"
+    "gexode": "~3"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4"
