@@ -1,11 +1,11 @@
-const test = require('node:test');
-const fs = require('node:fs');
-const path = require('node:path');
+import fs from 'node:fs';
+import path from 'node:path';
+import test from 'node:test';
 
-const gpx = require('../');
+import gpx from '../lib/furkot-gpx.js';
 
 function readFileSync(name) {
-  return fs.readFileSync(path.resolve(__dirname, name), 'utf8');
+  return fs.readFileSync(path.resolve(import.meta.dirname, name), 'utf8');
 }
 
 function readJSON(name) {

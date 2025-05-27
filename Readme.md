@@ -15,7 +15,8 @@ $ npm install --save @furkot/export-gpx
 ## Usage
 
 ```js
-var furkotGpx = require('@furkot/export-gpx');
+import furkotGpx from '@furkot/export-gpx';
+furkotGpx(tripData);
 ```
 
 ## License

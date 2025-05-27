@@ -2,13 +2,18 @@
   "name": "@furkot/export-gpx",
   "version": "5.1.1",
   "description": "Generate GPX files from Furkot trip data.",
+  "type": "module",
+  "exports": "./lib/furkot-gpx.js",
   "homepage": "https://trips.furkot.com",
   "author": {
     "name": "Damian Krzeminski",
     "email": "pirxpilot@code42day.com",
     "url": "https://code42day.com"
   },
-  "repository": "furkot/export-gpx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furkot/export-gpx.git"
+  },
   "license": "MIT",
   "keywords": [
     "furkot-gpx",
@@ -31,7 +36,6 @@
     "test": "make check"
   },
   "files": [
-    "index.js",
     "lib"
   ]
 }
