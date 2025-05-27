@@ -1,4 +1,13 @@
 
+6.0.0 / 2025-05-27
+==================
+
+ * upgrade `gexode` to ~3
+ * transition to ESM format
+ * use `biome` as a linter and formatter
+ * replace mocha with node:test
+ * upgrade github actions
+
 5.1.1 / 2023-04-22
 ==================
 
